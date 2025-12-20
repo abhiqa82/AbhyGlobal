@@ -378,6 +378,20 @@ ul {
     width: 100%;
     max-width: 400px;
     height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-visual img {
+    border-radius: 50%;
+    box-shadow: 
+        0 0 0 1px rgba(192, 192, 192, 0.5),
+        0 0 20px rgba(192, 192, 192, 0.3),
+        0 0 40px rgba(192, 192, 192, 0.2),
+        0 0 60px rgba(192, 192, 192, 0.1),
+        0 0 80px rgba(192, 192, 192, 0.05);
+    transition: box-shadow var(--transition-normal);
 }
 
 .global-trade-icon {
