@@ -1,0 +1,60 @@
+================================================================================
+  ABHY GLOBAL WEBSITE - SIMPLE SOLUTION (NO LARAGON NEEDED!)
+================================================================================
+
+YOU'RE HAVING TROUBLE WITH LARAGON? SKIP IT! USE THESE SIMPLE METHODS:
+
+================================================================================
+OPTION 1: OPEN DIRECTLY (NO SERVER - FASTEST)
+================================================================================
+
+1. Double-click: "open-website.bat"
+   OR
+   Double-click: "index.html" file
+
+The website will open in your browser immediately!
+No server needed, no setup required.
+
+================================================================================
+OPTION 2: USE SIMPLE SERVER (RECOMMENDED FOR FULL TESTING)
+================================================================================
+
+1. Double-click: "simple-server.bat"
+
+This will:
+- Start a simple server on port 8080
+- Open your browser automatically
+- Keep the window open while you test
+- Access at: http://localhost:8080
+
+Press Ctrl+C to stop the server when done.
+
+================================================================================
+OPTION 3: INTERACTIVE MENU
+================================================================================
+
+1. Double-click: "START_HERE.bat"
+
+This gives you a menu with all options to choose from.
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+If simple-server.bat doesn't work:
+- You might need Python, Node.js, or PHP installed
+- OR just use Option 1 (open-website.bat) - no installation needed!
+
+For more help, see: SOLUTION_SIMPLE.md
+
+================================================================================
+WHAT NOT TO DO
+================================================================================
+
+- Don't worry about Laragon right now
+- Don't worry about port 80
+- Don't worry about Apache
+
+Just use the simple methods above!
+
+================================================================================

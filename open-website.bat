@@ -1,0 +1,3 @@
+@echo off
+echo Opening Abhy Global website in your default browser...
+start index.html
