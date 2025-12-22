@@ -124,9 +124,9 @@
     // IMPORTANT: Replace these with your EmailJS credentials
     // Get these from: https://dashboard.emailjs.com/admin/integration
     const EMAILJS_CONFIG = {
-        PUBLIC_KEY: 'YOUR_PUBLIC_KEY', // Replace with your EmailJS Public Key
-        SERVICE_ID: 'YOUR_SERVICE_ID', // Replace with your EmailJS Service ID
-        TEMPLATE_ID: 'YOUR_TEMPLATE_ID' // Replace with your EmailJS Template ID
+        PUBLIC_KEY: 'YOUR_PUBLIC_KEY', // TODO: Get from EmailJS Dashboard → Account → General → API Keys
+        SERVICE_ID: 'service_2z0ma6s', // Gmail service
+        TEMPLATE_ID: 'template_h4qa4zj' // Contact Us template
     };
 
     // Initialize EmailJS
@@ -360,15 +360,23 @@
             try {
                 // Prepare template parameters for EmailJS
                 // Map form fields to EmailJS template variables
+                // Note: Variables must match your EmailJS template exactly
                 const templateParams = {
-                    from_name: validation.formData.name,
-                    from_email: validation.formData.email,
-                    phone: validation.formData.phone || 'Not provided',
-                    company: validation.formData.company || 'Not provided',
-                    product_interest: validation.formData.productInterest || 'Not specified',
-                    message: validation.formData.message,
-                    to_name: 'Abhy Global',
-                    reply_to: validation.formData.email
+                    name: validation.formData.name,                    // Maps to {{name}}
+                    email: validation.formData.email,                  // Maps to {{email}}
+                    phone: validation.formData.phone || 'Not provided', // Maps to {{phone}}
+                    company: validation.formData.company || 'Not provided', // Maps to {{company}}
+                    product_interest: validation.formData.productInterest || 'Not specified', // Maps to {{product_interest}}
+                    message: validation.formData.message,              // Maps to {{message}}
+                    time: new Date().toLocaleString('en-US', {         // Maps to {{time}}
+                        weekday: 'short',
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric',
+                        hour: '2-digit',
+                        minute: '2-digit',
+                        timeZoneName: 'short'
+                    })
                 };
 
                 // Send email via EmailJS
