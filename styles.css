@@ -982,6 +982,12 @@ ul {
     min-height: 120px;
 }
 
+.form-group textarea::placeholder {
+    font-style: italic;
+    opacity: 0.6;
+    color: var(--color-text-light);
+}
+
 .form-buttons {
     display: flex;
     gap: var(--spacing-sm);
