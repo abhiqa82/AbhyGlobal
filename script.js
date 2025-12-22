@@ -119,33 +119,355 @@
     });
 
     // ============================================
+    // EMAILJS CONFIGURATION
+    // ============================================
+    // IMPORTANT: Replace these with your EmailJS credentials
+    // Get these from: https://dashboard.emailjs.com/admin/integration
+    const EMAILJS_CONFIG = {
+        PUBLIC_KEY: 'YOUR_PUBLIC_KEY', // Replace with your EmailJS Public Key
+        SERVICE_ID: 'YOUR_SERVICE_ID', // Replace with your EmailJS Service ID
+        TEMPLATE_ID: 'YOUR_TEMPLATE_ID' // Replace with your EmailJS Template ID
+    };
+
+    // Initialize EmailJS
+    if (typeof emailjs !== 'undefined' && EMAILJS_CONFIG.PUBLIC_KEY !== 'YOUR_PUBLIC_KEY') {
+        emailjs.init(EMAILJS_CONFIG.PUBLIC_KEY);
+    }
+
+    // ============================================
     // CONTACT FORM HANDLING
     // ============================================
     const contactForm = document.getElementById('contact-form');
-    const partnerButton = contactForm?.querySelector('.btn-secondary');
+    const partnerButton = document.getElementById('partner-btn');
+    const submitButton = document.getElementById('submit-btn');
 
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = {
-                name: document.getElementById('name').value,
-                email: document.getElementById('email').value,
-                phone: document.getElementById('phone').value,
-                company: document.getElementById('company').value,
-                productInterest: document.getElementById('product-interest').value,
-                message: document.getElementById('message').value,
-                type: 'quote'
-            };
+    // ============================================
+    // FORM VALIDATION
+    // ============================================
+    
+    // Validation rules
+    const validationRules = {
+        name: {
+            required: true,
+            minLength: 2,
+            maxLength: 100,
+            pattern: /^[a-zA-Z\s'-]+$/,
+            message: {
+                required: 'Full name is required',
+                minLength: 'Name must be at least 2 characters',
+                maxLength: 'Name must not exceed 100 characters',
+                pattern: 'Name can only contain letters, spaces, hyphens, and apostrophes'
+            }
+        },
+        email: {
+            required: true,
+            pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+            message: {
+                required: 'Email address is required',
+                pattern: 'Please enter a valid email address'
+            }
+        },
+        phone: {
+            required: false,
+            pattern: /^[\d\s\-\+\(\)]+$/,
+            minLength: 10,
+            maxLength: 20,
+            message: {
+                pattern: 'Please enter a valid phone number',
+                minLength: 'Phone number must be at least 10 digits',
+                maxLength: 'Phone number must not exceed 20 characters'
+            }
+        },
+        company: {
+            required: false,
+            maxLength: 100,
+            message: {
+                maxLength: 'Company name must not exceed 100 characters'
+            }
+        },
+        message: {
+            required: true,
+            minLength: 10,
+            maxLength: 2000,
+            message: {
+                required: 'Message is required',
+                minLength: 'Message must be at least 10 characters',
+                maxLength: 'Message must not exceed 2000 characters'
+            }
+        }
+    };
 
-            // Here you would typically send the data to a server
-            // For now, we'll just show a success message
-            handleFormSubmission(formData, 'Quote');
+    // Validate individual field
+    function validateField(fieldName, value) {
+        const rules = validationRules[fieldName];
+        if (!rules) return { isValid: true, error: '' };
+
+        // Check required
+        if (rules.required && (!value || value.trim().length === 0)) {
+            return { isValid: false, error: rules.message.required };
+        }
+
+        // Skip other validations if field is empty and not required
+        if (!value || value.trim().length === 0) {
+            return { isValid: true, error: '' };
+        }
+
+        // Check minLength
+        if (rules.minLength && value.trim().length < rules.minLength) {
+            return { isValid: false, error: rules.message.minLength };
+        }
+
+        // Check maxLength
+        if (rules.maxLength && value.trim().length > rules.maxLength) {
+            return { isValid: false, error: rules.message.maxLength };
+        }
+
+        // Check pattern
+        if (rules.pattern && !rules.pattern.test(value)) {
+            return { isValid: false, error: rules.message.pattern };
+        }
+
+        return { isValid: true, error: '' };
+    }
+
+    // Display field error
+    function showFieldError(fieldName, errorMessage) {
+        const field = document.getElementById(fieldName);
+        const errorElement = document.getElementById(`${fieldName}-error`);
+        
+        if (field && errorElement) {
+            field.classList.remove('valid');
+            field.classList.add('error');
+            errorElement.textContent = errorMessage;
+            errorElement.setAttribute('aria-live', 'polite');
+        }
+    }
+
+    // Clear field error
+    function clearFieldError(fieldName) {
+        const field = document.getElementById(fieldName);
+        const errorElement = document.getElementById(`${fieldName}-error`);
+        
+        if (field && errorElement) {
+            field.classList.remove('error', 'valid');
+            errorElement.textContent = '';
+        }
+    }
+
+    // Show field as valid
+    function showFieldValid(fieldName) {
+        const field = document.getElementById(fieldName);
+        const errorElement = document.getElementById(`${fieldName}-error`);
+        
+        if (field && errorElement) {
+            field.classList.remove('error');
+            field.classList.add('valid');
+            errorElement.textContent = '';
+        }
+    }
+
+    // Real-time validation on input
+    function setupRealTimeValidation() {
+        Object.keys(validationRules).forEach(fieldName => {
+            const field = document.getElementById(fieldName);
+            if (field) {
+                // Validate on blur (when user leaves field)
+                field.addEventListener('blur', function() {
+                    const value = this.value.trim();
+                    const validation = validateField(fieldName, value);
+                    
+                    if (validation.isValid) {
+                        showFieldValid(fieldName);
+                    } else {
+                        showFieldError(fieldName, validation.error);
+                    }
+                });
+
+                // Clear errors on input (optional - provides better UX)
+                field.addEventListener('input', function() {
+                    if (this.classList.contains('error')) {
+                        const value = this.value.trim();
+                        const validation = validateField(fieldName, value);
+                        if (validation.isValid) {
+                            showFieldValid(fieldName);
+                        }
+                    }
+                });
+            }
         });
     }
 
-    // Handle "Partner With Us" button
+    // Validate entire form
+    function validateForm() {
+        let isValid = true;
+        const formData = {};
+
+        Object.keys(validationRules).forEach(fieldName => {
+            const field = document.getElementById(fieldName);
+            if (field) {
+                const value = field.value.trim();
+                formData[fieldName] = value;
+                const validation = validateField(fieldName, value);
+
+                if (validation.isValid) {
+                    showFieldValid(fieldName);
+                } else {
+                    showFieldError(fieldName, validation.error);
+                    isValid = false;
+                }
+            }
+        });
+
+        return { isValid, formData };
+    }
+
+    // ============================================
+    // FORM SUBMISSION WITH EMAILJS
+    // ============================================
+    
+    if (contactForm) {
+        // Setup real-time validation
+        setupRealTimeValidation();
+
+        contactForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            // Validate form
+            const validation = validateForm();
+            if (!validation.isValid) {
+                // Scroll to first error
+                const firstError = contactForm.querySelector('.error');
+                if (firstError) {
+                    firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    firstError.focus();
+                }
+                showNotification('Please correct the errors in the form', 'error');
+                return;
+            }
+
+            // Check if EmailJS is configured
+            if (EMAILJS_CONFIG.PUBLIC_KEY === 'YOUR_PUBLIC_KEY' || 
+                EMAILJS_CONFIG.SERVICE_ID === 'YOUR_SERVICE_ID' || 
+                EMAILJS_CONFIG.TEMPLATE_ID === 'YOUR_TEMPLATE_ID') {
+                console.error('EmailJS not configured. Please set up EmailJS credentials.');
+                showNotification('Form submission is not configured. Please contact the website administrator.', 'error');
+                return;
+            }
+
+            // Disable form and show loading state
+            setFormLoading(true);
+
+            try {
+                // Prepare template parameters for EmailJS
+                // Map form fields to EmailJS template variables
+                const templateParams = {
+                    from_name: validation.formData.name,
+                    from_email: validation.formData.email,
+                    phone: validation.formData.phone || 'Not provided',
+                    company: validation.formData.company || 'Not provided',
+                    product_interest: validation.formData.productInterest || 'Not specified',
+                    message: validation.formData.message,
+                    to_name: 'Abhy Global',
+                    reply_to: validation.formData.email
+                };
+
+                // Send email via EmailJS
+                const response = await emailjs.send(
+                    EMAILJS_CONFIG.SERVICE_ID,
+                    EMAILJS_CONFIG.TEMPLATE_ID,
+                    templateParams
+                );
+
+                // Success
+                if (response.status === 200) {
+                    showNotification('Thank you! Your message has been sent successfully. We\'ll contact you soon.', 'success');
+                    contactForm.reset();
+                    // Clear all validation states
+                    Object.keys(validationRules).forEach(fieldName => {
+                        clearFieldError(fieldName);
+                    });
+                } else {
+                    throw new Error('Unexpected response status: ' + response.status);
+                }
+
+            } catch (error) {
+                console.error('EmailJS Error:', error);
+                
+                // Handle specific error types
+                let errorMessage = 'Failed to send message. Please try again later.';
+                
+                if (error.text) {
+                    errorMessage = `Error: ${error.text}`;
+                } else if (error.message) {
+                    errorMessage = `Error: ${error.message}`;
+                }
+                
+                showNotification(errorMessage, 'error');
+            } finally {
+                // Re-enable form
+                setFormLoading(false);
+            }
+        });
+    }
+
+    // ============================================
+    // FORM LOADING STATE
+    // ============================================
+    
+    function setFormLoading(loading) {
+        const formFields = contactForm.querySelectorAll('input, select, textarea, button');
+        formFields.forEach(field => {
+            field.disabled = loading;
+        });
+
+        if (submitButton) {
+            if (loading) {
+                submitButton.classList.add('loading');
+                submitButton.setAttribute('aria-busy', 'true');
+            } else {
+                submitButton.classList.remove('loading');
+                submitButton.setAttribute('aria-busy', 'false');
+            }
+        }
+    }
+
+    // ============================================
+    // NOTIFICATION SYSTEM
+    // ============================================
+    
+    function showNotification(message, type = 'success') {
+        // Remove existing notifications
+        const existingNotifications = document.querySelectorAll('.form-notification');
+        existingNotifications.forEach(notification => notification.remove());
+
+        // Create notification element
+        const notification = document.createElement('div');
+        notification.className = `form-notification ${type}`;
+        notification.setAttribute('role', 'alert');
+        notification.setAttribute('aria-live', 'assertive');
+
+        const title = type === 'success' ? 'Success!' : 'Error';
+        notification.innerHTML = `
+            <h4>${title}</h4>
+            <p>${message}</p>
+        `;
+
+        document.body.appendChild(notification);
+
+        // Auto-remove notification after delay
+        const delay = type === 'success' ? 5000 : 7000;
+        setTimeout(() => {
+            notification.style.animation = 'slideOut 0.3s ease';
+            setTimeout(() => {
+                notification.remove();
+            }, 300);
+        }, delay);
+    }
+
+    // ============================================
+    // PARTNER WITH US BUTTON
+    // ============================================
+    
     if (partnerButton) {
         partnerButton.addEventListener('click', function(e) {
             e.preventDefault();
@@ -154,95 +476,18 @@
             const messageField = document.getElementById('message');
             if (messageField) {
                 messageField.value = 'I am interested in partnering with Abhy Global for long-term business opportunities.';
+                // Validate the pre-filled message
+                const validation = validateField('message', messageField.value);
+                if (validation.isValid) {
+                    showFieldValid('message');
+                } else {
+                    showFieldError('message', validation.error);
+                }
             }
             
             // Focus on the message field
             messageField?.focus();
         });
-    }
-
-    // Form submission handler
-    function handleFormSubmission(data, type) {
-        // Create a simple notification (you can replace this with a more sophisticated solution)
-        const notification = document.createElement('div');
-        notification.className = 'form-notification';
-        notification.style.cssText = `
-            position: fixed;
-            top: 100px;
-            right: 20px;
-            background-color: #1a365d;
-            color: white;
-            padding: 20px 30px;
-            border-radius: 8px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-            z-index: 10000;
-            animation: slideIn 0.3s ease;
-        `;
-        notification.innerHTML = `
-            <h4 style="margin: 0 0 10px 0; font-size: 1.2rem;">Thank You!</h4>
-            <p style="margin: 0; font-size: 0.95rem;">Your ${type} request has been received. We'll contact you soon.</p>
-        `;
-
-        // Add animation styles if not already present
-        if (!document.getElementById('notification-styles')) {
-            const style = document.createElement('style');
-            style.id = 'notification-styles';
-            style.textContent = `
-                @keyframes slideIn {
-                    from {
-                        transform: translateX(400px);
-                        opacity: 0;
-                    }
-                    to {
-                        transform: translateX(0);
-                        opacity: 1;
-                    }
-                }
-                @keyframes slideOut {
-                    from {
-                        transform: translateX(0);
-                        opacity: 1;
-                    }
-                    to {
-                        transform: translateX(400px);
-                        opacity: 0;
-                    }
-                }
-            `;
-            document.head.appendChild(style);
-        }
-
-        document.body.appendChild(notification);
-
-        // Remove notification after 5 seconds
-        setTimeout(() => {
-            notification.style.animation = 'slideOut 0.3s ease';
-            setTimeout(() => {
-                notification.remove();
-            }, 300);
-        }, 5000);
-
-        // Reset form
-        contactForm.reset();
-
-        // Log form data (in production, send to server)
-        console.log('Form submitted:', data);
-        
-        // Example: Send to server endpoint
-        // fetch('/api/contact', {
-        //     method: 'POST',
-        //     headers: {
-        //         'Content-Type': 'application/json',
-        //     },
-        //     body: JSON.stringify(data)
-        // })
-        // .then(response => response.json())
-        // .then(data => {
-        //     console.log('Success:', data);
-        // })
-        // .catch((error) => {
-        //     console.error('Error:', error);
-        // });
     }
 
     // ============================================
@@ -272,6 +517,33 @@
     });
 
     // ============================================
+    // FOOTER DEVELOPER EMAIL LINK
+    // ============================================
+    function setupDeveloperEmailLink() {
+        const developerLink = document.getElementById('developer-email');
+        if (developerLink) {
+            developerLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Get current date in DD-MM-YYYY format
+                const today = new Date();
+                const day = String(today.getDate()).padStart(2, '0');
+                const month = String(today.getMonth() + 1).padStart(2, '0');
+                const year = today.getFullYear();
+                const dateString = `${day}-${month}-${year}`;
+                
+                // Create mailto link with subject
+                const email = 'abhishek.agawane@gmail.com';
+                const subject = encodeURIComponent(`Feedback from AZ900 ${dateString}`);
+                const mailtoLink = `mailto:${email}?subject=${subject}`;
+                
+                // Open email client
+                window.location.href = mailtoLink;
+            });
+        }
+    }
+
+    // ============================================
     // INITIALIZE ON DOM LOAD
     // ============================================
     document.addEventListener('DOMContentLoaded', () => {
@@ -280,6 +552,9 @@
 
         // Add loading animation complete class
         document.body.classList.add('loaded');
+        
+        // Setup developer email link
+        setupDeveloperEmailLink();
     });
 
     // ============================================

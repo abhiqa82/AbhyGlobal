@@ -921,6 +921,18 @@ ul {
     color: var(--color-text-light);
     font-size: 0.9375rem;
     margin-bottom: var(--spacing-xs);
+    line-height: 1.8;
+}
+
+.contact-item p a {
+    color: var(--color-text-light);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.contact-item p a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
 }
 
 /* Contact Form */
@@ -975,6 +987,138 @@ ul {
     gap: var(--spacing-sm);
     flex-wrap: wrap;
     margin-top: var(--spacing-md);
+}
+
+/* Form Validation Styles */
+.form-group input.error,
+.form-group select.error,
+.form-group textarea.error {
+    border-color: #dc3545;
+    background-color: #fff5f5;
+}
+
+.form-group input.valid,
+.form-group select.valid,
+.form-group textarea.valid {
+    border-color: #28a745;
+}
+
+.error-message {
+    display: block;
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    font-weight: 400;
+}
+
+.success-message {
+    display: block;
+    color: #28a745;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    font-weight: 400;
+}
+
+.form-group input:disabled,
+.form-group select:disabled,
+.form-group textarea:disabled,
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Form Notification Styles */
+.form-notification {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 20px 30px;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-xl);
+    z-index: 10000;
+    max-width: 400px;
+    animation: slideIn 0.3s ease;
+}
+
+.form-notification.error {
+    background-color: #dc3545;
+}
+
+.form-notification.success {
+    background-color: #28a745;
+}
+
+.form-notification h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.form-notification p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Notification Animations */
+@keyframes slideIn {
+    from {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+}
+
+/* Loading Spinner */
+.btn.loading {
+    position: relative;
+    color: transparent;
+}
+
+.btn.loading::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -8px;
+    border: 2px solid var(--color-white);
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 767px) {
+    .form-notification {
+        right: 10px;
+        left: 10px;
+        max-width: none;
+    }
 }
 
 /* ============================================
@@ -1047,6 +1191,7 @@ ul {
 .footer-section ul li a:hover {
     opacity: 1;
     color: var(--color-gold);
+    text-decoration: underline;
 }
 
 .footer-bottom {
@@ -1058,6 +1203,24 @@ ul {
 .footer-bottom p {
     font-size: 0.875rem;
     opacity: 0.8;
+}
+
+.footer-credits {
+    font-size: 0.75rem;
+    font-style: italic;
+    opacity: 0.7;
+    margin-top: var(--spacing-sm);
+    line-height: 1.6;
+}
+
+.footer-credits a {
+    color: var(--color-white);
+    text-decoration: underline;
+    transition: opacity var(--transition-fast);
+}
+
+.footer-credits a:hover {
+    opacity: 1;
 }
 
 /* ============================================

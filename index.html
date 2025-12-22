@@ -61,7 +61,7 @@
             "@type": "ContactPoint",
             "telephone": "+91-9820227510",
             "contactType": "Sales",
-            "email": "contact@abhyglobal.com",
+            "email": "contactus@abhyglobal.com",
             "areaServed": "Worldwide",
             "availableLanguage": ["English", "Hindi"]
         },
@@ -559,7 +559,10 @@
                             </div>
                             <div>
                                 <h3>Email</h3>
-                                <p>contact@abhyglobal.com</p>
+                                <p>
+                                    <a href="mailto:abhishek.agawane@abhyglobal.com">abhishek.agawane@abhyglobal.com</a><br>
+                                    <a href="mailto:contactus@abhyglobal.com">contactus@abhyglobal.com</a>
+                                </p>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -586,26 +589,30 @@
                             </div>
                         </div>
                     </div>
-                    <form class="contact-form" id="contact-form">
+                    <form class="contact-form" id="contact-form" novalidate aria-live="polite">
                         <div class="form-group">
                             <label for="name">Full Name *</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="name" required autocomplete="name" aria-required="true" aria-describedby="name-error">
+                            <span id="name-error" class="error-message" role="alert"></span>
                         </div>
                         <div class="form-group">
                             <label for="email">Email Address *</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="email" required autocomplete="email" aria-required="true" aria-describedby="email-error">
+                            <span id="email-error" class="error-message" role="alert"></span>
                         </div>
                         <div class="form-group">
                             <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone">
+                            <input type="tel" id="phone" name="phone" autocomplete="tel" aria-describedby="phone-error">
+                            <span id="phone-error" class="error-message" role="alert"></span>
                         </div>
                         <div class="form-group">
                             <label for="company">Company Name</label>
-                            <input type="text" id="company" name="company">
+                            <input type="text" id="company" name="company" autocomplete="organization" aria-describedby="company-error">
+                            <span id="company-error" class="error-message" role="alert"></span>
                         </div>
                         <div class="form-group">
                             <label for="product-interest">Product Interest</label>
-                            <select id="product-interest" name="product-interest">
+                            <select id="product-interest" name="product-interest" autocomplete="off">
                                 <option value="">Select a product category</option>
                                 <option value="textiles">Textiles</option>
                                 <option value="spices">Spices</option>
@@ -615,11 +622,12 @@
                         </div>
                         <div class="form-group">
                             <label for="message">Message *</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <textarea id="message" name="message" rows="5" required autocomplete="off" aria-required="true" aria-describedby="message-error"></textarea>
+                            <span id="message-error" class="error-message" role="alert"></span>
                         </div>
                         <div class="form-buttons">
-                            <button type="submit" class="btn btn-primary">Request a Quote</button>
-                            <button type="button" class="btn btn-secondary">Partner With Us</button>
+                            <button type="submit" class="btn btn-primary" id="submit-btn">Request a Quote</button>
+                            <button type="button" class="btn btn-secondary" id="partner-btn">Partner With Us</button>
                         </div>
                     </form>
                 </div>
@@ -661,17 +669,23 @@
                 <div class="footer-section">
                     <h4>Connect</h4>
                     <ul>
-                        <li>Email: contact@abhyglobal.com</li>
+                        <li>Email: <a href="mailto:abhishek.agawane@abhyglobal.com">abhishek.agawane@abhyglobal.com</a></li>
+                        <li>Email: <a href="mailto:contactus@abhyglobal.com">contactus@abhyglobal.com</a></li>
                         <li>Phone: +91 9820227510 (IND)</li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2024 Abhy Global. All rights reserved.</p>
+                <p class="footer-credits">
+                    Application is build by <a href="#" id="developer-email" class="developer-link">Abhishek A</a> and is powered by <a href="https://www.vasanisha.com/" target="_blank" rel="noopener noreferrer" class="vasanisha-link">Vasanisha</a> - your digital partner.
+                </p>
             </div>
         </div>
     </footer>
 
+    <!-- EmailJS SDK - Load before script.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
