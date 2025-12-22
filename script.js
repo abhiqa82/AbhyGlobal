@@ -124,7 +124,7 @@
     // IMPORTANT: Replace these with your EmailJS credentials
     // Get these from: https://dashboard.emailjs.com/admin/integration
     const EMAILJS_CONFIG = {
-        PUBLIC_KEY: 'YOUR_PUBLIC_KEY', // TODO: Get from EmailJS Dashboard → Account → General → API Keys
+        PUBLIC_KEY: '_gCnq8fNBbj26KL5Y', // EmailJS Public Key
         SERVICE_ID: 'service_2z0ma6s', // Gmail service
         TEMPLATE_ID: 'template_h4qa4zj' // Contact Us template
     };
