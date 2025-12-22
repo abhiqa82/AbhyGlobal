@@ -150,20 +150,24 @@
         name: {
             required: true,
             minLength: 2,
-            maxLength: 100,
+            maxLength: 35,
             pattern: /^[a-zA-Z\s'-]+$/,
             message: {
                 required: 'Full name is required',
                 minLength: 'Name must be at least 2 characters',
-                maxLength: 'Name must not exceed 100 characters',
+                maxLength: 'Name must not exceed 35 characters',
                 pattern: 'Name can only contain letters, spaces, hyphens, and apostrophes'
             }
         },
         email: {
             required: true,
+            minLength: 3,
+            maxLength: 45,
             pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
             message: {
                 required: 'Email address is required',
+                minLength: 'Email must be at least 3 characters',
+                maxLength: 'Email must not exceed 45 characters',
                 pattern: 'Please enter a valid email address'
             }
         },
@@ -181,18 +185,22 @@
         company: {
             required: false,
             maxLength: 100,
+            pattern: /^[a-zA-Z0-9\s'\-\.]+$/,
             message: {
-                maxLength: 'Company name must not exceed 100 characters'
+                maxLength: 'Company name must not exceed 100 characters',
+                pattern: 'Company name can only contain letters, numbers, spaces, hyphens, apostrophes, and full stops'
             }
         },
         message: {
             required: true,
             minLength: 10,
-            maxLength: 2000,
+            maxLength: 200,
+            pattern: /^[a-zA-Z\s'\-\.\(\)\,\%]+$/,
             message: {
                 required: 'Message is required',
                 minLength: 'Message must be at least 10 characters',
-                maxLength: 'Message must not exceed 2000 characters'
+                maxLength: 'Message must not exceed 200 characters',
+                pattern: 'Message can only contain letters, spaces, hyphens, apostrophes, full stops, brackets, commas, and percentage signs'
             }
         }
     };
