@@ -16,7 +16,8 @@
 - **Name:** Abhy Global
 - **Industry:** Import-Export (EXIM)
 - **Location:** Mulund, Mumbai 400080, Maharashtra, INDIA
-- **Email:** abhyglobal@gmail.com
+- **Email:** contact@abhyglobal.com
+- **Admin Email:** abhishek.agawane@abhyglobal.com (Google Workspace Admin)
 - **Phone:** +91 9820227510 (IND)
 
 ### Product Categories
@@ -351,7 +352,8 @@ Primary keywords targeting global importers:
 
 ## 📞 Contact Information (Current)
 
-- **Email:** abhyglobal@gmail.com
+- **Email:** contact@abhyglobal.com
+- **Admin Email:** abhishek.agawane@abhyglobal.com (Google Workspace Admin)
 - **Phone:** +91 9820227510 (IND)
 - **Address:** Mulund, Mumbai 400080, Maharashtra, INDIA
 
