@@ -193,14 +193,8 @@
         },
         message: {
             required: true,
-            minLength: 10,
-            maxLength: 200,
-            pattern: /^[a-zA-Z\s'\-\.\(\)\,\%]+$/,
             message: {
-                required: 'Message is required',
-                minLength: 'Message must be at least 10 characters',
-                maxLength: 'Message must not exceed 200 characters',
-                pattern: 'Message can only contain letters, spaces, hyphens, apostrophes, full stops, brackets, commas, and percentage signs'
+                required: 'Message is required'
             }
         }
     };
