@@ -186,45 +186,6 @@ ul {
     display: block;
 }
 
-/* Happy New Year 2026 - Fancy styled badge */
-.nav-logo .new-year-2026 {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.875rem;
-    font-weight: 700;
-    color: #fff;
-    background: linear-gradient(135deg, #ffd700 0%, #ffed4e 25%, #ff8c00 50%, #ff6b35 75%, #c92a2a 100%);
-    background-size: 200% 200%;
-    padding: 5px 10px;
-    border-radius: 14px;
-    margin-left: calc(var(--spacing-xs) * 0.5);
-    box-shadow: 0 2px 8px rgba(255, 215, 0, 0.4), 0 0 12px rgba(255, 140, 0, 0.3);
-    animation: newYearGlow 3s ease-in-out infinite, newYearShimmer 2s ease-in-out infinite;
-    line-height: 1;
-    letter-spacing: 0.8px;
-    position: relative;
-    z-index: 1;
-    white-space: nowrap;
-}
-
-@keyframes newYearGlow {
-    0%, 100% { 
-        box-shadow: 0 2px 8px rgba(255, 215, 0, 0.4), 0 0 12px rgba(255, 140, 0, 0.3);
-        transform: scale(1);
-    }
-    50% { 
-        box-shadow: 0 2px 12px rgba(255, 215, 0, 0.6), 0 0 20px rgba(255, 140, 0, 0.5);
-        transform: scale(1.05);
-    }
-}
-
-@keyframes newYearShimmer {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
 .logo-text {
     font-family: var(--font-heading);
     font-weight: 700;
@@ -1256,28 +1217,6 @@ ul {
     height: 67px; /* Increased by 55% total (20% + 10% + 15% + 5% + 3% + 2% more) from 40px */
     position: relative;
     display: block;
-}
-
-/* Happy New Year 2026 - Fancy styled badge for Footer */
-.footer-logo .new-year-2026 {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.875rem;
-    font-weight: 700;
-    color: #fff;
-    background: linear-gradient(135deg, #ffd700 0%, #ffed4e 25%, #ff8c00 50%, #ff6b35 75%, #c92a2a 100%);
-    background-size: 200% 200%;
-    padding: 5px 10px;
-    border-radius: 14px;
-    margin-left: calc(var(--spacing-xs) * 0.5);
-    box-shadow: 0 2px 8px rgba(255, 215, 0, 0.4), 0 0 12px rgba(255, 140, 0, 0.3);
-    animation: newYearGlow 3s ease-in-out infinite, newYearShimmer 2s ease-in-out infinite;
-    line-height: 1;
-    letter-spacing: 0.8px;
-    position: relative;
-    z-index: 1;
-    white-space: nowrap;
 }
 
 .footer-section ul li {
