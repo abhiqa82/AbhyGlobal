@@ -184,11 +184,34 @@ ul {
     height: 67px; /* Increased by 55% total (20% + 10% + 15% + 5% + 3% + 2% more) from 40px */
     position: relative;
     display: block;
+    flex-shrink: 0;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
 
 .logo-text {
     font-family: var(--font-heading);
     font-weight: 700;
+    line-height: 1.2;
+}
+
+.logo-tagline {
+    font-family: var(--font-primary);
+    font-size: 0.6875rem;
+    font-weight: 400;
+    color: var(--color-text-light);
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+    .logo-tagline {
+        font-size: 0.625rem;
+    }
 }
 
 .nav-list {

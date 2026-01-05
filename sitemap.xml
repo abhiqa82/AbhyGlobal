@@ -20,6 +20,14 @@
         <priority>0.9</priority>
     </url>
     
+    <!-- Services Page - High Priority -->
+    <url>
+        <loc>https://www.abhyglobal.com/services.html</loc>
+        <lastmod>2024-12-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
     <!-- Anchor Links from Homepage (for better indexing) -->
     <url>
         <loc>https://www.abhyglobal.com/#about</loc>
