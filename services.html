@@ -221,6 +221,15 @@
             padding: calc(var(--spacing-lg) * 1.2) 0;
         }
 
+        /* Reduce spacing between Core Functions and Pricing sections */
+        .service-section#core-functions {
+            padding-bottom: calc(var(--spacing-lg) * 0.4);
+        }
+        
+        .service-section#service-pricing {
+            padding-top: calc(var(--spacing-lg) * 0.4);
+        }
+
         .service-section:nth-child(even) {
             background-color: var(--color-bg-light);
         }
@@ -282,6 +291,19 @@
             font-weight: 600;
             font-size: 1.125rem;
             margin: var(--spacing-sm) 0;
+            text-decoration: none;
+            transition: all var(--transition-normal);
+            cursor: pointer;
+        }
+        
+        .service-price:hover {
+            background: linear-gradient(135deg, var(--color-gold-light) 0%, var(--color-gold) 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(212, 175, 55, 0.3);
+        }
+        
+        .service-price:active {
+            transform: translateY(0);
         }
 
         .features-grid {
@@ -568,32 +590,8 @@
             </div>
         </section>
 
-        <!-- Pricing Section -->
-        <section class="service-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Service Pricing</h2>
-                    <p class="section-subtitle">Transparent, Per-Transaction Pricing Model</p>
-                </div>
-                
-                <div class="features-grid">
-                    <div class="feature-item">
-                        <strong>Per-Shipment Coordination</strong>
-                        <div class="service-price">$150 USD</div>
-                        <p>Complete end-to-end coordination and management services for a single export shipment. Includes all coordination, tracking, documentation support, vendor communication, and reporting for one shipment transaction.</p>
-                    </div>
-                    
-                    <div class="feature-item">
-                        <strong>Physical Site Visit</strong>
-                        <div class="service-price">$300 USD per day</div>
-                        <p>On-site coordination and management services when physical presence is required. Ideal for quality inspections, vendor visits, facility audits, or complex logistics coordination that requires on-ground presence.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- Core Functions Section -->
-        <section class="service-section">
+        <section class="service-section" id="core-functions">
             <div class="container">
                 <div class="section-header">
                     <h2 class="section-title">Core Functions & In-Scope Services</h2>
@@ -612,7 +610,7 @@
                     </div>
                     
                     <div class="feature-item">
-                        <strong>Vendor Communication</strong>
+                        <strong>Communication</strong>
                         <p>Streamlined communication channel with all vendors and suppliers. Regular status updates and progress reporting. Issue escalation and resolution management. Relationship management and vendor performance tracking.</p>
                     </div>
                     
@@ -621,6 +619,31 @@
                         <p>Real-time dashboard with shipment status and KPIs. Weekly progress reports and monthly analytics. Custom reports as per client requirements. Performance metrics and trend analysis.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="service-section" id="service-pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Service Pricing</h2>
+                    <p class="section-subtitle">Transparent, Per-Transaction Pricing Model</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <strong>Per-Shipment Coordination</strong>
+                        <a href="index.html#contact" class="service-price">$150 USD</a>
+                        <p>Complete end-to-end coordination and management services for a single export shipment. Includes all coordination, tracking, vendor communication, and reporting for one shipment transaction.</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <strong>Physical Site Visit</strong>
+                        <a href="index.html#contact" class="service-price">$300 USD per day</a>
+                        <p>On-site coordination and management services when physical presence is required. Ideal for quality inspections, vendor visits, facility audits, or complex logistics coordination that requires on-ground presence.</p>
+                    </div>
+                </div>
+                <p style="text-align: center; margin-top: calc(var(--spacing-md) * 1.2); color: var(--color-text-light); font-size: 0.9375rem; max-width: 800px; margin-left: auto; margin-right: auto;">To secure your shipment coordination slot, we require advance payment. This ensures dedicated time and resources are allocated to your export.</p>
             </div>
         </section>
 
