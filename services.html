@@ -14,8 +14,8 @@
     <!-- Primary Meta Tags -->
     <title>EXIM Coordinator Services - Export Operations Management | Abhy Global | PM-as-a-Service for Export Operations | Mumbai India</title>
     <meta name="title" content="EXIM Coordinator Services - Export Operations Management | Abhy Global | PM-as-a-Service for Export Operations">
-    <meta name="description" content="Professional EXIM Coordinator services for export operations. Remote program management for export transactions end-to-end. Eliminate fragmented coordination between suppliers, logistics, customs, and buyers. PM-as-a-Service for Export Operations. Per-shipment coordination: $150 USD. Physical site visits: $300 USD per day. Includes coordination & tracking, timeline management, vendor communication, dashboard & reporting. Achieve 95%+ on-time shipments, 98%+ documentation accuracy, 8-12% cost savings. Mumbai, India.">
-    <meta name="keywords" content="EXIM coordinator, export import coordinator, export operations manager, export program manager, export project manager, export coordination services, export operations management, export logistics coordinator, export customs coordinator, export vendor management, export tracking services, export documentation management, export timeline management, export dashboard, export reporting, PM-as-a-Service export, export operations consultant, export process management, export supply chain coordinator, export trade coordinator, remote export management, export operations outsourcing, export coordination India, Mumbai export coordinator, export merchant services, export agent services, export management services, international trade coordinator, export compliance coordinator, export shipment coordinator, export vendor communication, export milestone tracking, export KPI tracking, export analytics, export cost optimization, export documentation accuracy, on-time export shipments, export issue resolution, export program management India">
+    <meta name="description" content="Professional EXIM Coordinator services for export operations. Remote program management for export transactions end-to-end. Eliminate fragmented coordination between suppliers, logistics, customs, and buyers. PM-as-a-Service for Export Operations. Per-shipment coordination: $150 USD. Physical site visits: $300 USD per day. Includes coordination & tracking, timeline management, vendor communication, dashboard & reporting. Service Level Agreement (SLA) with defined response times, deliverables, and terms of agreement. Achieve 95%+ on-time shipments, 98%+ documentation accuracy, 8-12% cost savings. Mumbai, India.">
+    <meta name="keywords" content="EXIM coordinator, export import coordinator, export operations manager, export program manager, export project manager, export coordination services, export operations management, export logistics coordinator, export customs coordinator, export vendor management, export tracking services, export documentation management, export timeline management, export dashboard, export reporting, PM-as-a-Service export, export operations consultant, export process management, export supply chain coordinator, export trade coordinator, remote export management, export operations outsourcing, export coordination India, Mumbai export coordinator, export merchant services, export agent services, export management services, international trade coordinator, export compliance coordinator, export shipment coordinator, export vendor communication, export milestone tracking, export KPI tracking, export analytics, export cost optimization, export documentation accuracy, on-time export shipments, export issue resolution, export program management India, service level agreement, SLA export services, export terms and conditions, EXIM service agreement">
     <meta name="author" content="Abhy Global">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -27,7 +27,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.abhyglobal.com/services.html">
     <meta property="og:title" content="EXIM Coordinator Services - Export Operations Management | Abhy Global">
-    <meta property="og:description" content="Professional EXIM Coordinator services for export operations. Remote program management for export transactions end-to-end. PM-as-a-Service for Export Operations. Per-shipment: $150 USD. Site visits: $300 USD/day. Achieve 95%+ on-time shipments, 98%+ documentation accuracy, 8-12% cost savings.">
+    <meta property="og:description" content="Professional EXIM Coordinator services for export operations. Remote program management for export transactions end-to-end. PM-as-a-Service for Export Operations. Per-shipment: $150 USD. Site visits: $300 USD/day. Service Level Agreement (SLA) with defined response times and terms. Achieve 95%+ on-time shipments, 98%+ documentation accuracy, 8-12% cost savings.">
     <meta property="og:image" content="https://www.abhyglobal.com/logo.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -38,7 +38,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://www.abhyglobal.com/services.html">
     <meta name="twitter:title" content="EXIM Coordinator Services - Export Operations Management | Abhy Global">
-    <meta name="twitter:description" content="Professional EXIM Coordinator services for export operations. Remote program management for export transactions end-to-end. PM-as-a-Service for Export Operations. Per-shipment: $150 USD. Site visits: $300 USD/day. Achieve 95%+ on-time shipments, 98%+ documentation accuracy, 8-12% cost savings.">
+    <meta name="twitter:description" content="Professional EXIM Coordinator services for export operations. Remote program management for export transactions end-to-end. PM-as-a-Service for Export Operations. Per-shipment: $150 USD. Site visits: $300 USD/day. Service Level Agreement (SLA) with defined response times and terms. Achieve 95%+ on-time shipments, 98%+ documentation accuracy, 8-12% cost savings.">
     <meta name="twitter:image" content="https://www.abhyglobal.com/logo.png">
     
     <!-- Geographic Meta Tags -->
@@ -75,7 +75,7 @@
         "@context": "https://schema.org",
         "@type": "Service",
         "name": "EXIM Coordinator Services",
-        "description": "Professional EXIM Coordinator services providing remote program management for export transactions end-to-end. PM-as-a-Service for Export Operations. Eliminates fragmented coordination between suppliers, logistics, customs, and buyers.",
+        "description": "Professional EXIM Coordinator services providing remote program management for export transactions end-to-end. PM-as-a-Service for Export Operations. Eliminates fragmented coordination between suppliers, logistics, customs, and buyers. Includes comprehensive Service Level Agreement (SLA) with defined response times, deliverables, and terms of agreement.",
         "provider": {
             "@type": "Organization",
             "name": "Abhy Global",
@@ -486,6 +486,154 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        /* Terms Modal Styles */
+        .terms-modal {
+            display: none;
+            position: fixed;
+            z-index: 10000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            overflow-y: auto;
+            padding: var(--spacing-md);
+        }
+
+        .terms-modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .terms-modal-content {
+            background-color: var(--color-white);
+            margin: auto;
+            padding: var(--spacing-lg);
+            border-radius: var(--radius-lg);
+            max-width: 900px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: var(--shadow-xl);
+            position: relative;
+        }
+
+        .terms-modal-close {
+            position: absolute;
+            top: var(--spacing-md);
+            right: var(--spacing-md);
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--color-text-light);
+            cursor: pointer;
+            background: none;
+            border: none;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: all var(--transition-fast);
+        }
+
+        .terms-modal-close:hover {
+            background-color: var(--color-bg-light);
+            color: var(--color-primary);
+        }
+
+        .terms-modal-content h2 {
+            color: var(--color-primary);
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            margin-bottom: var(--spacing-md);
+            padding-right: 50px;
+        }
+
+        .terms-modal-content h3 {
+            color: var(--color-primary);
+            font-size: 1.5rem;
+            margin-top: var(--spacing-lg);
+            margin-bottom: var(--spacing-sm);
+            font-weight: 600;
+        }
+
+        .terms-modal-content h4 {
+            color: var(--color-primary);
+            font-size: 1.25rem;
+            margin-top: var(--spacing-md);
+            margin-bottom: var(--spacing-xs);
+            font-weight: 600;
+        }
+
+        .terms-modal-content ul, .terms-modal-content ol {
+            margin: var(--spacing-sm) 0;
+            padding-left: var(--spacing-md);
+            line-height: 1.8;
+        }
+
+        .terms-modal-content li {
+            margin: var(--spacing-xs) 0;
+            color: var(--color-text);
+        }
+
+        .terms-modal-content p {
+            margin: var(--spacing-sm) 0;
+            line-height: 1.8;
+            color: var(--color-text);
+        }
+
+        .terms-modal-content .included-list li::marker {
+            color: #28a745;
+        }
+
+        .terms-modal-content .excluded-list li::marker {
+            color: #dc3545;
+        }
+
+        .terms-modal-content .checklist-item {
+            margin: var(--spacing-xs) 0;
+            padding-left: var(--spacing-sm);
+        }
+
+        .terms-modal-content strong {
+            color: var(--color-primary);
+            font-weight: 600;
+        }
+
+        .terms-modal-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: var(--spacing-md) 0;
+        }
+
+        .terms-modal-content table td {
+            padding: var(--spacing-xs) var(--spacing-sm);
+            border: 1px solid var(--color-border);
+        }
+
+        .terms-modal-content table td:first-child {
+            font-weight: 600;
+            background-color: var(--color-bg-light);
+            width: 40%;
+        }
+
+        @media (max-width: 767px) {
+            .terms-modal-content {
+                padding: var(--spacing-md);
+                margin: var(--spacing-sm);
+            }
+
+            .terms-modal-content h2 {
+                font-size: 1.5rem;
+            }
+
+            .terms-modal-content h3 {
+                font-size: 1.25rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -643,7 +791,7 @@
                         <p>On-site coordination and management services when physical presence is required. Ideal for quality inspections, vendor visits, facility audits, or complex logistics coordination that requires on-ground presence.</p>
                     </div>
                 </div>
-                <p style="text-align: center; margin-top: calc(var(--spacing-md) * 1.2); color: var(--color-text-light); font-size: 0.9375rem; max-width: 800px; margin-left: auto; margin-right: auto;">To secure your shipment coordination slot, we require advance payment. This ensures dedicated time and resources are allocated to your export.</p>
+                <p style="text-align: center; margin-top: calc(var(--spacing-md) * 1.2); color: var(--color-text-light); font-size: 0.9375rem; max-width: 800px; margin-left: auto; margin-right: auto;">To secure your shipment coordination slot, we require advance payment. This ensures dedicated time and resources are allocated to your export. <a href="#" id="terms-link" style="color: var(--color-primary); text-decoration: underline; font-weight: 500;">View Terms of Agreement</a></p>
             </div>
         </section>
 
@@ -863,6 +1011,395 @@
         </div>
     </footer>
 
+    <!-- Terms of Agreement Modal -->
+    <div id="termsModal" class="terms-modal">
+        <div class="terms-modal-content">
+            <button class="terms-modal-close" id="termsModalClose">&times;</button>
+            <h2>TERMS OF AGREEMENT - EXIM COORDINATION SERVICES</h2>
+            
+            <h3>1. SERVICE SCOPE</h3>
+            <h4>INCLUDED:</h4>
+            <ul class="included-list">
+                <li>✅ Order confirmation to Bill of Lading submission coordination</li>
+                <li>✅ Supplier communication and follow-up</li>
+                <li>✅ Freight forwarder coordination</li>
+                <li>✅ Customs clearance tracking</li>
+                <li>✅ Timeline management and milestone tracking</li>
+                <li>✅ Daily status updates via email/WhatsApp</li>
+                <li>✅ Issue escalation and resolution</li>
+                <li>✅ Pre-shipment documentation checklist review</li>
+                <li>✅ Bill of Lading submission confirmation to bank</li>
+            </ul>
+            <ul>
+                <li><strong>SERVICE ENDS:</strong> When seller submits Bill of Lading to bank for payment processing</li>
+            </ul>
+
+            <h3>2. OUT OF SCOPE</h3>
+            <h4>EXCLUDED:</h4>
+            <ul class="excluded-list">
+                <li>❌ Physical freight forwarding or logistics operations</li>
+                <li>❌ Customs brokerage license work</li>
+                <li>❌ Payment collection or financial transactions</li>
+                <li>❌ Post-shipment activities (claims, disputes after BL submission)</li>
+                <li>❌ Product manufacturing or quality control (unless site visit purchased separately)</li>
+                <li>❌ Legal representation or compliance advisory</li>
+                <li>❌ Buyer sourcing or market research</li>
+                <li>❌ Product insurance or liability coverage</li>
+                <li>❌ Currency hedging or forex advisory</li>
+                <li>❌ Warehouse or storage services</li>
+                <li>❌ Document verification</li>
+            </ul>
+
+            <h3>3. PAYMENT TERMS</h3>
+            <h4>Fees:</h4>
+            <ul>
+                <li>Remote Coordination: $150 USD per shipment</li>
+                <li>Physical Site Visit: $300 USD per day + travel expenses at actuals</li>
+            </ul>
+            
+            <h4>Payment Schedule:</h4>
+            <ul>
+                <li>50% advance upon service engagement confirmation</li>
+                <li>50% balance upon Bill of Lading submission to bank</li>
+            </ul>
+            
+            <h4>Payment Method:</h4>
+            <ul>
+                <li>International clients: USD via Wise/PayPal/Wire Transfer</li>
+                <li>Indian clients: INR equivalent + 18% GST</li>
+            </ul>
+            
+            <h4>Late Payment:</h4>
+            <ul>
+                <li>5% penalty after 7 days of invoice date</li>
+                <li>Service suspension for future shipments until cleared</li>
+            </ul>
+
+            <h3>4. CLIENT OBLIGATIONS</h3>
+            <h4>Client Must Provide:</h4>
+            <ul>
+                <li>Complete and accurate product information</li>
+                <li>Timely access to supplier/factory when needed</li>
+                <li>All necessary documents within agreed timelines</li>
+                <li>Export licenses and compliance certifications</li>
+                <li>Buyer contact information for coordination</li>
+                <li>Payment as per schedule</li>
+            </ul>
+            
+            <h4>Client Responsibilities:</h4>
+            <ul>
+                <li>Final approval on all documentation before submission</li>
+                <li>Compliance with all export regulations</li>
+                <li>Payment of all freight, customs, and third-party charges</li>
+                <li>Insurance coverage for goods (if required)</li>
+            </ul>
+
+            <h3>5. SERVICE LEVEL AGREEMENT</h3>
+            <ul>
+                <li><strong>Standard Coordination Period:</strong> 15-30 days from order confirmation to BL submission</li>
+                <li><strong>Daily Updates:</strong> Status email by EOD IST</li>
+                <li><strong>Critical Issues Response Time:</strong> Within 12 hours</li>
+                <li><strong>Routine Queries Response Time:</strong> Within 48 hours</li>
+                <li><strong>Non-Urgent Matters Response Time:</strong> Within 72 hours</li>
+                <li><strong>Milestone Tracking:</strong>
+                    <ul>
+                        <li>Order confirmation</li>
+                        <li>Production completion</li>
+                        <li>Pre-shipment inspection (if applicable)</li>
+                        <li>Cargo ready date</li>
+                        <li>Container stuffing</li>
+                        <li>Customs clearance</li>
+                        <li>Bill of Lading issuance</li>
+                        <li>BL submission to bank ✓ (Service ends here)</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>6. LIABILITY & LIMITATIONS</h3>
+            <h4>We Are Responsible For:</h4>
+            <ul>
+                <li>Professional coordination services as described</li>
+                <li>Timely communication and updates</li>
+            </ul>
+            
+            <h4>We Are NOT Responsible For:</h4>
+            <ul>
+                <li>Supplier delays or non-performance</li>
+                <li>Freight forwarder errors or delays</li>
+                <li>Customs authority decisions or delays</li>
+                <li>Force majeure events (strikes, natural disasters, war, pandemic)</li>
+                <li>Third-party service provider failures</li>
+                <li>Product quality issues (unless site visit purchased)</li>
+                <li>Currency fluctuation losses</li>
+                <li>Buyer payment defaults or disputes</li>
+                <li>Reasonable care in document verification</li>
+                <li>Any penalties levied by authorities and regulators</li>
+                <li>Products and its ingredients, contains and type</li>
+                <li>Damaged /Rejected/Declined/unattended goods or products</li>
+                <li>Bank and Payment issues</li>
+                <li>Any legal issues</li>
+            </ul>
+            
+            <h4>Maximum Liability:</h4>
+            <ul>
+                <li>Limited to fees paid for that specific shipment only</li>
+                <li>No liability for consequential, indirect, or punitive damages</li>
+                <li>No liability for losses exceeding service fee amount</li>
+            </ul>
+
+            <h3>7. CANCELLATION & REFUNDS</h3>
+            <h4>By Client:</h4>
+            <ul>
+                <li>7+ days before shipment start: 100% refund minus $25 processing fee</li>
+                <li>3-7 days before: 50% refund</li>
+                <li>&lt;3 days before: No refund (resources already allocated)</li>
+                <li>After service commencement: No refund</li>
+            </ul>
+            
+            <h4>By Abhy Global:</h4>
+            <ul>
+                <li>Full refund if we cannot fulfill services (post discussion and agreement with client)</li>
+                <li>7 days written notice to client</li>
+            </ul>
+
+            <h3>8. CONFIDENTIALITY</h3>
+            <p><strong>Both Parties Agree:</strong></p>
+            <ul>
+                <li>Maintain confidentiality of business information</li>
+                <li>Not disclose pricing, buyer details, or commercial terms</li>
+                <li>Use information only for service delivery purposes</li>
+                <li>Return/destroy confidential documents upon request</li>
+            </ul>
+            
+            <p><strong>Exceptions:</strong></p>
+            <ul>
+                <li>Information already in public domain</li>
+                <li>Required by law or regulatory authorities</li>
+                <li>With written consent of other party</li>
+            </ul>
+
+            <h3>9. DISPUTE RESOLUTION</h3>
+            <p><strong>Process:</strong></p>
+            <ol>
+                <li>Good faith negotiation between parties (15 days)</li>
+                <li>Mediation through mutually agreed mediator (30 days)</li>
+                <li>Arbitration in Mumbai, India under Indian Arbitration Act</li>
+            </ol>
+            <ul>
+                <li>Arbitration language: English</li>
+                <li>Each party bears own costs unless arbitrator decides otherwise</li>
+            </ul>
+            <ul>
+                <li><strong>Governing Law:</strong> Laws of India</li>
+                <li><strong>Jurisdiction:</strong> Courts of Mumbai, Maharashtra, India</li>
+            </ul>
+
+            <h3>10. TERMINATION</h3>
+            <p><strong>Either Party Can Terminate:</strong></p>
+            <ul>
+                <li>By providing 15 days written notice</li>
+                <li>Immediate termination for material breach</li>
+                <li>Non-payment beyond 30 days</li>
+            </ul>
+            
+            <p><strong>Upon Termination:</strong></p>
+            <ul>
+                <li>Client pays for services rendered to date</li>
+                <li>Abhy Global delivers all work completed until termination date</li>
+                <li>Confidentiality obligations continue</li>
+            </ul>
+
+            <h3>11. FORCE MAJEURE</h3>
+            <p><strong>No Liability For Delays Due To:</strong></p>
+            <ul>
+                <li>Natural disasters (earthquakes, floods, cyclones)</li>
+                <li>War, terrorism, civil unrest</li>
+                <li>Government actions, policy changes, strikes</li>
+                <li>Pandemic, epidemic, health emergencies</li>
+                <li>Internet/communication system failures</li>
+                <li>Any event beyond reasonable control</li>
+            </ul>
+            <ul>
+                <li><strong>Obligation:</strong> Notify other party within 48 hours of force majeure event</li>
+            </ul>
+
+            <h3>12. COMMUNICATION & NOTICES</h3>
+            <p><strong>Primary Contact Methods:</strong></p>
+            <ul>
+                <li>Email: contactus@abhyglobal.com</li>
+                <li>WhatsApp: +91 9820931976</li>
+                <li>Phone: (IND) +91 9820931976 [During working hours only]</li>
+            </ul>
+            
+            <p><strong>Official Notices:</strong></p>
+            <ul>
+                <li>Must be in writing via email</li>
+                <li>Deemed received 24 hours after sending</li>
+                <li>Client must maintain updated contact information</li>
+            </ul>
+
+            <h3>13. AMENDMENTS</h3>
+            <ul>
+                <li>Terms may be updated with 30 days notice</li>
+                <li>Continued use after notice = acceptance</li>
+                <li>Major changes require written consent</li>
+                <li>Current version available at abhyglobal.com/terms</li>
+            </ul>
+
+            <h3>14. MISCELLANEOUS</h3>
+            <h4>Assignment:</h4>
+            <ul>
+                <li>Neither party may assign without written consent</li>
+                <li>Abhy Global may use subcontractors for specific tasks</li>
+            </ul>
+            
+            <h4>Entire Agreement:</h4>
+            <ul>
+                <li>This agreement supersedes all prior discussions</li>
+                <li>Modifications must be in writing</li>
+            </ul>
+            
+            <h4>Severability:</h4>
+            <ul>
+                <li>Invalid clauses do not affect remaining terms</li>
+                <li>Replace invalid clause with valid equivalent</li>
+            </ul>
+            
+            <h4>Waiver:</h4>
+            <ul>
+                <li>Waiver of one breach doesn't waive future breaches</li>
+                <li>All waivers must be in writing</li>
+            </ul>
+
+            <h3>15. ACCEPTANCE</h3>
+            <p><strong>Client Acknowledges:</strong></p>
+            <ul>
+                <li>Read and understood all terms</li>
+                <li>Agrees to scope, fees, and limitations</li>
+                <li>Has authority to enter this agreement</li>
+                <li>Accepts coordination services "as is" within defined scope</li>
+            </ul>
+            
+            <div style="margin-top: var(--spacing-lg); padding-top: var(--spacing-md); border-top: 2px solid var(--color-border);">
+                <p><strong>Signature Required:</strong></p>
+                <table>
+                    <tr>
+                        <td><strong>CLIENT:</strong></td>
+                        <td><strong>ABHY GLOBAL:</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Name: ___________________</td>
+                        <td>Name: Abhishek Agawane</td>
+                    </tr>
+                    <tr>
+                        <td>Signature: ______________</td>
+                        <td>Signature: ________________</td>
+                    </tr>
+                    <tr>
+                        <td>Date: ___________________</td>
+                        <td>Date: ____________________</td>
+                    </tr>
+                    <tr>
+                        <td>Company: ________________</td>
+                        <td>Designation: Operations Manager</td>
+                    </tr>
+                </table>
+            </div>
+
+            <h3>APPENDIX A: SERVICE CHECKLIST</h3>
+            <h4>Coordination Touchpoints:</h4>
+            <ul class="checklist-item">
+                <li>☑ Supplier production status</li>
+                <li>☑ Freight forwarder booking confirmation</li>
+                <li>☑ Container stuffing schedule</li>
+                <li>☑ Customs examination (if required)</li>
+                <li>☑ Port clearance status</li>
+                <li>☑ Bill of Lading issuance</li>
+                <li>☑ Bank submission confirmation</li>
+            </ul>
+
+            <h3>QUICK REFERENCE</h3>
+            <table>
+                <tr>
+                    <td><strong>Item</strong></td>
+                    <td><strong>Details</strong></td>
+                </tr>
+                <tr>
+                    <td>Service Start</td>
+                    <td>Order confirmation</td>
+                </tr>
+                <tr>
+                    <td>Service End</td>
+                    <td>Bill of Lading submitted to bank</td>
+                </tr>
+                <tr>
+                    <td>Fee</td>
+                    <td>$150/shipment (50% + 50%)</td>
+                </tr>
+                <tr>
+                    <td>Updates</td>
+                    <td>Daily by EOD PM IST</td>
+                </tr>
+                <tr>
+                    <td>Cancellation</td>
+                    <td>7+ days = full refund (mutually agreed)</td>
+                </tr>
+                <tr>
+                    <td>Liability</td>
+                    <td>Limited to service fee only</td>
+                </tr>
+                <tr>
+                    <td>Disputes</td>
+                    <td>Arbitration in Mumbai</td>
+                </tr>
+            </table>
+
+            <p style="margin-top: var(--spacing-md); text-align: center; color: var(--color-text-light); font-size: 0.875rem;">
+                <strong>For Questions:</strong> contactus@abhyglobal.com | +91-9820227510<br>
+                <strong>Terms Version:</strong> 1.0 | <strong>Effective:</strong> January 2026
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Terms Modal JavaScript
+        const termsLink = document.getElementById('terms-link');
+        const termsModal = document.getElementById('termsModal');
+        const termsModalClose = document.getElementById('termsModalClose');
+
+        if (termsLink) {
+            termsLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                termsModal.classList.add('active');
+                document.body.style.overflow = 'hidden'; // Prevent body scroll when modal is open
+            });
+        }
+
+        if (termsModalClose) {
+            termsModalClose.addEventListener('click', function() {
+                termsModal.classList.remove('active');
+                document.body.style.overflow = ''; // Restore body scroll
+            });
+        }
+
+        // Close modal when clicking outside of it
+        if (termsModal) {
+            termsModal.addEventListener('click', function(e) {
+                if (e.target === termsModal) {
+                    termsModal.classList.remove('active');
+                    document.body.style.overflow = ''; // Restore body scroll
+                }
+            });
+        }
+
+        // Close modal on ESC key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && termsModal.classList.contains('active')) {
+                termsModal.classList.remove('active');
+                document.body.style.overflow = ''; // Restore body scroll
+            }
+        });
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
