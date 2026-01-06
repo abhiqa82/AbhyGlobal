@@ -526,10 +526,10 @@
             right: var(--spacing-md);
             font-size: 2rem;
             font-weight: bold;
-            color: var(--color-text-light);
+            color: var(--color-text);
             cursor: pointer;
-            background: none;
-            border: none;
+            background-color: var(--color-bg-light);
+            border: 2px solid var(--color-border);
             width: 40px;
             height: 40px;
             display: flex;
@@ -537,11 +537,15 @@
             justify-content: center;
             border-radius: 50%;
             transition: all var(--transition-fast);
+            z-index: 10001;
+            line-height: 1;
         }
 
         .terms-modal-close:hover {
-            background-color: var(--color-bg-light);
-            color: var(--color-primary);
+            background-color: var(--color-primary);
+            color: var(--color-white);
+            border-color: var(--color-primary);
+            transform: scale(1.1);
         }
 
         .terms-modal-content h2 {
