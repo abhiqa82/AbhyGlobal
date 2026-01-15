@@ -119,6 +119,27 @@
     });
 
     // ============================================
+    // GOOGLE ANALYTICS EVENT TRACKING
+    // ============================================
+    
+    // Helper function to track Google Analytics events
+    function trackGAEvent(eventName, eventCategory, eventLabel = '', eventValue = null) {
+        if (typeof gtag !== 'undefined') {
+            const eventParams = {
+                event_category: eventCategory,
+                event_label: eventLabel
+            };
+            
+            if (eventValue !== null) {
+                eventParams.value = eventValue;
+            }
+            
+            gtag('event', eventName, eventParams);
+            console.log('GA Event Tracked:', eventName, eventParams);
+        }
+    }
+
+    // ============================================
     // EMAILJS CONFIGURATION
     // ============================================
     // IMPORTANT: Replace these with your EmailJS credentials
@@ -138,7 +159,6 @@
     // CONTACT FORM HANDLING
     // ============================================
     const contactForm = document.getElementById('contact-form');
-    const partnerButton = document.getElementById('partner-btn');
     const submitButton = document.getElementById('submit-btn');
 
     // ============================================
@@ -390,6 +410,11 @@
 
                 // Success
                 if (response.status === 200) {
+                    // Track form submission as conversion event in Google Analytics
+                    const productInterest = validation.formData.productInterest || 'Not specified';
+                    const formLocation = window.location.pathname === '/services.html' ? 'Services Page' : 'Homepage';
+                    trackGAEvent('form_submission', 'Contact Form', `${formLocation} - ${productInterest}`, 1);
+                    
                     showNotification('Thank you! Your message has been sent successfully. We\'ll contact you soon.', 'success');
                     contactForm.reset();
                     // Clear all validation states
@@ -475,28 +500,34 @@
     }
 
     // ============================================
-    // PARTNER WITH US BUTTON
+    // TRACK CTA BUTTON CLICKS
     // ============================================
     
-    if (partnerButton) {
-        partnerButton.addEventListener('click', function(e) {
-            e.preventDefault();
-            
-            // Pre-fill the message field with partnership inquiry
-            const messageField = document.getElementById('message');
-            if (messageField) {
-                messageField.value = 'I am interested in partnering with Abhy Global for long-term business opportunities.';
-                // Validate the pre-filled message
-                const validation = validateField('message', messageField.value);
-                if (validation.isValid) {
-                    showFieldValid('message');
-                } else {
-                    showFieldError('message', validation.error);
-                }
-            }
-            
-            // Focus on the message field
-            messageField?.focus();
+    function setupButtonTracking() {
+        // Track "Get Started Today" buttons (hero CTA buttons)
+        document.querySelectorAll('.hero-cta-btn').forEach(button => {
+            button.addEventListener('click', function(e) {
+                const buttonText = this.textContent.trim() || 'Get Started Today';
+                const buttonLocation = this.closest('section')?.id || 'hero';
+                trackGAEvent('button_click', 'CTA Button', `${buttonText} - ${buttonLocation}`);
+            });
+        });
+
+        // Track contact section navigation links
+        document.querySelectorAll('a[href="#contact"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                const linkText = this.textContent.trim() || 'Contact Link';
+                const linkLocation = this.closest('section')?.id || this.closest('nav') ? 'Navigation' : 'Page';
+                trackGAEvent('button_click', 'Navigation', `${linkText} - ${linkLocation}`);
+            });
+        });
+
+        // Track pricing buttons on Services page
+        document.querySelectorAll('.service-price').forEach(button => {
+            button.addEventListener('click', function(e) {
+                const serviceName = this.closest('.feature-item')?.querySelector('h3')?.textContent.trim() || 'Service';
+                trackGAEvent('button_click', 'Pricing Button', serviceName);
+            });
         });
     }
 
@@ -554,6 +585,57 @@
     }
 
     // ============================================
+    // SCROLL DEPTH TRACKING
+    // ============================================
+    
+    function trackScrollDepth() {
+        let maxScroll = 0;
+        const scrollMilestones = [25, 50, 75, 90, 100];
+        const trackedMilestones = new Set();
+
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = Math.round((scrollTop / documentHeight) * 100);
+            
+            // Track scroll milestones
+            scrollMilestones.forEach(milestone => {
+                if (scrollPercent >= milestone && !trackedMilestones.has(milestone)) {
+                    trackedMilestones.add(milestone);
+                    trackGAEvent('scroll', 'Engagement', `${milestone}% page scroll`, milestone);
+                }
+            });
+        }, { passive: true });
+    }
+
+    // ============================================
+    // PAGE VIEW TRACKING ENHANCEMENTS
+    // ============================================
+    
+    // Track time on page (track after 30 seconds)
+    function trackTimeOnPage() {
+        setTimeout(() => {
+            trackGAEvent('engagement_time', 'Engagement', '30+ seconds on page', 30);
+        }, 30000);
+
+        // Track time on page on exit (if user spends > 2 minutes)
+        let timeOnPage = 0;
+        setInterval(() => {
+            timeOnPage += 30;
+            if (timeOnPage === 120) { // 2 minutes
+                trackGAEvent('engagement_time', 'Engagement', '2+ minutes on page', 120);
+            }
+        }, 30000);
+
+        // Track on page unload if user spent significant time
+        window.addEventListener('beforeunload', () => {
+            if (timeOnPage >= 60) {
+                trackGAEvent('page_exit', 'Engagement', `Exited after ${timeOnPage} seconds`, timeOnPage);
+            }
+        });
+    }
+
+    // ============================================
     // INITIALIZE ON DOM LOAD
     // ============================================
     document.addEventListener('DOMContentLoaded', () => {
@@ -565,6 +647,15 @@
         
         // Setup developer email link
         setupDeveloperEmailLink();
+        
+        // Setup button click tracking
+        setupButtonTracking();
+        
+        // Initialize scroll depth tracking
+        trackScrollDepth();
+        
+        // Initialize time on page tracking
+        trackTimeOnPage();
     });
 
     // ============================================
