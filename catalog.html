@@ -899,6 +899,16 @@
             justify-content: center;
         }
 
+        .catalog-disclaimer {
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--color-text);
+            font-style: italic;
+            margin-top: calc(var(--spacing-xs) * 0.8);
+            margin-bottom: 0;
+            padding: 0 calc(var(--spacing-sm) * 0.5);
+        }
+
         .filter-btn {
             padding: 4px 10px;
             background-color: var(--color-bg-light);
@@ -1061,6 +1071,11 @@
                 gap: calc(var(--spacing-xs) * 0.59);
             }
             
+            .catalog-disclaimer {
+                font-size: 0.7rem;
+                margin-top: calc(var(--spacing-xs) * 0.7);
+            }
+            
             .catalog-grid {
                 grid-template-columns: 1fr;
                 gap: calc(var(--spacing-md) * 0.44);
@@ -1151,6 +1166,7 @@
                     <button class="filter-btn" data-filter="ready-to-cook">Ready to Cook</button>
                     <button class="filter-btn" data-filter="others">Others</button>
                 </div>
+                <p class="catalog-disclaimer">MOQ, Shipping terms and pricing can be agreed based on our discussion.</p>
             </div>
         </section>
 
