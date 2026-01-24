@@ -370,13 +370,47 @@ ul {
     font-size: 3rem;
     font-weight: 700;
     color: var(--color-primary);
-    margin-bottom: var(--spacing-md);
-    line-height: 1.2;
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.3;
+    text-align: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-tagline {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: var(--color-gold);
+    margin: 0.75rem 0 var(--spacing-md) 0;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-family: var(--font-primary);
+    text-transform: uppercase;
 }
 
 @media (max-width: 767px) {
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.75rem;
+        gap: 0.75rem 1rem;
+    }
+    
+    .hero-title-separator {
+        margin: 0 0.15rem;
+    }
+    
+    .hero-tagline {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-title {
+        font-size: 2.25rem;
+    }
+    
+    .hero-tagline {
+        font-size: 1.25rem;
     }
 }
 
@@ -535,7 +569,13 @@ ul {
 
 @media (min-width: 768px) {
     .about-features {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    .about-features {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
@@ -1316,5 +1356,44 @@ ul {
     
     .section {
         page-break-inside: avoid;
+    }
+}
+
+/* ============================================
+   CATALOG PAGE STYLES
+   ============================================ */
+.catalog-header {
+    background: linear-gradient(135deg, rgba(26, 54, 93, 0.9), rgba(45, 74, 106, 0.9));
+    padding: var(--spacing-xl) 0;
+    text-align: center;
+    color: var(--color-white);
+    position: relative;
+    overflow: hidden;
+}
+
+.catalog-header h1 {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-white);
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.2;
+}
+
+.catalog-subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--color-gold);
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 767px) {
+    .catalog-header h1 {
+        font-size: 2rem;
+    }
+    
+    .catalog-subtitle {
+        font-size: 1.25rem;
     }
 }
