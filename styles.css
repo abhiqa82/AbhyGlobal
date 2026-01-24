@@ -1397,3 +1397,28 @@ ul {
         font-size: 1.25rem;
     }
 }
+
+.catalog-pricing-badge {
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-gold);
+    background-color: rgba(212, 175, 55, 0.1);
+    padding: 0.35rem 0.75rem;
+    border-radius: var(--radius-md);
+    margin-left: 0.75rem;
+    margin-top: 0.25rem;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    letter-spacing: 0.3px;
+    text-transform: none;
+}
+
+@media (max-width: 767px) {
+    .catalog-pricing-badge {
+        display: block;
+        margin-left: 0;
+        margin-top: 0.5rem;
+        font-size: 0.8125rem;
+        padding: 0.3rem 0.65rem;
+    }
+}
