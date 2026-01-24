@@ -1383,7 +1383,7 @@ ul {
 .catalog-subtitle {
     font-size: 1.5rem;
     font-weight: 500;
-    color: var(--color-gold);
+    color: var(--color-white);
     margin: 0;
     letter-spacing: 0.5px;
 }
