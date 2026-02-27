@@ -558,6 +558,22 @@
     });
 
     // ============================================
+    // WHATSAPP FLOATING BUTTON - Open in new window
+    // ============================================
+    function setupWhatsAppFloat() {
+        const whatsappFloat = document.querySelector('.whatsapp-float');
+        if (whatsappFloat) {
+            whatsappFloat.addEventListener('click', function(e) {
+                e.preventDefault();
+                const url = this.getAttribute('href');
+                if (url) {
+                    window.open(url, '_blank', 'noopener,noreferrer');
+                }
+            });
+        }
+    }
+
+    // ============================================
     // FOOTER DEVELOPER EMAIL LINK
     // ============================================
     function setupDeveloperEmailLink() {
@@ -647,6 +663,9 @@
         
         // Setup developer email link
         setupDeveloperEmailLink();
+        
+        // Setup WhatsApp float - open chat in new window
+        setupWhatsAppFloat();
         
         // Setup button click tracking
         setupButtonTracking();
