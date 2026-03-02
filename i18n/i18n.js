@@ -6,7 +6,7 @@
     'use strict';
 
     const I18N = {
-        supportedLangs: ['en', 'hi'],
+        supportedLangs: ['en', 'hi', 'es', 'ar', 'fr', 'de', 'zh', 'pt'],
         fallbackLang: 'en',
         currentLang: 'en',
         translations: {},
@@ -169,8 +169,9 @@
          */
         updateDocumentAttributes: function() {
             try {
-                document.documentElement.lang = this.currentLang === 'hi' ? 'hi' : 'en';
-                document.documentElement.dir = 'ltr';
+                const rtlLangs = ['ar'];
+                document.documentElement.lang = this.currentLang;
+                document.documentElement.dir = rtlLangs.includes(this.currentLang) ? 'rtl' : 'ltr';
             } catch (e) {
                 console.warn('i18n: Error updating document attributes', e);
             }
@@ -254,16 +255,12 @@
         },
 
         /**
-         * Update language switcher UI
+         * Update language switcher UI (dropdown)
          */
         updateLanguageSwitcher: function() {
-            const switcher = document.getElementById('lang-switcher');
-            if (!switcher) return;
-            switcher.querySelectorAll('[data-lang]').forEach(btn => {
-                const btnLang = btn.getAttribute('data-lang');
-                btn.classList.toggle('active', btnLang === this.currentLang);
-                btn.setAttribute('aria-pressed', btnLang === this.currentLang);
-            });
+            const select = document.getElementById('lang-select');
+            if (!select) return;
+            select.value = this.supportedLangs.includes(this.currentLang) ? this.currentLang : this.fallbackLang;
         }
     };
 

@@ -658,15 +658,13 @@
         if (typeof AbhyI18n === 'undefined') return;
         try {
             AbhyI18n.init().then(() => {
-                const switcher = document.getElementById('lang-switcher');
-                if (switcher) {
-                    switcher.querySelectorAll('[data-lang]').forEach(btn => {
-                        btn.addEventListener('click', function() {
-                            const lang = this.getAttribute('data-lang');
-                            if (lang && AbhyI18n.supportedLangs.includes(lang)) {
-                                AbhyI18n.setLanguage(lang);
-                            }
-                        });
+                const select = document.getElementById('lang-select');
+                if (select) {
+                    select.addEventListener('change', function() {
+                        const lang = this.value;
+                        if (lang && AbhyI18n.supportedLangs.includes(lang)) {
+                            AbhyI18n.setLanguage(lang);
+                        }
                     });
                 }
             }).catch(err => {
