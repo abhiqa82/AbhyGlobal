@@ -177,6 +177,13 @@ ul {
     flex-shrink: 0;
 }
 
+.nav-right-group {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    margin-left: auto;
+}
+
 .nav-right {
     display: flex;
     align-items: center;
