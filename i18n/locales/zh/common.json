@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品",
+    "catalog": "目录",
+    "services": "服务",
+    "whyChoose": "为何选择我们",
+    "contact": "联系我们",
+    "tagline": "您值得信赖的全球贸易伙伴"
+  },
+  "footer": {
+    "tagline": "您值得信赖的全球贸易卓越伙伴",
+    "quickLinks": "快速链接",
+    "products": "产品",
+    "connect": "联系",
+    "copyright": "© 2024 Abhy Global。保留所有权利。",
+    "proprietor": "业主：Manisha Agawane",
+    "credits": "应用程序由",
+    "poweredBy": "开发，由",
+    "digitalPartner": "您的数字合作伙伴提供支持。",
+    "iecGstin": "IEC代码和GSTIN可按需提供。"
+  },
+  "buttons": {
+    "exploreProducts": "探索产品",
+    "connectWithUs": "联系我们",
+    "requestQuote": "索取报价",
+    "sendMessage": "发送消息",
+    "getStarted": "立即开始"
+  },
+  "form": {
+    "fullName": "全名 *",
+    "email": "电子邮件地址 *",
+    "phone": "电话号码",
+    "company": "公司名称",
+    "productInterest": "产品兴趣",
+    "message": "留言 *",
+    "selectCategory": "选择产品类别",
+    "messagePlaceholder": "与我们分享您的兴趣，让我们一起合作。如果您喜欢，我们继续推进，否则请留下反馈以便我们改进。"
+  },
+  "contact": {
+    "email": "电子邮件",
+    "phone": "电话",
+    "whatsapp": "手机（WhatsApp）",
+    "office": "办公室"
+  },
+  "lang": {
+    "en": "English",
+    "hi": "हिंदी"
+  }
+}

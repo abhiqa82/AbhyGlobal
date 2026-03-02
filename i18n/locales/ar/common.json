@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "products": "المنتجات",
+    "catalog": "الكتالوج",
+    "services": "الخدمات",
+    "whyChoose": "لماذا تختارنا",
+    "contact": "اتصل بنا",
+    "tagline": "شريكك الموثوق في التجارة العالمية"
+  },
+  "footer": {
+    "tagline": "شريكك الموثوق في التميز التجاري العالمي",
+    "quickLinks": "روابط سريعة",
+    "products": "المنتجات",
+    "connect": "تواصل",
+    "copyright": "© 2024 Abhy Global. جميع الحقوق محفوظة.",
+    "proprietor": "المالك: مانيشا أجواني",
+    "credits": "التطبيق من صنع",
+    "poweredBy": "ومدعوم من",
+    "digitalPartner": "شريكك الرقمي.",
+    "iecGstin": "رمز IEC و GSTIN متاحان عند الطلب."
+  },
+  "buttons": {
+    "exploreProducts": "استكشف المنتجات",
+    "connectWithUs": "تواصل معنا",
+    "requestQuote": "طلب عرض أسعار",
+    "sendMessage": "إرسال رسالة",
+    "getStarted": "ابدأ اليوم"
+  },
+  "form": {
+    "fullName": "الاسم الكامل *",
+    "email": "البريد الإلكتروني *",
+    "phone": "رقم الهاتف",
+    "company": "اسم الشركة",
+    "productInterest": "اهتمام المنتج",
+    "message": "الرسالة *",
+    "selectCategory": "اختر فئة المنتج",
+    "messagePlaceholder": "شاركنا اهتمامك ودعنا نعمل معاً. إن أعجبك نتابع وإلا اترك لنا ملاحظات للتحسين."
+  },
+  "contact": {
+    "email": "البريد",
+    "phone": "الهاتف",
+    "whatsapp": "الجوال (واتساب)",
+    "office": "المكتب"
+  },
+  "lang": {
+    "en": "English",
+    "hi": "हिंदी"
+  }
+}

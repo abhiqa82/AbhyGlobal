@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "products": "Productos",
+    "catalog": "Catálogo",
+    "services": "Servicios",
+    "whyChoose": "Por qué elegirnos",
+    "contact": "Contacto",
+    "tagline": "Su socio de confianza en el comercio global"
+  },
+  "footer": {
+    "tagline": "Su socio de confianza en la excelencia del comercio global",
+    "quickLinks": "Enlaces rápidos",
+    "products": "Productos",
+    "connect": "Conectar",
+    "copyright": "© 2024 Abhy Global. Todos los derechos reservados.",
+    "proprietor": "Propietario: Manisha Agawane",
+    "credits": "Aplicación desarrollada por",
+    "poweredBy": "y potenciada por",
+    "digitalPartner": "su socio digital.",
+    "iecGstin": "Código IEC y GSTIN disponibles bajo solicitud."
+  },
+  "buttons": {
+    "exploreProducts": "Explorar productos",
+    "connectWithUs": "Contáctenos",
+    "requestQuote": "Solicitar cotización",
+    "sendMessage": "Enviar mensaje",
+    "getStarted": "Comenzar hoy"
+  },
+  "form": {
+    "fullName": "Nombre completo *",
+    "email": "Correo electrónico *",
+    "phone": "Número de teléfono",
+    "company": "Nombre de la empresa",
+    "productInterest": "Interés en producto",
+    "message": "Mensaje *",
+    "selectCategory": "Seleccione una categoría de producto",
+    "messagePlaceholder": "Comparta su interés con nosotros y trabajemos juntos. Si le gusta, lo llevamos adelante o déjenos sus comentarios para mejorar."
+  },
+  "contact": {
+    "email": "Correo",
+    "phone": "Teléfono",
+    "whatsapp": "Móvil (WhatsApp)",
+    "office": "Oficina"
+  },
+  "lang": {
+    "en": "English",
+    "hi": "हिंदी"
+  }
+}

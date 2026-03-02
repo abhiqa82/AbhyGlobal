@@ -63,7 +63,7 @@
          */
         loadTranslation: async function(lang, namespace) {
             const base = this.getBasePath();
-            const path = (base ? base + '/' : '') + 'i18n/locales/' + lang + '/' + namespace + '.json';
+            const path = (base ? base : '') + '/i18n/locales/' + lang + '/' + namespace + '.json';
             try {
                 const response = await fetch(path);
                 if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -246,6 +246,13 @@
                 if (data) {
                     if (!this.translations[lang]) this.translations[lang] = {};
                     this.translations[lang][ns] = data;
+                }
+                if (lang !== this.fallbackLang && (!data || Object.keys(data).length === 0)) {
+                    const fallbackData = await this.loadTranslation(this.fallbackLang, ns);
+                    if (fallbackData && !this.translations[this.fallbackLang]?.[ns]) {
+                        if (!this.translations[this.fallbackLang]) this.translations[this.fallbackLang] = {};
+                        this.translations[this.fallbackLang][ns] = fallbackData;
+                    }
                 }
             }
 
