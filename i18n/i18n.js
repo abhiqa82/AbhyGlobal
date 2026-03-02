@@ -65,7 +65,8 @@
             const base = this.getBasePath();
             const path = (base ? base : '') + '/i18n/locales/' + lang + '/' + namespace + '.json';
             try {
-                const response = await fetch(path);
+                const url = new URL(path, window.location.origin);
+                const response = await fetch(url.href);
                 if (!response.ok) throw new Error(`HTTP ${response.status}`);
                 const data = await response.json();
                 return data;
@@ -118,8 +119,10 @@
                     const key = el.getAttribute('data-i18n');
                     const ns = el.getAttribute('data-i18n-ns') || this.getNamespaceForPage();
                     const value = this.t(key, { ns });
-                    if (value && value !== key && el.textContent !== undefined) {
-                        el.textContent = value;
+                    if (value != null && value !== '' && el.textContent !== undefined) {
+                        if (value !== key) {
+                            el.textContent = value;
+                        }
                     }
                 } catch (e) {
                     console.warn('i18n: Error applying translation to element', el, e);
@@ -205,20 +208,25 @@
 
                 for (const ns of uniqueNs) {
                     const data = await this.loadTranslation(this.currentLang, ns);
+                    const fallbackData = await this.loadTranslation(this.fallbackLang, ns);
+                    if (fallbackData) {
+                        if (!this.translations[this.fallbackLang]) {
+                            this.translations[this.fallbackLang] = {};
+                        }
+                        this.translations[this.fallbackLang][ns] = fallbackData;
+                    }
                     if (data) {
                         if (!this.translations[this.currentLang]) {
                             this.translations[this.currentLang] = {};
                         }
-                        this.translations[this.currentLang][ns] = data;
-                    }
-                    if (this.currentLang !== this.fallbackLang) {
-                        const fallbackData = await this.loadTranslation(this.fallbackLang, ns);
-                        if (fallbackData) {
-                            if (!this.translations[this.fallbackLang]) {
-                                this.translations[this.fallbackLang] = {};
-                            }
-                            this.translations[this.fallbackLang][ns] = fallbackData;
+                        this.translations[this.currentLang][ns] = this.currentLang === this.fallbackLang
+                            ? data
+                            : this._deepMerge(fallbackData || {}, data);
+                    } else if (fallbackData) {
+                        if (!this.translations[this.currentLang]) {
+                            this.translations[this.currentLang] = {};
                         }
+                        this.translations[this.currentLang][ns] = fallbackData;
                     }
                 }
 
@@ -229,6 +237,23 @@
                 console.error('i18n: Initialization failed', e);
                 return false;
             }
+        },
+
+        /**
+         * Deep merge source into target (source values override target)
+         */
+        _deepMerge: function(target, source) {
+            if (!source || typeof source !== 'object') return target;
+            const result = Object.assign({}, target);
+            for (const key of Object.keys(source)) {
+                if (source[key] != null && typeof source[key] === 'object' && !Array.isArray(source[key]) &&
+                    target[key] != null && typeof target[key] === 'object' && !Array.isArray(target[key])) {
+                    result[key] = this._deepMerge(target[key], source[key]);
+                } else {
+                    result[key] = source[key];
+                }
+            }
+            return result;
         },
 
         /**
@@ -243,16 +268,17 @@
             const namespaces = ['common', this.getNamespaceForPage()];
             for (const ns of namespaces) {
                 const data = await this.loadTranslation(lang, ns);
+                const fallbackData = await this.loadTranslation(this.fallbackLang, ns);
+                if (fallbackData && !this.translations[this.fallbackLang]?.[ns]) {
+                    if (!this.translations[this.fallbackLang]) this.translations[this.fallbackLang] = {};
+                    this.translations[this.fallbackLang][ns] = fallbackData;
+                }
                 if (data) {
                     if (!this.translations[lang]) this.translations[lang] = {};
-                    this.translations[lang][ns] = data;
-                }
-                if (lang !== this.fallbackLang && (!data || Object.keys(data).length === 0)) {
-                    const fallbackData = await this.loadTranslation(this.fallbackLang, ns);
-                    if (fallbackData && !this.translations[this.fallbackLang]?.[ns]) {
-                        if (!this.translations[this.fallbackLang]) this.translations[this.fallbackLang] = {};
-                        this.translations[this.fallbackLang][ns] = fallbackData;
-                    }
+                    this.translations[lang][ns] = lang === this.fallbackLang ? data : this._deepMerge(fallbackData || {}, data);
+                } else if (fallbackData) {
+                    if (!this.translations[lang]) this.translations[lang] = {};
+                    this.translations[lang][ns] = fallbackData;
                 }
             }
 
