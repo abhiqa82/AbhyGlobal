@@ -1,3 +1,441 @@
 {
-  "pageTitle": "Catálogo de productos"
+  "pageTitle": "Catálogo de Productos",
+  "header": {
+    "title": "Catálogo de Productos",
+    "subtitle": "Productos de exportación de calidad premium de India a precios mayoristas."
+  },
+  "filters": {
+    "all": "Todos los Productos",
+    "textiles": "Textiles",
+    "spices": "Especias",
+    "pharmaceuticals": "Farmacéuticos",
+    "ayurvedic": "Productos Ayurveda",
+    "electronics": "Electrónica",
+    "puja": "Puja Samagri e Ídolos",
+    "driedFruits": "Frutas Secas",
+    "readyToEat": "Listos para Comer",
+    "readyToCook": "Listos para Cocinar",
+    "others": "Otros"
+  },
+  "disclaimer": "**El MOQ, términos de envío y precios pueden acordarse según nuestra discusión.**",
+  "noResults": "No se encontraron productos en esta categoría.",
+  "badges": {
+    "wholesale": "Precios mayoristas",
+    "affordable": "Precios asequibles",
+    "discounted": "Precios con descuento en pedidos al por mayor",
+    "lowestRate": "Tarifa más baja posible."
+  },
+  "categories": {
+    "textiles": "Textiles",
+    "spices": "Especias",
+    "pharmaceuticals": "Farmacéuticos",
+    "ayurvedic": "Productos Ayurveda",
+    "electronics": "Electrónica",
+    "puja": "Puja Samagri e Ídolos",
+    "driedFruits": "Frutas Secas",
+    "readyToEat": "Listos para Comer",
+    "readyToCook": "Listos para Cocinar",
+    "others": "Otros"
+  },
+  "products": {
+    "tShirts": {
+      "title": "Camisetas de Algodón Premium (RMG)",
+      "description": "Prendas Confeccionadas (RMG): camisetas de algodón tejido de alta calidad, ideales para exportación al por mayor. Disponibles en varios tallas y colores.",
+      "spec1": "Construcción de Algodón Tejido",
+      "spec2": "GSM: 160-180",
+      "spec3": "100% Algodón Premium",
+      "spec4": "Múltiples Opciones de Talla",
+      "spec5": "Listo para Exportación a Granel",
+      "spec6": "Estampado Personalizado Disponible"
+    },
+    "cottonFabrics": {
+      "title": "Telas de Algodón Tejido",
+      "description": "Telas de algodón tejido premium en varios diseños y pesos. Ideales para fabricación de prendas.",
+      "spec1": "Varios Pesos y Diseños",
+      "spec2": "Calidad Grado Exportación",
+      "spec3": "Anchos Personalizados Disponibles",
+      "spec4": "Calidad Garantizada"
+    },
+    "terryTowels": {
+      "title": "Toallas de Cocina Terry (Tea Towels)",
+      "description": "Toallas de cocina Terry premium (Tea Towels) en varios tamaños. Construcción 100% algodón Terry con excelente absorbencia, perfectas para uso doméstico y comercial.",
+      "spec1": "100% Algodón Terry",
+      "spec2": "GSM: 350-450",
+      "spec3": "Tejido: Dobby / Jacquard / Liso",
+      "spec4": "Múltiples Opciones de Tamaño",
+      "spec5": "Alta Absorbencia",
+      "spec6": "Grado Comercial y Doméstico",
+      "spec7": "Embalaje a Granel Disponible"
+    },
+    "kitchenNapkins": {
+      "title": "Servilletas de Cocina",
+      "description": "Servilletas de cocina premium en blanco y varios colores. Construcción de algodón de alta calidad, ideales para restaurantes, hoteles, catering y uso doméstico. Disponibles a granel para exportación mayorista.",
+      "spec1": "100% Algodón / Opciones Mezcladas",
+      "spec2": "Variantes Blancas y de Color",
+      "spec3": "Múltiples Tamaños Disponibles",
+      "spec4": "Grado Restaurante y Hotel",
+      "spec5": "Suaves y Absorbentes",
+      "spec6": "Listo para Exportación Mayorista a Granel"
+    },
+    "bathTowels": {
+      "title": "Toallas de Baño",
+      "description": "Toallas de baño de calidad premium en varios tamaños y diseños. Suaves, absorbentes y perfectas para uso en hoteles y hogares.",
+      "spec1": "Algodón Premium de Calidad",
+      "spec2": "Múltiples Opciones de Tamaño",
+      "spec3": "Alta Absorbencia",
+      "spec4": "Listo para Exportación a Granel"
+    },
+    "bedLinens": {
+      "title": "Ropa de Cama y Sábanas",
+      "description": "Ropa de cama y sábanas premium: construcción 100% algodón con hilo 30s-40s y 80-180 GSM. Suaves, cómodas y perfectas para hoteles y hogares.",
+      "spec1": "100% Algodón",
+      "spec2": "Número de Hilo: 30s-40s",
+      "spec3": "GSM: 80-180",
+      "spec4": "Varios Números de Hilos Disponibles",
+      "spec5": "Múltiples Opciones de Tamaño",
+      "spec6": "Calidad Grado Exportación"
+    },
+    "turmeric": {
+      "title": "Cúrcuma en Polvo Premium - FOB India",
+      "description": "Cúrcuma en polvo pura de calidad premium obtenida directamente de granjas indias. Rica en color y sabor. Certificada FSSAI, grado exportación. Disponible en cantidades a granel: 200-500 kg por envío FOB India.",
+      "spec1": "Certificada FSSAI, Grado Exportación",
+      "spec2": "Calidad Grado Alimenticio",
+      "spec3": "Alto Contenido de Curcumina",
+      "spec4": "Cantidades a Granel: 200-500 kg",
+      "spec5": "FOB India"
+    },
+    "cumin": {
+      "title": "Semillas de Comino Premium - FOB India",
+      "description": "Semillas de comino de alta calidad con excelente aroma y sabor. Perfectas para uso culinario y comercial. Certificadas FSSAI, grado exportación. Disponibles en cantidades a granel: 200-500 kg por envío FOB India.",
+      "spec1": "Calidad Grado Premium",
+      "spec2": "Certificadas FSSAI, Grado Exportación",
+      "spec3": "Aroma y Sabor Intensos",
+      "spec4": "Cantidades a Granel: 200-500 kg",
+      "spec5": "FOB India"
+    },
+    "coriander": {
+      "title": "Semillas y Polvo de Cilantro - FOB India",
+      "description": "Cilantro premium en forma de semilla y polvo. Especia versátil para diversas cocinas del mundo. Certificado FSSAI, grado exportación. Disponible en cantidades a granel: 200-500 kg por envío FOB India.",
+      "spec1": "Semillas y Polvo Disponibles",
+      "spec2": "Calidad Premium",
+      "spec3": "Certificado FSSAI, Grado Exportación",
+      "spec4": "Cantidades a Granel: 200-500 kg",
+      "spec5": "FOB India"
+    },
+    "redChilli": {
+      "title": "Variedades de Chile Rojo - FOB India",
+      "description": "Varios grados de chile rojo en polvo y chiles enteros. Desde variedades suaves hasta extra picantes. Certificados FSSAI, grado exportación. Disponibles en cantidades a granel: 200-500 kg por envío FOB India.",
+      "spec1": "Múltiples Niveles de Picor",
+      "spec2": "Formas Enteras y en Polvo",
+      "spec3": "Calidad Grado Premium",
+      "spec4": "Certificados FSSAI, Grado Exportación",
+      "spec5": "Cantidades a Granel: 200-500 kg",
+      "spec6": "FOB India"
+    },
+    "garamMasala": {
+      "title": "Mezclas Garam Masala - FOB India",
+      "description": "Mezclas de especias Garam Masala elaboradas por expertos. Recetas tradicionales con ingredientes de calidad premium. Certificadas FSSAI, grado exportación. Disponibles en cantidades a granel: 200-500 kg por envío FOB India.",
+      "spec1": "Recetas Tradicionales",
+      "spec2": "Mezcla de Calidad Premium",
+      "spec3": "Certificadas FSSAI, Grado Exportación",
+      "spec4": "Cantidades a Granel: 200-500 kg",
+      "spec5": "FOB India",
+      "spec6": "Mezclas Personalizadas Disponibles"
+    },
+    "electronicComponents": {
+      "title": "Componentes Electrónicos",
+      "description": "Componentes y piezas electrónicas para fabricación y ensamblaje. Componentes con calidad garantizada.",
+      "descriptionExtra": "Estamos expandiéndonos a electrónica de consumo, luces LED y accesorios.",
+      "spec1": "Pruebas de Calidad",
+      "spec2": "Cantidades a Granel",
+      "spec3": "Precios Competitivos",
+      "spec4": "Listo para Exportación"
+    },
+    "rosuvastatin": {
+      "title": "Rosuvastatin Calcium",
+      "description": "API de Rosuvastatin Calcium de alta calidad para tratamientos cardiovasculares. Ingrediente farmacéutico activo certificado GMP y WHO-GMP.",
+      "spec1": "API Cardiovascular",
+      "spec2": "GMP, WHO-GMP, WC Certificado",
+      "spec3": "Grado de Alta Pureza",
+      "spec4": "Calidad de Exportación"
+    },
+    "atorvastatin": {
+      "title": "Atorvastatin Calcium",
+      "description": "API de Atorvastatin Calcium premium para el manejo de enfermedades cardiovasculares. Certificado GMP y WHO-GMP.",
+      "spec1": "API Cardiovascular",
+      "spec2": "GMP, WHO-GMP, WC Certificado",
+      "spec3": "Grado de Alta Pureza",
+      "spec4": "Listo para Exportación"
+    },
+    "amlodipine": {
+      "title": "Amlodipine Besilate",
+      "description": "API de Amlodipine Besilate para tratamiento de hipertensión y enfermedad arterial coronaria. Ingrediente farmacéutico activo certificado GMP.",
+      "spec1": "API Anti-Hipertensión",
+      "spec2": "Certificado GMP",
+      "spec3": "Producto de Alta Demanda",
+      "spec4": "Listo para Exportación a Granel"
+    },
+    "glimepiride": {
+      "title": "Glimepiride",
+      "description": "API de Glimepiride para el manejo de diabetes tipo 2. Ingrediente farmacéutico activo certificado GMP con alta demanda global.",
+      "spec1": "API Anti-Diabético",
+      "spec2": "Certificado GMP",
+      "spec3": "Producto de Alta Demanda",
+      "spec4": "Calidad Garantizada"
+    },
+    "ashwagandha": {
+      "title": "Ashwagandha Extract (Withania Somnifera)",
+      "description": "Extracto de Ashwagandha premium en polvo y cápsulas: la hierba ayurvédica más popular de India para alivio del estrés, refuerzo inmunológico y bienestar general. Extracto de alta calidad certificado orgánico.",
+      "spec1": "Certificación Orgánica Disponible",
+      "spec2": "Alto Contenido de Withanólidos",
+      "spec3": "Formas en Polvo y Cápsulas",
+      "spec4": "Certificado GMP, FSSAI",
+      "spec5": "Alivio del Estrés e Inmunidad",
+      "spec6": "Calidad Grado Exportación"
+    },
+    "curcumin": {
+      "title": "Turmeric Curcumin Extract",
+      "description": "Extracto de Turmeric Curcumin de alta potencia (95% curcuminoides): suplemento ayurvédico premium para beneficios antiinflamatorios y antioxidantes. Disponible en formas de polvo y cápsulas.",
+      "spec1": "Estándar 95% Curcuminoides",
+      "spec2": "Orgánico y Convencional",
+      "spec3": "Formas en Polvo y Cápsulas",
+      "spec4": "Certificado FSSAI, Orgánico",
+      "spec5": "Beneficios Antiinflamatorios",
+      "spec6": "Listo para Exportación a Granel"
+    },
+    "triphala": {
+      "title": "Triphala Powder",
+      "description": "Fórmula ayurvédica tradicional Triphala: mezcla de tres frutas (Amalaki, Bibhitaki, Haritaki) para salud digestiva, desintoxicación y bienestar general. Formulación ayurvédica india auténtica.",
+      "spec1": "Fórmula Ayurvédica Tradicional",
+      "spec2": "Orgánico y Convencional",
+      "spec3": "Formas en Polvo y Cápsulas",
+      "spec4": "Certificado FSSAI",
+      "spec5": "Apoyo a la Salud Digestiva",
+      "spec6": "Beneficios de Desintoxicación"
+    },
+    "brahmi": {
+      "title": "Brahmi Extract (Bacopa Monnieri)",
+      "description": "Extracto de Brahmi premium: reconocida hierba ayurvédica para salud cerebral, mejora de la memoria y apoyo cognitivo. Extracto de alta calidad con contenido estandarizado de Bacósidos.",
+      "spec1": "Bacósidos Estandarizados",
+      "spec2": "Apoyo a la Salud Cerebral",
+      "spec3": "Mejora de la Memoria",
+      "spec4": "Orgánico Disponible",
+      "spec5": "Certificado FSSAI",
+      "spec6": "Calidad de Exportación"
+    },
+    "neem": {
+      "title": "Neem Extract & Powder",
+      "description": "Extracto y polvo de Neem (Azadirachta indica) premium: hierba ayurvédica versátil para cuidado de la piel, salud bucal y beneficios antibacterianos. Disponible en múltiples formas.",
+      "spec1": "Beneficios para el Cuidado de la Piel",
+      "spec2": "Propiedades Antibacterianas",
+      "spec3": "Formas de Extracto y Polvo",
+      "spec4": "Certificado Orgánico",
+      "spec5": "Certificado FSSAI",
+      "spec6": "Listo para Exportación a Granel"
+    },
+    "clayGanesha": {
+      "title": "Ídolos de Ganesha en Shadu Mati (Arcilla)",
+      "description": "Ídolos de Ganesha 100% ecológicos en Shadu Mati (arcilla) hechos de arcilla fluvial natural y colores no tóxicos. Hechos a mano por artesanos expertos, perfectos para celebraciones de Ganesh Chaturthi y prácticas espirituales. Totalmente solubles en agua después del uso.",
+      "spec1": "Hecho de Arcilla Fluvial Natural (Shadu Mati)",
+      "spec2": "Colores No Tóxicos y Ecológicos",
+      "spec3": "Tamaños: 8\", 10\", 12\", 15\", 18\", 20\", 21\"",
+      "spec4": "Hecho a Mano por Artesanos Expertos",
+      "spec5": "100% Soluble en Agua",
+      "spec6": "Listo para Exportación a Granel",
+      "spec7": "Seguro para el Medio Ambiente"
+    },
+    "miniGanesha": {
+      "title": "Ídolos Mini Ganesha",
+      "description": "Ídolos Mini Ganesha compactos y elegantes perfectos para puja en el hogar, espacios de oficina y celebraciones pequeñas. Disponibles en múltiples tamaños, todos ecológicos y elaborados a mano con diseños tradicionales.",
+      "spec1": "Tamaño Compacto para Puja en el Hogar",
+      "spec2": "Tamaños: 4\", 4.5\", 6\", 6.5\", 7\", 7.5\"",
+      "spec3": "Diseños Hechos a Mano",
+      "spec4": "Materiales Ecológicos",
+      "spec5": "Perfecto para Espacios Pequeños",
+      "spec6": "Embalaje a Granel Disponible",
+      "spec7": "Listo para Exportación"
+    },
+    "pujaOrnaments": {
+      "title": "Ornamentos y Accesorios de Puja",
+      "description": "Ornamentos de puja indios tradicionales y accesorios decorativos para ídolos de Ganesha. Incluye Big Bali, Chakra, ornamentos florales, Janva/Janeu, Kaan, Modak, Pan, Shastra, Shawl, Sond Patta, Bajubandh, pulseras, aretes, Mukut, Haar/Kanthi y varios accesorios. Elaborados a mano con diseños tradicionales.",
+      "spec1": "Diseños Tradicionales",
+      "spec2": "Big Bali, Chakra, Mukut",
+      "spec3": "Haar/Kanthi, Pulseras, Aretes",
+      "spec4": "Modak, Pan, Shastra, Shawl",
+      "spec5": "Calidad Hecha a Mano",
+      "spec6": "Exportación a Granel Disponible",
+      "spec7": "Juegos Completos de Ornamentos"
+    },
+    "pujaSamagri": {
+      "title": "Puja Samagri Completo",
+      "description": "Puja samagri indio tradicional (artículos de culto) para rituales y ceremonias hindúes. Kits de puja completos que incluyen varitas de incienso, alcanfor, bermellón, kumkum, pasta de sándalo, hilo sagrado, granos de arroz, flores y otros materiales de culto esenciales. Calidad auténtica y tradicional.",
+      "spec1": "Varitas de Incienso y Alcanfor",
+      "spec2": "Bermellón y Kumkum",
+      "spec3": "Pasta de Sándalo e Hilo",
+      "spec4": "Granos de Arroz y Flores",
+      "spec5": "Kits de Puja Completos",
+      "spec6": "Calidad Tradicional",
+      "spec7": "Listo para Exportación a Granel"
+    },
+    "driedMango": {
+      "title": "Rodajas de Mango Seco/Deshidratado",
+      "description": "Rodajas de mango seco/deshidratado premium hechas de mangos indios frescos y maduros. Naturales, sin conservantes y llenas de sabor. Perfectas como snacks saludables o ingredientes para procesamiento de alimentos. Disponibles en varios tamaños y grosores.",
+      "spec1": "100% Natural, Sin Conservantes",
+      "spec2": "Hecho de Mangos Frescos y Maduros",
+      "spec3": "Varios Tamaños y Grosores",
+      "spec4": "Rico en Vitamina A y C",
+      "spec5": "Certificado FSSAI",
+      "spec6": "Calidad Grado Exportación",
+      "spec7": "Embalaje a Granel Disponible"
+    },
+    "driedBanana": {
+      "title": "Rodajas de Plátano Seco/Deshidratado",
+      "description": "Rodajas de plátano seco/deshidratado premium hechas de plátanos frescos y maduros. Opción de snack natural y saludable, rica en potasio y fibra dietética. Perfectas para snacks, repostería y fabricación de alimentos. Disponibles en variedades endulzadas y sin endulzar.",
+      "spec1": "100% Natural, Sin Conservantes",
+      "spec2": "Hecho de Plátanos Frescos y Maduros",
+      "spec3": "Variedades Endulzadas y Sin Endulzar",
+      "spec4": "Rico en Potasio y Fibra",
+      "spec5": "Certificado FSSAI",
+      "spec6": "Listo para Exportación",
+      "spec7": "Embalaje a Granel Disponible"
+    },
+    "driedCoconut": {
+      "title": "Rodajas de Coco Seco/Deshidratado",
+      "description": "Rodajas de coco seco/deshidratado premium hechas de cocos frescos y maduros. Naturales, ricas en grasas saludables y perfectas para snacks, repostería y confitería. Disponibles en varios tamaños y grosores. Textura crujiente con sabor natural a coco.",
+      "spec1": "100% Natural, Sin Conservantes",
+      "spec2": "Hecho de Cocos Frescos",
+      "spec3": "Varios Tamaños y Grosores",
+      "spec4": "Rico en Grasas Saludables y Fibra",
+      "spec5": "Certificado FSSAI",
+      "spec6": "Calidad Grado Exportación",
+      "spec7": "Textura Crujiente"
+    },
+    "mixedDriedFruits": {
+      "title": "Mezcla de Rodajas de Frutas Secas/Deshidratadas",
+      "description": "Mezcla premium de rodajas de frutas secas/deshidratadas: combinación perfecta de mango, plátano, coco, papaya, guayaba y otras frutas tropicales. Naturales, sin conservantes y llenas de vitaminas y nutrientes. Ideales para snacks, cajas de regalo e industria de servicios de alimentos.",
+      "spec1": "100% Mezcla Natural, Sin Conservantes",
+      "spec2": "Mezcla de Frutas Premium",
+      "spec3": "Variedad de Frutas Tropicales",
+      "spec4": "Rico en Vitaminas y Nutrientes",
+      "spec5": "Certificado FSSAI",
+      "spec6": "Mezclas Personalizadas Disponibles",
+      "spec7": "Listo para Exportación a Granel"
+    },
+    "riceDishes": {
+      "title": "Platos de Arroz",
+      "description": "Comidas indias listas para comer auténticas en empaque retort con vida útil extendida. No requiere refrigeración hasta abrir. Ideales para retail, servicios de alimentos y mercados de exportación.",
+      "spec1": "Veg Pulao, Jeera Rice, Mutter Pulao, Biryani",
+      "spec2": "Bolsas retort / Contenedores grado alimenticio",
+      "spec3": "Peso Neto: 250g, 300g, 500g (personalizable)",
+      "spec4": "Vida Útil: 12-18 meses (almacenamiento ambiente)",
+      "spec5": "ISO 22000:2005, Certificado FSSAI",
+      "spec6": "Sin glutamato, Sin sabores/colores artificiales",
+      "spec7": "Listo en 2-5 minutos (calentar y servir)",
+      "spec8": "MOQ: 500-1000 unidades por SKU"
+    },
+    "curryDishes": {
+      "title": "Platos de Curry",
+      "description": "Comidas indias listas para comer auténticas en empaque retort con vida útil extendida. No requiere refrigeración hasta abrir. Ideales para retail, servicios de alimentos y mercados de exportación.",
+      "spec1": "Chole Masala, Methi Mutter Malai, Dal Makhani, Rajma",
+      "spec2": "Bolsas retort / Contenedores grado alimenticio",
+      "spec3": "Peso Neto: 250g, 300g, 500g (personalizable)",
+      "spec4": "Vida Útil: 12-18 meses (almacenamiento ambiente)",
+      "spec5": "ISO 22000:2005, Certificado FSSAI",
+      "spec6": "Sin glutamato, Sin sabores/colores artificiales",
+      "spec7": "Listo en 2-5 minutos (calentar y servir)",
+      "spec8": "MOQ: 500-1000 unidades por SKU"
+    },
+    "southIndian": {
+      "title": "Platos del Sur de India",
+      "description": "Comidas indias listas para comer auténticas en empaque retort con vida útil extendida. No requiere refrigeración hasta abrir. Ideales para retail, servicios de alimentos y mercados de exportación.",
+      "spec1": "Sambar, Rasam, Avial, Kootu",
+      "spec2": "Bolsas retort / Contenedores grado alimenticio",
+      "spec3": "Peso Neto: 250g, 300g, 500g (personalizable)",
+      "spec4": "Vida Útil: 12-18 meses (almacenamiento ambiente)",
+      "spec5": "ISO 22000:2005, Certificado FSSAI",
+      "spec6": "Sin glutamato, Sin sabores/colores artificiales",
+      "spec7": "Listo en 2-5 minutos (calentar y servir)",
+      "spec8": "MOQ: 500-1000 unidades por SKU"
+    },
+    "streetFood": {
+      "title": "Comida Callejera y Especialidades Maharashtrianas",
+      "description": "Comidas indias listas para comer auténticas en empaque retort con vida útil extendida. No requiere refrigeración hasta abrir. Ideales para retail, servicios de alimentos y mercados de exportación.",
+      "spec1": "Pav Bhaji, Misal Tarri, Vada Pav Mix, Ragda Pattice",
+      "spec2": "Bolsas retort / Contenedores grado alimenticio",
+      "spec3": "Peso Neto: 250g, 300g, 500g (personalizable)",
+      "spec4": "Vida Útil: 12-18 meses (almacenamiento ambiente)",
+      "spec5": "ISO 22000:2005, Certificado FSSAI",
+      "spec6": "Sin glutamato, Sin sabores/colores artificiales",
+      "spec7": "Listo en 2-5 minutos (calentar y servir)",
+      "spec8": "MOQ: 500-1000 unidades por SKU"
+    },
+    "curryGravies": {
+      "title": "Salsas de Curry y Bases",
+      "description": "Kits de comidas semi-procesados y concentrados de cocina que requieren preparación mínima. Sabor auténtico con conveniencia. Productos estables en almacenamiento ideales para hogares modernos y servicios de alimentos.",
+      "spec1": "Veg Kadhai, Butter Gravy, Malvani Gravy, Goan Curry",
+      "spec2": "Bolsas, frascos o paquetes sellados al vacío",
+      "spec3": "Peso Neto: 100g, 200g, 300g, 500g (personalizable)",
+      "spec4": "Vida Útil: 9-12 meses (almacenamiento ambiente)",
+      "spec5": "ISO 22000:2005, Certificado FSSAI",
+      "spec6": "Formato pasta/polvo concentrado/semi-cocido",
+      "spec7": "Tiempo de Preparación: 15-30 minutos",
+      "spec8": "MOQ: 500-1000 unidades por SKU"
+    },
+    "riceBiryani": {
+      "title": "Mezclas de Arroz y Biryani",
+      "description": "Kits de comidas semi-procesados y concentrados de cocina que requieren preparación mínima. Sabor auténtico con conveniencia. Productos estables en almacenamiento ideales para hogares modernos y servicios de alimentos.",
+      "spec1": "Biryani Paste, Pulao Mix, Fried Rice Mix",
+      "spec2": "Bolsas, frascos o paquetes sellados al vacío",
+      "spec3": "Peso Neto: 100g, 200g, 300g, 500g (personalizable)",
+      "spec4": "Vida Útil: 9-12 meses (almacenamiento ambiente)",
+      "spec5": "ISO 22000:2005, Certificado FSSAI",
+      "spec6": "Formato pasta/polvo concentrado/semi-cocido",
+      "spec7": "Tiempo de Preparación: 15-30 minutos",
+      "spec8": "MOQ: 500-1000 unidades por SKU"
+    },
+    "traditionalRtc": {
+      "title": "Especialidades Tradicionales y Regionales",
+      "description": "Kits de comidas semi-procesados y concentrados de cocina que requieren preparación mínima. Sabor auténtico con conveniencia. Productos estables en almacenamiento ideales para hogares modernos y servicios de alimentos.",
+      "spec1": "Undiyu, Puran & Katachi Amti, Pastas de Curry Regionales",
+      "spec2": "Bolsas, frascos o paquetes sellados al vacío",
+      "spec3": "Peso Neto: 100g, 200g, 300g, 500g (personalizable)",
+      "spec4": "Vida Útil: 9-12 meses (almacenamiento ambiente)",
+      "spec5": "ISO 22000:2005, Certificado FSSAI",
+      "spec6": "Formato pasta/polvo concentrado/semi-cocido",
+      "spec7": "Tiempo de Preparación: 15-30 minutos",
+      "spec8": "MOQ: 500-1000 unidades por SKU"
+    },
+    "breakfastRtc": {
+      "title": "Mezclas para Desayuno y Snacks",
+      "description": "Kits de comidas semi-procesados y concentrados de cocina que requieren preparación mínima. Sabor auténtico con conveniencia. Productos estables en almacenamiento ideales para hogares modernos y servicios de alimentos.",
+      "spec1": "Dosa Batter, Idli Batter, Upma Mix, Poha Mix, Pakora Mix",
+      "spec2": "Bolsas, frascos o paquetes sellados al vacío",
+      "spec3": "Peso Neto: 100g, 200g, 300g, 500g (personalizable)",
+      "spec4": "Vida Útil: 9-12 meses (almacenamiento ambiente)",
+      "spec5": "ISO 22000:2005, Certificado FSSAI",
+      "spec6": "Formato pasta/polvo concentrado/semi-cocido",
+      "spec7": "Tiempo de Preparación: 15-30 minutos",
+      "spec8": "MOQ: 500-1000 unidades por SKU"
+    },
+    "soupRtc": {
+      "title": "Concentrados de Sopa y Mezclas para Entrantes",
+      "description": "Kits de comidas semi-procesados y concentrados de cocina que requieren preparación mínima. Sabor auténtico con conveniencia. Productos estables en almacenamiento ideales para hogares modernos y servicios de alimentos.",
+      "spec1": "Tomato Soup, Sweet Corn, Hot & Sour, Manchow, Tandoori Marinade",
+      "spec2": "Bolsas, frascos o paquetes sellados al vacío",
+      "spec3": "Peso Neto: 100g, 200g, 300g, 500g (personalizable)",
+      "spec4": "Vida Útil: 9-12 meses (almacenamiento ambiente)",
+      "spec5": "ISO 22000:2005, Certificado FSSAI",
+      "spec6": "Formato pasta/polvo concentrado/semi-cocido",
+      "spec7": "Tiempo de Preparación: 15-30 minutos",
+      "spec8": "MOQ: 500-1000 unidades por SKU"
+    },
+    "homeDecor": {
+      "title": "Artículos de Decoración del Hogar",
+      "description": "Artículos de decoración y mobiliario del hogar premium. Productos de calidad para interiores modernos y tradicionales.",
+      "spec1": "Calidad Premium",
+      "spec2": "Varios Estilos",
+      "spec3": "Exportación a Granel Disponible",
+      "spec4": "Diseños Personalizados"
+    }
+  }
 }

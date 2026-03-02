@@ -1,3 +1,441 @@
 {
-  "pageTitle": "Catalogue de produits"
+  "pageTitle": "Catalogue de produits",
+  "header": {
+    "title": "Catalogue de produits",
+    "subtitle": "Produits d'exportation de qualité premium en provenance d'Inde aux prix de gros."
+  },
+  "filters": {
+    "all": "Tous les produits",
+    "textiles": "Textiles",
+    "spices": "Épices",
+    "pharmaceuticals": "Pharmaceutiques",
+    "ayurvedic": "Produits ayurvédiques",
+    "electronics": "Électronique",
+    "puja": "Puja Samagri et idoles",
+    "driedFruits": "Fruits secs",
+    "readyToEat": "Prêt à consommer",
+    "readyToCook": "Prêt à cuisiner",
+    "others": "Autres"
+  },
+  "disclaimer": "**Quantité minimale, conditions d'expédition et tarification peuvent être convenus selon notre discussion.**",
+  "noResults": "Aucun produit trouvé dans cette catégorie.",
+  "badges": {
+    "wholesale": "Prix de gros",
+    "affordable": "Prix abordables",
+    "discounted": "Tarifs réduits sur les commandes en volume",
+    "lowestRate": "Tarif le plus bas possible."
+  },
+  "categories": {
+    "textiles": "Textiles",
+    "spices": "Épices",
+    "pharmaceuticals": "Pharmaceutiques",
+    "ayurvedic": "Produits ayurvédiques",
+    "electronics": "Électronique",
+    "puja": "Puja Samagri et idoles",
+    "driedFruits": "Fruits secs",
+    "readyToEat": "Prêt à consommer",
+    "readyToCook": "Prêt à cuisiner",
+    "others": "Autres"
+  },
+  "products": {
+    "tShirts": {
+      "title": "T-shirts en coton premium (RMG)",
+      "description": "Vêtements prêts à porter (RMG) - T-shirts en coton jersey de haute qualité, parfaits pour l'exportation en gros. Disponibles en diverses tailles et couleurs.",
+      "spec1": "Construction en coton jersey",
+      "spec2": "GSM : 160-180",
+      "spec3": "100 % coton premium",
+      "spec4": "Plusieurs options de tailles",
+      "spec5": "Prêt pour l'export en volume",
+      "spec6": "Impression personnalisée disponible"
+    },
+    "cottonFabrics": {
+      "title": "Tissus en coton tissé",
+      "description": "Tissus en coton tissé premium en divers motifs et grammages. Idéaux pour la confection vestimentaire.",
+      "spec1": "Divers grammages et motifs",
+      "spec2": "Qualité grade export",
+      "spec3": "Largeurs personnalisées disponibles",
+      "spec4": "Qualité garantie"
+    },
+    "terryTowels": {
+      "title": "Serviettes éponge cuisine (torchons)",
+      "description": "Serviettes éponge cuisine premium (torchons) en diverses tailles. Construction 100 % coton éponge avec excellente absorption, parfaites pour usage domestique et commercial.",
+      "spec1": "100 % coton éponge",
+      "spec2": "GSM : 350-450",
+      "spec3": "Armure : Dobby / Jacquard / Uni",
+      "spec4": "Plusieurs options de tailles",
+      "spec5": "Haute absorption",
+      "spec6": "Grade domestique et commercial",
+      "spec7": "Emballage en volume disponible"
+    },
+    "kitchenNapkins": {
+      "title": "Serviettes de table",
+      "description": "Serviettes de table premium en blanc et diverses couleurs. Construction en coton de haute qualité, idéales pour restaurants, hôtels, traiteur et usage domestique. Disponibles en volume pour l'export en gros.",
+      "spec1": "100 % coton / options mélangées",
+      "spec2": "Variantes blanches et colorées",
+      "spec3": "Plusieurs tailles disponibles",
+      "spec4": "Grade restaurant et hôtel",
+      "spec5": "Doux et absorbant",
+      "spec6": "Prêt pour l'export en gros"
+    },
+    "bathTowels": {
+      "title": "Serviettes de bain",
+      "description": "Serviettes de bain de qualité premium en diverses tailles et designs. Douces, absorbantes et parfaites pour usage hôtelier et domestique.",
+      "spec1": "Coton premium de qualité",
+      "spec2": "Plusieurs options de tailles",
+      "spec3": "Haute absorption",
+      "spec4": "Prêt pour l'export en volume"
+    },
+    "bedLinens": {
+      "title": "Linge de lit et draps",
+      "description": "Linge de lit et draps premium - construction 100 % coton avec numéro de fil 30s-40s et 80-180 GSM. Doux, confortables et parfaits pour hôtels et foyers.",
+      "spec1": "100 % coton",
+      "spec2": "Numéro de fil : 30s-40s",
+      "spec3": "GSM : 80-180",
+      "spec4": "Divers fils au cm disponibles",
+      "spec5": "Plusieurs options de tailles",
+      "spec6": "Qualité grade export"
+    },
+    "turmeric": {
+      "title": "Poudre de curcuma premium - FOB Inde",
+      "description": "Poudre de curcuma pure et de qualité premium, directement issue des fermes indiennes. Riche en couleur et saveur. Certifié FSSAI, grade export. Disponible en quantités en volume : 200-500 kg par expédition FOB Inde.",
+      "spec1": "Certifié FSSAI, grade export",
+      "spec2": "Qualité alimentaire",
+      "spec3": "Riche en curcumine",
+      "spec4": "Quantités en volume : 200-500 kg",
+      "spec5": "FOB Inde"
+    },
+    "cumin": {
+      "title": "Graines de cumin premium - FOB Inde",
+      "description": "Graines de cumin de haute qualité avec excellente aromatique et saveur. Parfaites pour usage culinaire et commercial. Certifié FSSAI, grade export. Disponible en quantités en volume : 200-500 kg par expédition FOB Inde.",
+      "spec1": "Qualité grade premium",
+      "spec2": "Certifié FSSAI, grade export",
+      "spec3": "Arôme et saveur intenses",
+      "spec4": "Quantités en volume : 200-500 kg",
+      "spec5": "FOB Inde"
+    },
+    "coriander": {
+      "title": "Graines et poudre de coriandre - FOB Inde",
+      "description": "Coriandre premium en graines et poudre. Épice polyvalente pour diverses cuisines du monde. Certifié FSSAI, grade export. Disponible en quantités en volume : 200-500 kg par expédition FOB Inde.",
+      "spec1": "Graines et poudre disponibles",
+      "spec2": "Qualité premium",
+      "spec3": "Certifié FSSAI, grade export",
+      "spec4": "Quantités en volume : 200-500 kg",
+      "spec5": "FOB Inde"
+    },
+    "redChilli": {
+      "title": "Variétés de piment rouge - FOB Inde",
+      "description": "Divers grades de poudre de piment rouge et piments entiers. Des variétés douces aux extra piquantes. Certifié FSSAI, grade export. Disponible en quantités en volume : 200-500 kg par expédition FOB Inde.",
+      "spec1": "Plusieurs niveaux de piquant",
+      "spec2": "Formes entières et en poudre",
+      "spec3": "Qualité grade premium",
+      "spec4": "Certifié FSSAI, grade export",
+      "spec5": "Quantités en volume : 200-500 kg",
+      "spec6": "FOB Inde"
+    },
+    "garamMasala": {
+      "title": "Mélanges Garam Masala - FOB Inde",
+      "description": "Mélanges d'épices Garam Masala élaborés par des experts. Recettes traditionnelles avec ingrédients de qualité premium. Certifié FSSAI, grade export. Disponible en quantités en volume : 200-500 kg par expédition FOB Inde.",
+      "spec1": "Recettes traditionnelles",
+      "spec2": "Mélange de qualité premium",
+      "spec3": "Certifié FSSAI, grade export",
+      "spec4": "Quantités en volume : 200-500 kg",
+      "spec5": "FOB Inde",
+      "spec6": "Mélanges personnalisés disponibles"
+    },
+    "electronicComponents": {
+      "title": "Composants électroniques",
+      "description": "Composants et pièces électroniques pour la fabrication et l'assemblage. Composants de qualité garantie.",
+      "descriptionExtra": "Nous développons notre offre en électronique grand public, éclairage LED et accessoires.",
+      "spec1": "Testés qualité",
+      "spec2": "Quantités en volume",
+      "spec3": "Prix compétitifs",
+      "spec4": "Prêt pour l'export"
+    },
+    "rosuvastatin": {
+      "title": "Rosuvastatin Calcium",
+      "description": "API Rosuvastatin Calcium de haute qualité pour les traitements cardiovasculaires. Principe actif pharmaceutique certifié GMP et WHO-GMP.",
+      "spec1": "API cardiovasculaire",
+      "spec2": "GMP, WHO-GMP, WC certifié",
+      "spec3": "Grade haute pureté",
+      "spec4": "Qualité export"
+    },
+    "atorvastatin": {
+      "title": "Atorvastatin Calcium",
+      "description": "API Atorvastatin Calcium premium pour la prise en charge des maladies cardiovasculaires. Certifié GMP et WHO-GMP.",
+      "spec1": "API cardiovasculaire",
+      "spec2": "GMP, WHO-GMP, WC certifié",
+      "spec3": "Grade haute pureté",
+      "spec4": "Prêt pour l'export"
+    },
+    "amlodipine": {
+      "title": "Amlodipine Besilate",
+      "description": "API Amlodipine Besilate pour le traitement de l'hypertension et des maladies coronariennes. Principe actif pharmaceutique certifié GMP.",
+      "spec1": "API antihypertenseur",
+      "spec2": "Certifié GMP",
+      "spec3": "Produit très demandé",
+      "spec4": "Prêt pour l'export en volume"
+    },
+    "glimepiride": {
+      "title": "Glimepiride",
+      "description": "API Glimepiride pour la prise en charge du diabète de type 2. Principe actif pharmaceutique certifié GMP, très demandé dans le monde.",
+      "spec1": "API antidiabétique",
+      "spec2": "Certifié GMP",
+      "spec3": "Produit très demandé",
+      "spec4": "Qualité garantie"
+    },
+    "ashwagandha": {
+      "title": "Extrait d'Ashwagandha (Withania Somnifera)",
+      "description": "Extrait d'Ashwagandha premium en poudre et gélules - herbe ayurvédique la plus populaire d'Inde pour le soulagement du stress, le renforcement immunitaire et le bien-être général. Extrait de haute qualité, certifié bio.",
+      "spec1": "Certification bio disponible",
+      "spec2": "Teneur élevée en withanolides",
+      "spec3": "Formes poudre et gélules",
+      "spec4": "GMP, certifié FSSAI",
+      "spec5": "Soulagement du stress et immunité",
+      "spec6": "Qualité grade export"
+    },
+    "curcumin": {
+      "title": "Extrait de curcumine de curcuma",
+      "description": "Extrait de curcumine de curcuma haute puissance (95 % curcuminoïdes) - complément ayurvédique premium pour les bienfaits anti-inflammatoires et antioxydants. Disponible en poudre et gélules.",
+      "spec1": "Standard 95 % curcuminoïdes",
+      "spec2": "Bio et conventionnel",
+      "spec3": "Formes poudre et gélules",
+      "spec4": "FSSAI, certifié bio",
+      "spec5": "Bienfaits anti-inflammatoires",
+      "spec6": "Prêt pour l'export en volume"
+    },
+    "triphala": {
+      "title": "Poudre Triphala",
+      "description": "Formule ayurvédique traditionnelle Triphala - mélange de trois fruits (Amalaki, Bibhitaki, Haritaki) pour la santé digestive, la détoxification et le bien-être général. Formulation ayurvédique indienne authentique.",
+      "spec1": "Formule ayurvédique traditionnelle",
+      "spec2": "Bio et conventionnel",
+      "spec3": "Formes poudre et gélules",
+      "spec4": "Certifié FSSAI",
+      "spec5": "Soutien à la santé digestive",
+      "spec6": "Bienfaits détoxifiants"
+    },
+    "brahmi": {
+      "title": "Extrait de Brahmi (Bacopa Monnieri)",
+      "description": "Extrait de Brahmi premium - herbe ayurvédique réputée pour la santé cérébrale, l'amélioration de la mémoire et le soutien cognitif. Extrait de haute qualité avec teneur standardisée en bacosides.",
+      "spec1": "Bacosides standardisés",
+      "spec2": "Soutien à la santé cérébrale",
+      "spec3": "Amélioration de la mémoire",
+      "spec4": "Bio disponible",
+      "spec5": "Certifié FSSAI",
+      "spec6": "Qualité export"
+    },
+    "neem": {
+      "title": "Extrait et poudre de Neem",
+      "description": "Extrait et poudre de Neem (Azadirachta indica) premium - herbe ayurvédique polyvalente pour les soins de la peau, la santé bucco-dentaire et les bienfaits antibactériens. Disponible sous plusieurs formes.",
+      "spec1": "Bienfaits pour les soins de la peau",
+      "spec2": "Propriétés antibactériennes",
+      "spec3": "Formes extrait et poudre",
+      "spec4": "Certifié bio",
+      "spec5": "Certifié FSSAI",
+      "spec6": "Prêt pour l'export en volume"
+    },
+    "clayGanesha": {
+      "title": "Idoles Ganesha en Shadu Mati (argile)",
+      "description": "Idoles Ganesha 100 % écologiques en Shadu Mati (argile) fabriquées à partir d'argile de rivière naturelle et de couleurs non toxiques. Faites à la main par des artisans qualifiés, parfaites pour les célébrations de Ganesh Chaturthi et les pratiques spirituelles. Entièrement solubles dans l'eau après utilisation.",
+      "spec1": "Fabriqué en argile de rivière naturelle (Shadu Mati)",
+      "spec2": "Couleurs non toxiques et écologiques",
+      "spec3": "Tailles : 8\", 10\", 12\", 15\", 18\", 20\", 21\"",
+      "spec4": "Fait à la main par des artisans qualifiés",
+      "spec5": "100 % soluble dans l'eau",
+      "spec6": "Prêt pour l'export en volume",
+      "spec7": "Respectueux de l'environnement"
+    },
+    "miniGanesha": {
+      "title": "Idoles Ganesha miniatures",
+      "description": "Idoles Ganesha miniatures compactes et élégantes, parfaites pour la puja à domicile, les espaces de bureau et les petites célébrations. Disponibles en plusieurs tailles, toutes écologiques et faites à la main avec des designs traditionnels.",
+      "spec1": "Taille compacte pour la puja à domicile",
+      "spec2": "Tailles : 4\", 4.5\", 6\", 6.5\", 7\", 7.5\"",
+      "spec3": "Designs faits à la main",
+      "spec4": "Matériaux écologiques",
+      "spec5": "Parfait pour les petits espaces",
+      "spec6": "Emballage en volume disponible",
+      "spec7": "Prêt pour l'export"
+    },
+    "pujaOrnaments": {
+      "title": "Ornements et accessoires Puja",
+      "description": "Ornements puja indiens traditionnels et accessoires décoratifs pour les idoles Ganesha. Inclut Big Bali, Chakra, ornements floraux, Janva/Janeu, Kaan, Modak, Pan, Shastra, châle, Sond Patta, Bajubandh, bracelets, boucles d'oreilles, Mukut, Haar/Kanthi et divers accessoires. Faits à la main avec des designs traditionnels.",
+      "spec1": "Designs traditionnels",
+      "spec2": "Big Bali, Chakra, Mukut",
+      "spec3": "Haar/Kanthi, bracelets, boucles d'oreilles",
+      "spec4": "Modak, Pan, Shastra, châle",
+      "spec5": "Qualité faite à la main",
+      "spec6": "Export en volume disponible",
+      "spec7": "Ensembles d'ornements complets"
+    },
+    "pujaSamagri": {
+      "title": "Puja Samagri complet",
+      "description": "Puja samagri indien traditionnel (articles de culte) pour les rituels et cérémonies hindous. Kits puja complets incluant bâtons d'encens, camphre, vermillon, kumkum, pâte de santal, fil sacré, grains de riz, fleurs et autres matériaux de culte essentiels. Qualité authentique et traditionnelle.",
+      "spec1": "Bâtons d'encens et camphre",
+      "spec2": "Vermillon et Kumkum",
+      "spec3": "Pâte de santal et fil",
+      "spec4": "Grains de riz et fleurs",
+      "spec5": "Kits puja complets",
+      "spec6": "Qualité traditionnelle",
+      "spec7": "Prêt pour l'export en volume"
+    },
+    "driedMango": {
+      "title": "Tranches de mangue séchées/déshydratées",
+      "description": "Tranches de mangue séchées/déshydratées premium à base de mangues indiennes fraîches et mûres. Naturelles, sans conservateurs et pleines de saveur. Parfaites comme collations saines ou ingrédients pour la transformation alimentaire. Disponibles en diverses tailles et épaisseurs.",
+      "spec1": "100 % naturel, sans conservateurs",
+      "spec2": "À base de mangues fraîches et mûres",
+      "spec3": "Diverses tailles et épaisseurs",
+      "spec4": "Riche en vitamines A et C",
+      "spec5": "Certifié FSSAI",
+      "spec6": "Qualité grade export",
+      "spec7": "Emballage en volume disponible"
+    },
+    "driedBanana": {
+      "title": "Tranches de banane séchées/déshydratées",
+      "description": "Tranches de banane séchées/déshydratées premium à base de bananes fraîches et mûres. Option de collation naturelle et saine, riche en potassium et fibres alimentaires. Parfaites pour grignoter, la pâtisserie et la fabrication alimentaire. Disponibles en variétés sucrées et non sucrées.",
+      "spec1": "100 % naturel, sans conservateurs",
+      "spec2": "À base de bananes fraîches et mûres",
+      "spec3": "Variétés sucrées et non sucrées",
+      "spec4": "Riche en potassium et fibres",
+      "spec5": "Certifié FSSAI",
+      "spec6": "Prêt pour l'export",
+      "spec7": "Emballage en volume disponible"
+    },
+    "driedCoconut": {
+      "title": "Tranches de noix de coco séchées/déshydratées",
+      "description": "Tranches de noix de coco séchées/déshydratées premium à base de noix de coco fraîches et mûres. Naturelles, riches en graisses saines et parfaites pour grignoter, la pâtisserie et la confiserie. Disponibles en diverses tailles et épaisseurs. Texture croquante avec saveur naturelle de noix de coco.",
+      "spec1": "100 % naturel, sans conservateurs",
+      "spec2": "À base de noix de coco fraîches",
+      "spec3": "Diverses tailles et épaisseurs",
+      "spec4": "Riche en graisses saines et fibres",
+      "spec5": "Certifié FSSAI",
+      "spec6": "Qualité grade export",
+      "spec7": "Texture croquante"
+    },
+    "mixedDriedFruits": {
+      "title": "Mélange de tranches de fruits séchés/déshydratés",
+      "description": "Mélange premium de tranches de fruits séchés/déshydratés - combinaison parfaite de mangue, banane, noix de coco, papaye, goyave et autres fruits tropicaux. Naturel, sans conservateurs et riche en vitamines et nutriments. Idéal pour grignoter, coffrets cadeaux et industrie de la restauration.",
+      "spec1": "Mélange 100 % naturel, sans conservateurs",
+      "spec2": "Mélange de fruits premium",
+      "spec3": "Variété de fruits tropicaux",
+      "spec4": "Riche en vitamines et nutriments",
+      "spec5": "Certifié FSSAI",
+      "spec6": "Mélanges personnalisés disponibles",
+      "spec7": "Prêt pour l'export en volume"
+    },
+    "riceDishes": {
+      "title": "Plats de riz",
+      "description": "Plats indiens authentiques prêts à consommer en emballage retort avec durée de conservation prolongée. Pas de réfrigération requise avant ouverture. Idéal pour la vente au détail, la restauration et les marchés d'exportation.",
+      "spec1": "Veg Pulao, Jeera Rice, Mutter Pulao, Biryani",
+      "spec2": "Sachets retort / contenants alimentaires",
+      "spec3": "Poids net : 250g, 300g, 500g (personnalisable)",
+      "spec4": "Durée de conservation : 12-18 mois (stockage ambiant)",
+      "spec5": "ISO 22000:2005, certifié FSSAI",
+      "spec6": "Sans MSG, sans arômes/couleurs artificiels",
+      "spec7": "Prêt en 2-5 minutes (chauffer et servir)",
+      "spec8": "Quantité min. : 500-1000 unités par référence"
+    },
+    "curryDishes": {
+      "title": "Plats au curry",
+      "description": "Plats indiens authentiques prêts à consommer en emballage retort avec durée de conservation prolongée. Pas de réfrigération requise avant ouverture. Idéal pour la vente au détail, la restauration et les marchés d'exportation.",
+      "spec1": "Chole Masala, Methi Mutter Malai, Dal Makhani, Rajma",
+      "spec2": "Sachets retort / contenants alimentaires",
+      "spec3": "Poids net : 250g, 300g, 500g (personnalisable)",
+      "spec4": "Durée de conservation : 12-18 mois (stockage ambiant)",
+      "spec5": "ISO 22000:2005, certifié FSSAI",
+      "spec6": "Sans MSG, sans arômes/couleurs artificiels",
+      "spec7": "Prêt en 2-5 minutes (chauffer et servir)",
+      "spec8": "Quantité min. : 500-1000 unités par référence"
+    },
+    "southIndian": {
+      "title": "Plats du sud de l'Inde",
+      "description": "Plats indiens authentiques prêts à consommer en emballage retort avec durée de conservation prolongée. Pas de réfrigération requise avant ouverture. Idéal pour la vente au détail, la restauration et les marchés d'exportation.",
+      "spec1": "Sambar, Rasam, Avial, Kootu",
+      "spec2": "Sachets retort / contenants alimentaires",
+      "spec3": "Poids net : 250g, 300g, 500g (personnalisable)",
+      "spec4": "Durée de conservation : 12-18 mois (stockage ambiant)",
+      "spec5": "ISO 22000:2005, certifié FSSAI",
+      "spec6": "Sans MSG, sans arômes/couleurs artificiels",
+      "spec7": "Prêt en 2-5 minutes (chauffer et servir)",
+      "spec8": "Quantité min. : 500-1000 unités par référence"
+    },
+    "streetFood": {
+      "title": "Street food et spécialités du Maharashtra",
+      "description": "Plats indiens authentiques prêts à consommer en emballage retort avec durée de conservation prolongée. Pas de réfrigération requise avant ouverture. Idéal pour la vente au détail, la restauration et les marchés d'exportation.",
+      "spec1": "Pav Bhaji, Misal Tarri, Vada Pav Mix, Ragda Pattice",
+      "spec2": "Sachets retort / contenants alimentaires",
+      "spec3": "Poids net : 250g, 300g, 500g (personnalisable)",
+      "spec4": "Durée de conservation : 12-18 mois (stockage ambiant)",
+      "spec5": "ISO 22000:2005, certifié FSSAI",
+      "spec6": "Sans MSG, sans arômes/couleurs artificiels",
+      "spec7": "Prêt en 2-5 minutes (chauffer et servir)",
+      "spec8": "Quantité min. : 500-1000 unités par référence"
+    },
+    "curryGravies": {
+      "title": "Sauces curry et bases",
+      "description": "Kits de repas semi-transformés et concentrés de cuisine nécessitant une préparation minimale. Goût authentique avec commodité. Produits stables à température ambiante idéaux pour les foyers modernes et la restauration.",
+      "spec1": "Veg Kadhai, sauce beurre, sauce Malvani, curry Goan",
+      "spec2": "Sachets, bocaux ou emballages sous vide",
+      "spec3": "Poids net : 100g, 200g, 300g, 500g (personnalisable)",
+      "spec4": "Durée de conservation : 9-12 mois (stockage ambiant)",
+      "spec5": "ISO 22000:2005, certifié FSSAI",
+      "spec6": "Format pâte/poudre concentrée/semi-cuit",
+      "spec7": "Temps de préparation : 15-30 minutes",
+      "spec8": "Quantité min. : 500-1000 unités par référence"
+    },
+    "riceBiryani": {
+      "title": "Riz et mélanges Biryani",
+      "description": "Kits de repas semi-transformés et concentrés de cuisine nécessitant une préparation minimale. Goût authentique avec commodité. Produits stables à température ambiante idéaux pour les foyers modernes et la restauration.",
+      "spec1": "Pâte Biryani, mélange Pulao, mélange riz sauté",
+      "spec2": "Sachets, bocaux ou emballages sous vide",
+      "spec3": "Poids net : 100g, 200g, 300g, 500g (personnalisable)",
+      "spec4": "Durée de conservation : 9-12 mois (stockage ambiant)",
+      "spec5": "ISO 22000:2005, certifié FSSAI",
+      "spec6": "Format pâte/poudre concentrée/semi-cuit",
+      "spec7": "Temps de préparation : 15-30 minutes",
+      "spec8": "Quantité min. : 500-1000 unités par référence"
+    },
+    "traditionalRtc": {
+      "title": "Spécialités traditionnelles et régionales",
+      "description": "Kits de repas semi-transformés et concentrés de cuisine nécessitant une préparation minimale. Goût authentique avec commodité. Produits stables à température ambiante idéaux pour les foyers modernes et la restauration.",
+      "spec1": "Undiyu, Puran et Katachi Amti, pâtes curry régionales",
+      "spec2": "Sachets, bocaux ou emballages sous vide",
+      "spec3": "Poids net : 100g, 200g, 300g, 500g (personnalisable)",
+      "spec4": "Durée de conservation : 9-12 mois (stockage ambiant)",
+      "spec5": "ISO 22000:2005, certifié FSSAI",
+      "spec6": "Format pâte/poudre concentrée/semi-cuit",
+      "spec7": "Temps de préparation : 15-30 minutes",
+      "spec8": "Quantité min. : 500-1000 unités par référence"
+    },
+    "breakfastRtc": {
+      "title": "Mélanges petit-déjeuner et collations",
+      "description": "Kits de repas semi-transformés et concentrés de cuisine nécessitant une préparation minimale. Goût authentique avec commodité. Produits stables à température ambiante idéaux pour les foyers modernes et la restauration.",
+      "spec1": "Pâte Dosa, pâte Idli, mélange Upma, mélange Poha, mélange Pakora",
+      "spec2": "Sachets, bocaux ou emballages sous vide",
+      "spec3": "Poids net : 100g, 200g, 300g, 500g (personnalisable)",
+      "spec4": "Durée de conservation : 9-12 mois (stockage ambiant)",
+      "spec5": "ISO 22000:2005, certifié FSSAI",
+      "spec6": "Format pâte/poudre concentrée/semi-cuit",
+      "spec7": "Temps de préparation : 15-30 minutes",
+      "spec8": "Quantité min. : 500-1000 unités par référence"
+    },
+    "soupRtc": {
+      "title": "Concentrés de soupe et mélanges entrées",
+      "description": "Kits de repas semi-transformés et concentrés de cuisine nécessitant une préparation minimale. Goût authentique avec commodité. Produits stables à température ambiante idéaux pour les foyers modernes et la restauration.",
+      "spec1": "Soupe tomate, maïs doux, aigre-doux, Manchow, marinade Tandoori",
+      "spec2": "Sachets, bocaux ou emballages sous vide",
+      "spec3": "Poids net : 100g, 200g, 300g, 500g (personnalisable)",
+      "spec4": "Durée de conservation : 9-12 mois (stockage ambiant)",
+      "spec5": "ISO 22000:2005, certifié FSSAI",
+      "spec6": "Format pâte/poudre concentrée/semi-cuit",
+      "spec7": "Temps de préparation : 15-30 minutes",
+      "spec8": "Quantité min. : 500-1000 unités par référence"
+    },
+    "homeDecor": {
+      "title": "Articles de décoration intérieure",
+      "description": "Articles de décoration et d'ameublement premium. Produits de qualité pour intérieurs modernes et traditionnels.",
+      "spec1": "Qualité premium",
+      "spec2": "Divers styles",
+      "spec3": "Export en volume disponible",
+      "spec4": "Designs personnalisés"
+    }
+  }
 }

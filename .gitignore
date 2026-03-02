@@ -56,3 +56,5 @@ build/
 
 # Unit test files (not for production deployment)
 tests/
+test-catalog-*.js
+run-catalog-tests.js

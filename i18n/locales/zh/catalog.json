@@ -1,3 +1,441 @@
 {
-  "pageTitle": "产品目录"
+  "pageTitle": "产品目录",
+  "header": {
+    "title": "产品目录",
+    "subtitle": "印度优质出口产品，批发价格。"
+  },
+  "filters": {
+    "all": "全部产品",
+    "textiles": "纺织品",
+    "spices": "香料",
+    "pharmaceuticals": "药品",
+    "ayurvedic": "阿育吠陀产品",
+    "electronics": "电子产品",
+    "puja": "Puja Samagri 与神像",
+    "driedFruits": "果干",
+    "readyToEat": "即食食品",
+    "readyToCook": "即烹食品",
+    "others": "其他"
+  },
+  "disclaimer": "**最低起订量、运输条款和价格可根据洽谈确定。**",
+  "noResults": "该分类下暂无产品。",
+  "badges": {
+    "wholesale": "批发价格",
+    "affordable": "实惠价格",
+    "discounted": "批量订购享折扣",
+    "lowestRate": "最低价格。"
+  },
+  "categories": {
+    "textiles": "纺织品",
+    "spices": "香料",
+    "pharmaceuticals": "药品",
+    "ayurvedic": "阿育吠陀产品",
+    "electronics": "电子产品",
+    "puja": "Puja Samagri 与神像",
+    "driedFruits": "果干",
+    "readyToEat": "即食食品",
+    "readyToCook": "即烹食品",
+    "others": "其他"
+  },
+  "products": {
+    "tShirts": {
+      "title": "优质棉质 T 恤 (RMG)",
+      "description": "成衣 (RMG) - 高品质针织棉 T 恤，适合批发出口。多种尺码和颜色可选。",
+      "spec1": "针织棉结构",
+      "spec2": "克重：160-180 GSM",
+      "spec3": "100% 优质棉",
+      "spec4": "多种尺码可选",
+      "spec5": "批量出口就绪",
+      "spec6": "可定制印花"
+    },
+    "cottonFabrics": {
+      "title": "梭织棉布",
+      "description": "优质梭织棉布，多种图案和克重。适用于服装制造。",
+      "spec1": "多种克重与图案",
+      "spec2": "出口级品质",
+      "spec3": "可定制幅宽",
+      "spec4": "品质保证"
+    },
+    "terryTowels": {
+      "title": "厨房毛巾（茶巾）",
+      "description": "优质厨房毛巾（茶巾），多种尺寸。100% 棉毛圈结构，吸水性佳，适用于家庭和商用。",
+      "spec1": "100% 棉毛圈",
+      "spec2": "克重：350-450 GSM",
+      "spec3": "织法：多臂/提花/平纹",
+      "spec4": "多种尺寸可选",
+      "spec5": "高吸水性",
+      "spec6": "商用与家用级",
+      "spec7": "可批量包装"
+    },
+    "kitchenNapkins": {
+      "title": "厨房餐巾",
+      "description": "优质厨房餐巾，白色及多种颜色。高品质棉质结构，适用于餐厅、酒店、餐饮及家庭。可批量批发出口。",
+      "spec1": "100% 棉/混纺可选",
+      "spec2": "白色及彩色款",
+      "spec3": "多种尺寸可选",
+      "spec4": "餐厅与酒店级",
+      "spec5": "柔软吸湿",
+      "spec6": "批量批发出口就绪"
+    },
+    "bathTowels": {
+      "title": "浴巾",
+      "description": "优质浴巾，多种尺寸和款式。柔软吸湿，适用于酒店和家庭。",
+      "spec1": "优质棉质",
+      "spec2": "多种尺寸可选",
+      "spec3": "高吸水性",
+      "spec4": "批量出口就绪"
+    },
+    "bedLinens": {
+      "title": "床上用品与床单",
+      "description": "优质床上用品和床单基材 - 100% 棉质，纱支 30s-40s，克重 80-180 GSM。柔软舒适，适用于酒店和家庭。",
+      "spec1": "100% 棉",
+      "spec2": "纱支：30s-40s",
+      "spec3": "克重：80-180 GSM",
+      "spec4": "多种支数可选",
+      "spec5": "多种尺寸可选",
+      "spec6": "出口级品质"
+    },
+    "turmeric": {
+      "title": "优质姜黄粉 - 印度 FOB",
+      "description": "纯正优质姜黄粉，直接采购自印度农场。色泽浓郁，风味佳。FSSAI 认证，出口级。批量供应：每批 200-500 公斤，印度 FOB。",
+      "spec1": "FSSAI 认证，出口级",
+      "spec2": "食品级品质",
+      "spec3": "姜黄素含量高",
+      "spec4": "批量：200-500 公斤",
+      "spec5": "印度 FOB"
+    },
+    "cumin": {
+      "title": "优质孜然籽 - 印度 FOB",
+      "description": "高品质孜然籽，香气浓郁，风味佳。适用于烹饪和商用。FSSAI 认证，出口级。批量供应：每批 200-500 公斤，印度 FOB。",
+      "spec1": "优质等级",
+      "spec2": "FSSAI 认证，出口级",
+      "spec3": "香气浓郁，风味佳",
+      "spec4": "批量：200-500 公斤",
+      "spec5": "印度 FOB"
+    },
+    "coriander": {
+      "title": "芫荽籽与芫荽粉 - 印度 FOB",
+      "description": "优质芫荽，籽粒和粉末形式。适用于世界各地多种料理。FSSAI 认证，出口级。批量供应：每批 200-500 公斤，印度 FOB。",
+      "spec1": "籽粒与粉末可选",
+      "spec2": "优质品质",
+      "spec3": "FSSAI 认证，出口级",
+      "spec4": "批量：200-500 公斤",
+      "spec5": "印度 FOB"
+    },
+    "redChilli": {
+      "title": "红辣椒品种 - 印度 FOB",
+      "description": "多种等级的红辣椒粉和整粒辣椒。从微辣到特辣。FSSAI 认证，出口级。批量供应：每批 200-500 公斤，印度 FOB。",
+      "spec1": "多种辣度",
+      "spec2": "整粒与粉末形式",
+      "spec3": "优质等级",
+      "spec4": "FSSAI 认证，出口级",
+      "spec5": "批量：200-500 公斤",
+      "spec6": "印度 FOB"
+    },
+    "garamMasala": {
+      "title": "Garam Masala 混合香料 - 印度 FOB",
+      "description": "精心调配的 Garam Masala 香料混合。传统配方，优质原料。FSSAI 认证，出口级。批量供应：每批 200-500 公斤，印度 FOB。",
+      "spec1": "传统配方",
+      "spec2": "优质混合",
+      "spec3": "FSSAI 认证，出口级",
+      "spec4": "批量：200-500 公斤",
+      "spec5": "印度 FOB",
+      "spec6": "可定制混合"
+    },
+    "electronicComponents": {
+      "title": "电子元件",
+      "description": "用于制造和组装的电子元件及零部件。品质保证。",
+      "descriptionExtra": "我们正在拓展消费电子、LED 灯具及配件业务。",
+      "spec1": "品质检测",
+      "spec2": "批量供应",
+      "spec3": "价格优惠",
+      "spec4": "出口就绪"
+    },
+    "rosuvastatin": {
+      "title": "Rosuvastatin Calcium",
+      "description": "高品质 Rosuvastatin Calcium 原料药，用于心血管治疗。GMP 和 WHO-GMP 认证的活性药物成分。",
+      "spec1": "心血管原料药",
+      "spec2": "GMP、WHO-GMP、WC 认证",
+      "spec3": "高纯度等级",
+      "spec4": "出口品质"
+    },
+    "atorvastatin": {
+      "title": "Atorvastatin Calcium",
+      "description": "优质 Atorvastatin Calcium 原料药，用于心血管疾病管理。GMP 和 WHO-GMP 认证。",
+      "spec1": "心血管原料药",
+      "spec2": "GMP、WHO-GMP、WC 认证",
+      "spec3": "高纯度等级",
+      "spec4": "出口就绪"
+    },
+    "amlodipine": {
+      "title": "Amlodipine Besilate",
+      "description": "Amlodipine Besilate 原料药，用于高血压和冠心病治疗。GMP 认证的活性药物成分。",
+      "spec1": "抗高血压原料药",
+      "spec2": "GMP 认证",
+      "spec3": "高需求产品",
+      "spec4": "批量出口就绪"
+    },
+    "glimepiride": {
+      "title": "Glimepiride",
+      "description": "Glimepiride 原料药，用于 2 型糖尿病管理。GMP 认证的活性药物成分，全球需求旺盛。",
+      "spec1": "抗糖尿病原料药",
+      "spec2": "GMP 认证",
+      "spec3": "高需求产品",
+      "spec4": "品质保证"
+    },
+    "ashwagandha": {
+      "title": "Ashwagandha Extract (Withania Somnifera)",
+      "description": "优质 Ashwagandha 提取物粉末和胶囊 - 印度最受欢迎的阿育吠陀草本，用于缓解压力、增强免疫和整体健康。高品质有机认证提取物。",
+      "spec1": "可选有机认证",
+      "spec2": "高睡茄内酯含量",
+      "spec3": "粉末与胶囊形式",
+      "spec4": "GMP、FSSAI 认证",
+      "spec5": "缓解压力与增强免疫",
+      "spec6": "出口级品质"
+    },
+    "curcumin": {
+      "title": "Turmeric Curcumin Extract",
+      "description": "高浓度姜黄素提取物（95% 姜黄素类）- 优质阿育吠陀补充剂，具有抗炎和抗氧化功效。粉末和胶囊形式可选。",
+      "spec1": "95% 姜黄素类标准",
+      "spec2": "有机与常规可选",
+      "spec3": "粉末与胶囊形式",
+      "spec4": "FSSAI、有机认证",
+      "spec5": "抗炎功效",
+      "spec6": "批量出口就绪"
+    },
+    "triphala": {
+      "title": "Triphala Powder",
+      "description": "传统阿育吠陀 Triphala 配方 - 三种果实（Amalaki、Bibhitaki、Haritaki）的混合，有益消化健康、排毒和整体健康。正宗印度阿育吠陀配方。",
+      "spec1": "传统阿育吠陀配方",
+      "spec2": "有机与常规可选",
+      "spec3": "粉末与胶囊形式",
+      "spec4": "FSSAI 认证",
+      "spec5": "消化健康支持",
+      "spec6": "排毒功效"
+    },
+    "brahmi": {
+      "title": "Brahmi Extract (Bacopa Monnieri)",
+      "description": "优质 Brahmi 提取物 - 著名的阿育吠陀草本，有益大脑健康、增强记忆和认知支持。高品质提取物，标准化 Bacosides 含量。",
+      "spec1": "标准化 Bacosides",
+      "spec2": "大脑健康支持",
+      "spec3": "增强记忆",
+      "spec4": "可选有机",
+      "spec5": "FSSAI 认证",
+      "spec6": "出口品质"
+    },
+    "neem": {
+      "title": "Neem Extract & Powder",
+      "description": "优质 Neem (Azadirachta indica) 提取物和粉末 - 多功能阿育吠陀草本，用于护肤、口腔健康和抗菌。多种形式可选。",
+      "spec1": "护肤功效",
+      "spec2": "抗菌特性",
+      "spec3": "提取物与粉末形式",
+      "spec4": "有机认证",
+      "spec5": "FSSAI 认证",
+      "spec6": "批量出口就绪"
+    },
+    "clayGanesha": {
+      "title": "Shadu Mati (Clay) Ganesha Idols",
+      "description": "100% 环保 Shadu Mati（粘土）Ganesha 神像，采用天然河泥和无毒颜料制成。由熟练工匠手工制作，适合 Ganesh Chaturthi 庆典和灵修。使用后可完全溶于水。",
+      "spec1": "天然河泥 (Shadu Mati) 制成",
+      "spec2": "无毒环保颜料",
+      "spec3": "尺寸：8\"、10\"、12\"、15\"、18\"、20\"、21\"",
+      "spec4": "熟练工匠手工制作",
+      "spec5": "100% 可溶于水",
+      "spec6": "批量出口就绪",
+      "spec7": "对环境安全"
+    },
+    "miniGanesha": {
+      "title": "Mini Ganesha Idols",
+      "description": "小巧精致的 Mini Ganesha 神像，适合家庭 Puja、办公空间和小型庆典。多种尺寸可选，全部环保且采用传统设计手工制作。",
+      "spec1": "适合家庭 Puja 的紧凑尺寸",
+      "spec2": "尺寸：4\"、4.5\"、6\"、6.5\"、7\"、7.5\"",
+      "spec3": "手工设计",
+      "spec4": "环保材料",
+      "spec5": "适合小空间",
+      "spec6": "可批量包装",
+      "spec7": "出口就绪"
+    },
+    "pujaOrnaments": {
+      "title": "Puja Ornaments & Accessories",
+      "description": "传统印度 Puja 装饰品和 Ganesha 神像装饰配件。包括 Big Bali、Chakra、花饰、Janva/Janeu、Kaan、Modak、Pan、Shastra、Shawl、Sond Patta、Bajubandh、手镯、耳环、Mukut、Haar/Kanthi 及各种配件。采用传统设计手工制作。",
+      "spec1": "传统设计",
+      "spec2": "Big Bali、Chakra、Mukut",
+      "spec3": "Haar/Kanthi、手镯、耳环",
+      "spec4": "Modak、Pan、Shastra、Shawl",
+      "spec5": "手工品质",
+      "spec6": "可批量出口",
+      "spec7": "完整装饰套装"
+    },
+    "pujaSamagri": {
+      "title": "Complete Puja Samagri",
+      "description": "传统印度 Puja Samagri（祭祀用品），用于印度教仪式和典礼。完整 Puja 套装，包括香、樟脑、朱砂、Kumkum、檀香膏、圣线、米粒、鲜花及其他必备祭祀材料。正宗传统品质。",
+      "spec1": "香与樟脑",
+      "spec2": "朱砂与 Kumkum",
+      "spec3": "檀香膏与线",
+      "spec4": "米粒与鲜花",
+      "spec5": "完整 Puja 套装",
+      "spec6": "传统品质",
+      "spec7": "批量出口就绪"
+    },
+    "driedMango": {
+      "title": "芒果干/脱水芒果片",
+      "description": "优质芒果干/脱水芒果片，采用新鲜成熟的印度芒果制成。天然无防腐剂，风味浓郁。适合健康零食或食品加工原料。多种尺寸和厚度可选。",
+      "spec1": "100% 天然，无防腐剂",
+      "spec2": "新鲜成熟芒果制成",
+      "spec3": "多种尺寸与厚度",
+      "spec4": "富含维生素 A 和 C",
+      "spec5": "FSSAI 认证",
+      "spec6": "出口级品质",
+      "spec7": "可批量包装"
+    },
+    "driedBanana": {
+      "title": "香蕉干/脱水香蕉片",
+      "description": "优质香蕉干/脱水香蕉片，采用新鲜成熟香蕉制成。天然健康零食，富含钾和膳食纤维。适合零食、烘焙和食品制造。甜味和无糖款可选。",
+      "spec1": "100% 天然，无防腐剂",
+      "spec2": "新鲜成熟香蕉制成",
+      "spec3": "甜味与无糖款",
+      "spec4": "富含钾与纤维",
+      "spec5": "FSSAI 认证",
+      "spec6": "出口就绪",
+      "spec7": "可批量包装"
+    },
+    "driedCoconut": {
+      "title": "椰子干/脱水椰子片",
+      "description": "优质椰子干/脱水椰子片，采用新鲜成熟椰子制成。天然，富含健康脂肪，适合零食、烘焙和糖果。多种尺寸和厚度可选。酥脆口感，天然椰香。",
+      "spec1": "100% 天然，无防腐剂",
+      "spec2": "新鲜椰子制成",
+      "spec3": "多种尺寸与厚度",
+      "spec4": "富含健康脂肪与纤维",
+      "spec5": "FSSAI 认证",
+      "spec6": "出口级品质",
+      "spec7": "酥脆口感"
+    },
+    "mixedDriedFruits": {
+      "title": "混合果干/脱水水果片",
+      "description": "优质混合果干/脱水水果片 - 芒果、香蕉、椰子、木瓜、番石榴及其他热带水果的完美搭配。天然无防腐剂，富含维生素和营养。适合零食、礼盒和餐饮业。",
+      "spec1": "100% 天然混合，无防腐剂",
+      "spec2": "优质水果搭配",
+      "spec3": "多种热带水果",
+      "spec4": "富含维生素与营养",
+      "spec5": "FSSAI 认证",
+      "spec6": "可定制混合",
+      "spec7": "批量出口就绪"
+    },
+    "riceDishes": {
+      "title": "Rice Dishes",
+      "description": "正宗印度即食餐，软包装，保质期长。开封前无需冷藏。适合零售、餐饮和出口市场。",
+      "spec1": "Veg Pulao、Jeera Rice、Mutter Pulao、Biryani",
+      "spec2": "软包装/食品级容器",
+      "spec3": "净重：250g、300g、500g（可定制）",
+      "spec4": "保质期：12-18 个月（常温储存）",
+      "spec5": "ISO 22000:2005、FSSAI 认证",
+      "spec6": "无味精、无人工香精/色素",
+      "spec7": "2-5 分钟即食（加热即食）",
+      "spec8": "MOQ：每 SKU 500-1000 件"
+    },
+    "curryDishes": {
+      "title": "Curry Dishes",
+      "description": "正宗印度即食餐，软包装，保质期长。开封前无需冷藏。适合零售、餐饮和出口市场。",
+      "spec1": "Chole Masala、Methi Mutter Malai、Dal Makhani、Rajma",
+      "spec2": "软包装/食品级容器",
+      "spec3": "净重：250g、300g、500g（可定制）",
+      "spec4": "保质期：12-18 个月（常温储存）",
+      "spec5": "ISO 22000:2005、FSSAI 认证",
+      "spec6": "无味精、无人工香精/色素",
+      "spec7": "2-5 分钟即食（加热即食）",
+      "spec8": "MOQ：每 SKU 500-1000 件"
+    },
+    "southIndian": {
+      "title": "South Indian Dishes",
+      "description": "正宗印度即食餐，软包装，保质期长。开封前无需冷藏。适合零售、餐饮和出口市场。",
+      "spec1": "Sambar、Rasam、Avial、Kootu",
+      "spec2": "软包装/食品级容器",
+      "spec3": "净重：250g、300g、500g（可定制）",
+      "spec4": "保质期：12-18 个月（常温储存）",
+      "spec5": "ISO 22000:2005、FSSAI 认证",
+      "spec6": "无味精、无人工香精/色素",
+      "spec7": "2-5 分钟即食（加热即食）",
+      "spec8": "MOQ：每 SKU 500-1000 件"
+    },
+    "streetFood": {
+      "title": "Street Food & Maharashtrian Specialties",
+      "description": "正宗印度即食餐，软包装，保质期长。开封前无需冷藏。适合零售、餐饮和出口市场。",
+      "spec1": "Pav Bhaji、Misal Tarri、Vada Pav Mix、Ragda Pattice",
+      "spec2": "软包装/食品级容器",
+      "spec3": "净重：250g、300g、500g（可定制）",
+      "spec4": "保质期：12-18 个月（常温储存）",
+      "spec5": "ISO 22000:2005、FSSAI 认证",
+      "spec6": "无味精、无人工香精/色素",
+      "spec7": "2-5 分钟即食（加热即食）",
+      "spec8": "MOQ：每 SKU 500-1000 件"
+    },
+    "curryGravies": {
+      "title": "Curry Gravies & Bases",
+      "description": "半成品餐包和烹饪浓缩物，只需简单加工。正宗口味，方便快捷。常温储存产品，适合现代家庭和餐饮。",
+      "spec1": "Veg Kadhai、Butter Gravy、Malvani Gravy、Goan Curry",
+      "spec2": "袋装、罐装或真空包装",
+      "spec3": "净重：100g、200g、300g、500g（可定制）",
+      "spec4": "保质期：9-12 个月（常温储存）",
+      "spec5": "ISO 22000:2005、FSSAI 认证",
+      "spec6": "浓缩酱/粉/半成品形式",
+      "spec7": "准备时间：15-30 分钟",
+      "spec8": "MOQ：每 SKU 500-1000 件"
+    },
+    "riceBiryani": {
+      "title": "Rice & Biryani Mixes",
+      "description": "半成品餐包和烹饪浓缩物，只需简单加工。正宗口味，方便快捷。常温储存产品，适合现代家庭和餐饮。",
+      "spec1": "Biryani Paste、Pulao Mix、Fried Rice Mix",
+      "spec2": "袋装、罐装或真空包装",
+      "spec3": "净重：100g、200g、300g、500g（可定制）",
+      "spec4": "保质期：9-12 个月（常温储存）",
+      "spec5": "ISO 22000:2005、FSSAI 认证",
+      "spec6": "浓缩酱/粉/半成品形式",
+      "spec7": "准备时间：15-30 分钟",
+      "spec8": "MOQ：每 SKU 500-1000 件"
+    },
+    "traditionalRtc": {
+      "title": "Traditional & Regional Specialties",
+      "description": "半成品餐包和烹饪浓缩物，只需简单加工。正宗口味，方便快捷。常温储存产品，适合现代家庭和餐饮。",
+      "spec1": "Undiyu、Puran & Katachi Amti、Regional Curry Pastes",
+      "spec2": "袋装、罐装或真空包装",
+      "spec3": "净重：100g、200g、300g、500g（可定制）",
+      "spec4": "保质期：9-12 个月（常温储存）",
+      "spec5": "ISO 22000:2005、FSSAI 认证",
+      "spec6": "浓缩酱/粉/半成品形式",
+      "spec7": "准备时间：15-30 分钟",
+      "spec8": "MOQ：每 SKU 500-1000 件"
+    },
+    "breakfastRtc": {
+      "title": "Breakfast & Snack Mixes",
+      "description": "半成品餐包和烹饪浓缩物，只需简单加工。正宗口味，方便快捷。常温储存产品，适合现代家庭和餐饮。",
+      "spec1": "Dosa Batter、Idli Batter、Upma Mix、Poha Mix、Pakora Mix",
+      "spec2": "袋装、罐装或真空包装",
+      "spec3": "净重：100g、200g、300g、500g（可定制）",
+      "spec4": "保质期：9-12 个月（常温储存）",
+      "spec5": "ISO 22000:2005、FSSAI 认证",
+      "spec6": "浓缩酱/粉/半成品形式",
+      "spec7": "准备时间：15-30 分钟",
+      "spec8": "MOQ：每 SKU 500-1000 件"
+    },
+    "soupRtc": {
+      "title": "Soup Concentrates & Starter Mixes",
+      "description": "半成品餐包和烹饪浓缩物，只需简单加工。正宗口味，方便快捷。常温储存产品，适合现代家庭和餐饮。",
+      "spec1": "Tomato Soup、Sweet Corn、Hot & Sour、Manchow、Tandoori Marinade",
+      "spec2": "袋装、罐装或真空包装",
+      "spec3": "净重：100g、200g、300g、500g（可定制）",
+      "spec4": "保质期：9-12 个月（常温储存）",
+      "spec5": "ISO 22000:2005、FSSAI 认证",
+      "spec6": "浓缩酱/粉/半成品形式",
+      "spec7": "准备时间：15-30 分钟",
+      "spec8": "MOQ：每 SKU 500-1000 件"
+    },
+    "homeDecor": {
+      "title": "家居装饰品",
+      "description": "优质家居装饰和家具用品。适用于现代与传统室内的高品质产品。",
+      "spec1": "优质品质",
+      "spec2": "多种风格",
+      "spec3": "可批量出口",
+      "spec4": "可定制设计"
+    }
+  }
 }

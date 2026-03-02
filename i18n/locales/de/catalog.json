@@ -1,3 +1,441 @@
 {
-  "pageTitle": "Produktkatalog"
+  "pageTitle": "Produktkatalog",
+  "header": {
+    "title": "Produktkatalog",
+    "subtitle": "Premium-Qualität Exportprodukte aus Indien zu Großhandelspreisen."
+  },
+  "filters": {
+    "all": "Alle Produkte",
+    "textiles": "Textilien",
+    "spices": "Gewürze",
+    "pharmaceuticals": "Pharmazeutika",
+    "ayurvedic": "Ayurveda-Produkte",
+    "electronics": "Elektronik",
+    "puja": "Puja Samagri & Idole",
+    "driedFruits": "Trockenfrüchte",
+    "readyToEat": "Fertiggerichte",
+    "readyToCook": "Fertig zum Kochen",
+    "others": "Sonstiges"
+  },
+  "disclaimer": "**MOQ, Versandbedingungen und Preise können nach Absprache vereinbart werden.**",
+  "noResults": "Keine Produkte in dieser Kategorie gefunden.",
+  "badges": {
+    "wholesale": "Großhandelspreise",
+    "affordable": "Erschwingliche Preise",
+    "discounted": "Rabattierte Preise bei Großbestellungen",
+    "lowestRate": "Niedrigster möglicher Preis."
+  },
+  "categories": {
+    "textiles": "Textilien",
+    "spices": "Gewürze",
+    "pharmaceuticals": "Pharmazeutika",
+    "ayurvedic": "Ayurveda-Produkte",
+    "electronics": "Elektronik",
+    "puja": "Puja Samagri & Idole",
+    "driedFruits": "Trockenfrüchte",
+    "readyToEat": "Fertiggerichte",
+    "readyToCook": "Fertig zum Kochen",
+    "others": "Sonstiges"
+  },
+  "products": {
+    "tShirts": {
+      "title": "Premium-Baumwoll-T-Shirts (RMG)",
+      "description": "Ready-Made Garments (RMG) – Hochwertige gestrickte Baumwoll-T-Shirts, ideal für den Großhandelsexport. Erhältlich in verschiedenen Größen und Farben.",
+      "spec1": "Gestrickte Baumwollkonstruktion",
+      "spec2": "GSM: 160-180",
+      "spec3": "100 % Premium-Baumwolle",
+      "spec4": "Mehrere Größenoptionen",
+      "spec5": "Bulk-Export bereit",
+      "spec6": "Individueller Druck verfügbar"
+    },
+    "cottonFabrics": {
+      "title": "Gewebte Baumwollstoffe",
+      "description": "Premium gewebte Baumwollstoffe in verschiedenen Mustern und Gewichten. Ideal für die Bekleidungsherstellung.",
+      "spec1": "Verschiedene Gewichte & Muster",
+      "spec2": "Exportqualität",
+      "spec3": "Individuelle Breiten verfügbar",
+      "spec4": "Qualitätsgeprüft"
+    },
+    "terryTowels": {
+      "title": "Küchen-Frotteehandtücher (Tea Towels)",
+      "description": "Premium Küchen-Frotteehandtücher (Tea Towels) in verschiedenen Größen. 100 % Baumwoll-Frottee mit hervorragender Saugfähigkeit, ideal für Haushalt und Gewerbe.",
+      "spec1": "100 % Baumwoll-Frottee",
+      "spec2": "GSM: 350-450",
+      "spec3": "Webart: Dobby / Jacquard / Glatt",
+      "spec4": "Mehrere Größenoptionen",
+      "spec5": "Hohe Saugfähigkeit",
+      "spec6": "Gewerbe- & Haushaltsqualität",
+      "spec7": "Bulk-Verpackung verfügbar"
+    },
+    "kitchenNapkins": {
+      "title": "Küchenservietten",
+      "description": "Premium Küchenservietten in Weiß und verschiedenen Farben. Hochwertige Baumwollqualität, ideal für Restaurants, Hotels, Catering und Haushalt. In Bulk für den Großhandelsexport erhältlich.",
+      "spec1": "100 % Baumwolle / Mischgewebe-Optionen",
+      "spec2": "Weiße & farbige Varianten",
+      "spec3": "Mehrere Größen verfügbar",
+      "spec4": "Restaurant- & Hotelqualität",
+      "spec5": "Weich & saugfähig",
+      "spec6": "Bulk-Großhandelsexport bereit"
+    },
+    "bathTowels": {
+      "title": "Badetücher",
+      "description": "Premium Badetücher in verschiedenen Größen und Designs. Weich, saugfähig und ideal für Hotel und Haushalt.",
+      "spec1": "Premium Baumwollqualität",
+      "spec2": "Mehrere Größenoptionen",
+      "spec3": "Hohe Saugfähigkeit",
+      "spec4": "Bulk-Export bereit"
+    },
+    "bedLinens": {
+      "title": "Bettwäsche & Laken",
+      "description": "Premium Bettwäsche und Laken – 100 % Baumwolle mit 30s-40s Garnstärke und 80-180 GSM. Weich, bequem und ideal für Hotels und Haushalte.",
+      "spec1": "100 % Baumwolle",
+      "spec2": "Garnstärke: 30s-40s",
+      "spec3": "GSM: 80-180",
+      "spec4": "Verschiedene Fadenzahlen verfügbar",
+      "spec5": "Mehrere Größenoptionen",
+      "spec6": "Exportqualität"
+    },
+    "turmeric": {
+      "title": "Premium Kurkumapulver - FOB India",
+      "description": "Reines, hochwertiges Kurkumapulver direkt von indischen Farmen. Reich an Farbe und Geschmack. FSSAI-zertifiziert, Exportqualität. Erhältlich in Großmengen: 200-500 kg pro Lieferung FOB India.",
+      "spec1": "FSSAI-zertifiziert, Exportqualität",
+      "spec2": "Lebensmittelqualität",
+      "spec3": "Hoher Curcumingehalt",
+      "spec4": "Großmengen: 200-500 kg",
+      "spec5": "FOB India"
+    },
+    "cumin": {
+      "title": "Premium Kreuzkümmel - FOB India",
+      "description": "Hochwertige Kreuzkümmelsamen mit ausgezeichnetem Aroma und Geschmack. Ideal für kulinarische und gewerbliche Verwendung. FSSAI-zertifiziert, Exportqualität. Erhältlich in Großmengen: 200-500 kg pro Lieferung FOB India.",
+      "spec1": "Premium-Qualität",
+      "spec2": "FSSAI-zertifiziert, Exportqualität",
+      "spec3": "Starkes Aroma & Geschmack",
+      "spec4": "Großmengen: 200-500 kg",
+      "spec5": "FOB India"
+    },
+    "coriander": {
+      "title": "Koriandersamen & -pulver - FOB India",
+      "description": "Premium Koriander in Samen- und Pulverform. Vielseitiges Gewürz für verschiedene Küchen weltweit. FSSAI-zertifiziert, Exportqualität. Erhältlich in Großmengen: 200-500 kg pro Lieferung FOB India.",
+      "spec1": "Samen & Pulver verfügbar",
+      "spec2": "Premium-Qualität",
+      "spec3": "FSSAI-zertifiziert, Exportqualität",
+      "spec4": "Großmengen: 200-500 kg",
+      "spec5": "FOB India"
+    },
+    "redChilli": {
+      "title": "Rote-Chili-Sorten - FOB India",
+      "description": "Verschiedene Qualitäten von rotem Chilipulver und ganzen Chilis. Von mild bis extra scharf. FSSAI-zertifiziert, Exportqualität. Erhältlich in Großmengen: 200-500 kg pro Lieferung FOB India.",
+      "spec1": "Mehrere Schärfegrade",
+      "spec2": "Ganze & Pulverformen",
+      "spec3": "Premium-Qualität",
+      "spec4": "FSSAI-zertifiziert, Exportqualität",
+      "spec5": "Großmengen: 200-500 kg",
+      "spec6": "FOB India"
+    },
+    "garamMasala": {
+      "title": "Garam Masala Mischungen - FOB India",
+      "description": "Fachmännisch hergestellte Garam Masala Gewürzmischungen. Traditionelle Rezepte mit hochwertigen Zutaten. FSSAI-zertifiziert, Exportqualität. Erhältlich in Großmengen: 200-500 kg pro Lieferung FOB India.",
+      "spec1": "Traditionelle Rezepte",
+      "spec2": "Premium-Qualität Mischung",
+      "spec3": "FSSAI-zertifiziert, Exportqualität",
+      "spec4": "Großmengen: 200-500 kg",
+      "spec5": "FOB India",
+      "spec6": "Individuelle Mischungen verfügbar"
+    },
+    "electronicComponents": {
+      "title": "Elektronische Bauteile",
+      "description": "Elektronische Bauteile und Komponenten für Fertigung und Montage. Qualitätsgeprüfte Komponenten.",
+      "descriptionExtra": "Wir erweitern unser Sortiment um Unterhaltungselektronik, LED-Leuchten und Zubehör.",
+      "spec1": "Qualitätsgeprüft",
+      "spec2": "Großmengen",
+      "spec3": "Wettbewerbsfähige Preise",
+      "spec4": "Export bereit"
+    },
+    "rosuvastatin": {
+      "title": "Rosuvastatin Calcium",
+      "description": "Hochwertiges Rosuvastatin Calcium API für kardiovaskuläre Behandlungen. GMP- und WHO-GMP-zertifizierter pharmazeutischer Wirkstoff.",
+      "spec1": "Kardiovaskuläres API",
+      "spec2": "GMP, WHO-GMP, WC zertifiziert",
+      "spec3": "Hohe Reinheitsstufe",
+      "spec4": "Exportqualität"
+    },
+    "atorvastatin": {
+      "title": "Atorvastatin Calcium",
+      "description": "Premium Atorvastatin Calcium API zur Behandlung von Herz-Kreislauf-Erkrankungen. GMP- und WHO-GMP-zertifiziert.",
+      "spec1": "Kardiovaskuläres API",
+      "spec2": "GMP, WHO-GMP, WC zertifiziert",
+      "spec3": "Hohe Reinheitsstufe",
+      "spec4": "Export bereit"
+    },
+    "amlodipine": {
+      "title": "Amlodipine Besilate",
+      "description": "Amlodipine Besilate API zur Behandlung von Bluthochdruck und koronarer Herzkrankheit. GMP-zertifizierter pharmazeutischer Wirkstoff.",
+      "spec1": "Antihypertonikum API",
+      "spec2": "GMP-zertifiziert",
+      "spec3": "Hoch nachgefragtes Produkt",
+      "spec4": "Bulk-Export bereit"
+    },
+    "glimepiride": {
+      "title": "Glimepiride",
+      "description": "Glimepiride API zur Behandlung von Typ-2-Diabetes. GMP-zertifizierter pharmazeutischer Wirkstoff mit hoher globaler Nachfrage.",
+      "spec1": "Antidiabetikum API",
+      "spec2": "GMP-zertifiziert",
+      "spec3": "Hoch nachgefragtes Produkt",
+      "spec4": "Qualitätsgeprüft"
+    },
+    "ashwagandha": {
+      "title": "Ashwagandha Extract (Withania Somnifera)",
+      "description": "Premium Ashwagandha-Extraktpulver und -kapseln – Indiens beliebteste Ayurveda-Pflanze für Stressabbau, Immunstärkung und allgemeines Wohlbefinden. Hochwertiger, bio-zertifizierter Extrakt.",
+      "spec1": "Bio-zertifiziert verfügbar",
+      "spec2": "Hoher Withanolid-Gehalt",
+      "spec3": "Pulver- & Kapselformen",
+      "spec4": "GMP, FSSAI-zertifiziert",
+      "spec5": "Stressabbau & Immunität",
+      "spec6": "Exportqualität"
+    },
+    "curcumin": {
+      "title": "Turmeric Curcumin Extract",
+      "description": "Hochdosierter Turmeric Curcumin-Extrakt (95 % Curcuminoide) – Premium Ayurveda-Nahrungsergänzungsmittel mit entzündungshemmenden und antioxidativen Eigenschaften. Erhältlich in Pulver- und Kapselform.",
+      "spec1": "95 % Curcuminoide Standard",
+      "spec2": "Bio & konventionell",
+      "spec3": "Pulver- & Kapselformen",
+      "spec4": "FSSAI, Bio-zertifiziert",
+      "spec5": "Entzündungshemmende Eigenschaften",
+      "spec6": "Bulk-Export bereit"
+    },
+    "triphala": {
+      "title": "Triphala Powder",
+      "description": "Traditionelle Ayurveda Triphala-Formel – eine Mischung aus drei Früchten (Amalaki, Bibhitaki, Haritaki) für Verdauungsgesundheit, Entgiftung und allgemeines Wohlbefinden. Authentische indische Ayurveda-Formulierung.",
+      "spec1": "Traditionelle Ayurveda-Formel",
+      "spec2": "Bio & konventionell",
+      "spec3": "Pulver- & Kapselformen",
+      "spec4": "FSSAI-zertifiziert",
+      "spec5": "Unterstützung der Verdauungsgesundheit",
+      "spec6": "Entgiftungsvorteile"
+    },
+    "brahmi": {
+      "title": "Brahmi Extract (Bacopa Monnieri)",
+      "description": "Premium Brahmi-Extrakt – renommierte Ayurveda-Pflanze für Gehirngesundheit, Gedächtnisverbesserung und kognitive Unterstützung. Hochwertiger Extrakt mit standardisiertem Bacosid-Gehalt.",
+      "spec1": "Standardisierte Bacoside",
+      "spec2": "Unterstützung der Gehirngesundheit",
+      "spec3": "Gedächtnisverbesserung",
+      "spec4": "Bio verfügbar",
+      "spec5": "FSSAI-zertifiziert",
+      "spec6": "Exportqualität"
+    },
+    "neem": {
+      "title": "Neem Extract & Powder",
+      "description": "Premium Neem (Azadirachta indica) Extrakt und Pulver – vielseitige Ayurveda-Pflanze für Hautpflege, Mundgesundheit und antibakterielle Eigenschaften. In mehreren Formen erhältlich.",
+      "spec1": "Hautpflege-Vorteile",
+      "spec2": "Antibakterielle Eigenschaften",
+      "spec3": "Extrakt- & Pulverformen",
+      "spec4": "Bio-zertifiziert",
+      "spec5": "FSSAI-zertifiziert",
+      "spec6": "Bulk-Export bereit"
+    },
+    "clayGanesha": {
+      "title": "Shadu Mati (Clay) Ganesha Idole",
+      "description": "100 % umweltfreundliche Shadu Mati (Ton) Ganesha-Idole aus natürlichem Flusslehm und ungiftigen Farben. Handgefertigt von erfahrenen Handwerkern, ideal für Ganesh Chaturthi-Feiern und spirituelle Praktiken. Vollständig wasserlöslich nach Gebrauch.",
+      "spec1": "Aus natürlichem Flusslehm (Shadu Mati) hergestellt",
+      "spec2": "Ungiftige, umweltfreundliche Farben",
+      "spec3": "Größen: 8\", 10\", 12\", 15\", 18\", 20\", 21\"",
+      "spec4": "Handgefertigt von erfahrenen Handwerkern",
+      "spec5": "100 % wasserlöslich",
+      "spec6": "Bulk-Export bereit",
+      "spec7": "Umweltfreundlich"
+    },
+    "miniGanesha": {
+      "title": "Mini Ganesha Idole",
+      "description": "Kompakte und elegante Mini Ganesha-Idole ideal für Hauspuja, Büroräume und kleine Feiern. In mehreren Größen erhältlich, alle umweltfreundlich und handgefertigt mit traditionellen Designs.",
+      "spec1": "Kompakte Größe für Hauspuja",
+      "spec2": "Größen: 4\", 4.5\", 6\", 6.5\", 7\", 7.5\"",
+      "spec3": "Handgefertigte Designs",
+      "spec4": "Umweltfreundliche Materialien",
+      "spec5": "Ideal für kleine Räume",
+      "spec6": "Bulk-Verpackung verfügbar",
+      "spec7": "Export bereit"
+    },
+    "pujaOrnaments": {
+      "title": "Puja Schmuck & Accessoires",
+      "description": "Traditioneller indischer Puja-Schmuck und dekorative Accessoires für Ganesha-Idole. Enthält Big Bali, Chakra, Blütenschmuck, Janva/Janeu, Kaan, Modak, Pan, Shastra, Shawl, Sond Patta, Bajubandh, Armreifen, Ohrringe, Mukut, Haar/Kanthi und verschiedene Accessoires. Handgefertigt mit traditionellen Designs.",
+      "spec1": "Traditionelle Designs",
+      "spec2": "Big Bali, Chakra, Mukut",
+      "spec3": "Haar/Kanthi, Armreifen, Ohrringe",
+      "spec4": "Modak, Pan, Shastra, Shawl",
+      "spec5": "Handgefertigte Qualität",
+      "spec6": "Bulk-Export verfügbar",
+      "spec7": "Komplette Schmucksets"
+    },
+    "pujaSamagri": {
+      "title": "Komplettes Puja Samagri",
+      "description": "Traditionelles indisches Puja Samagri (Gegenstände für die Verehrung) für hinduistische Rituale und Zeremonien. Komplette Puja-Sets inklusive Räucherstäbchen, Kampfer, Vermillion, Kumkum, Sandelholzpaste, heiliger Faden, Reiskörner, Blumen und andere wesentliche Verehrungsmaterialien. Authentische und traditionelle Qualität.",
+      "spec1": "Räucherstäbchen & Kampfer",
+      "spec2": "Vermillion & Kumkum",
+      "spec3": "Sandelholzpaste & Faden",
+      "spec4": "Reiskörner & Blumen",
+      "spec5": "Komplette Puja-Sets",
+      "spec6": "Traditionelle Qualität",
+      "spec7": "Bulk-Export bereit"
+    },
+    "driedMango": {
+      "title": "Getrocknete/Dehydrierte Mangoscheiben",
+      "description": "Premium getrocknete/dehydrierte Mangoscheiben aus frischen, reifen indischen Mangos. Natürlich, ohne Konservierungsstoffe und voller Geschmack. Ideal als gesunde Snacks oder Zutaten für die Lebensmittelverarbeitung. In verschiedenen Größen und Dicken erhältlich.",
+      "spec1": "100 % natürlich, keine Konservierungsstoffe",
+      "spec2": "Aus frischen reifen Mangos hergestellt",
+      "spec3": "Verschiedene Größen & Dicken",
+      "spec4": "Reich an Vitamin A & C",
+      "spec5": "FSSAI-zertifiziert",
+      "spec6": "Exportqualität",
+      "spec7": "Bulk-Verpackung verfügbar"
+    },
+    "driedBanana": {
+      "title": "Getrocknete/Dehydrierte Bananenscheiben",
+      "description": "Premium getrocknete/dehydrierte Bananenscheiben aus frischen, reifen Bananen. Natürliche und gesunde Snackoption, reich an Kalium und Ballaststoffen. Ideal zum Naschen, Backen und für die Lebensmittelherstellung. In süßen und ungesüßten Varianten erhältlich.",
+      "spec1": "100 % natürlich, keine Konservierungsstoffe",
+      "spec2": "Aus frischen reifen Bananen hergestellt",
+      "spec3": "Süße & ungesüßte Varianten",
+      "spec4": "Reich an Kalium & Ballaststoffen",
+      "spec5": "FSSAI-zertifiziert",
+      "spec6": "Export bereit",
+      "spec7": "Bulk-Verpackung verfügbar"
+    },
+    "driedCoconut": {
+      "title": "Getrocknete/Dehydrierte Kokosnusscheiben",
+      "description": "Premium getrocknete/dehydrierte Kokosnusscheiben aus frischen, reifen Kokosnüssen. Natürlich, reich an gesunden Fetten und ideal zum Naschen, Backen und für Süßwaren. In verschiedenen Größen und Dicken erhältlich. Knusprige Textur mit natürlichem Kokosgeschmack.",
+      "spec1": "100 % natürlich, keine Konservierungsstoffe",
+      "spec2": "Aus frischen Kokosnüssen hergestellt",
+      "spec3": "Verschiedene Größen & Dicken",
+      "spec4": "Reich an gesunden Fetten & Ballaststoffen",
+      "spec5": "FSSAI-zertifiziert",
+      "spec6": "Exportqualität",
+      "spec7": "Knusprige Textur"
+    },
+    "mixedDriedFruits": {
+      "title": "Gemischte getrocknete/dehydrierte Fruchtscheiben",
+      "description": "Premium gemischte getrocknete/dehydrierte Fruchtscheiben – eine perfekte Mischung aus Mango, Banane, Kokosnuss, Papaya, Guave und anderen tropischen Früchten. Natürlich, ohne Konservierungsstoffe und reich an Vitaminen und Nährstoffen. Ideal zum Naschen, für Geschenkboxen und die Gastronomie.",
+      "spec1": "100 % natürliche Mischung, keine Konservierungsstoffe",
+      "spec2": "Premium-Fruchtmischung",
+      "spec3": "Vielfalt tropischer Früchte",
+      "spec4": "Reich an Vitaminen & Nährstoffen",
+      "spec5": "FSSAI-zertifiziert",
+      "spec6": "Individuelle Mischungen verfügbar",
+      "spec7": "Bulk-Export bereit"
+    },
+    "riceDishes": {
+      "title": "Reisgerichte",
+      "description": "Authentische indische Fertiggerichte in Retortverpackung mit langer Haltbarkeit. Keine Kühlung erforderlich bis zum Öffnen. Ideal für Einzelhandel, Gastronomie und Exportmärkte.",
+      "spec1": "Veg Pulao, Jeera Rice, Mutter Pulao, Biryani",
+      "spec2": "Retortbeutel / Lebensmittelgeeignete Behälter",
+      "spec3": "Nettogewicht: 250g, 300g, 500g (anpassbar)",
+      "spec4": "Haltbarkeit: 12-18 Monate (Raumtemperatur)",
+      "spec5": "ISO 22000:2005, FSSAI-zertifiziert",
+      "spec6": "Kein MSG, keine künstlichen Aromen/Farben",
+      "spec7": "Fertig in 2-5 Minuten (erwärmen und servieren)",
+      "spec8": "MOQ: 500-1000 Einheiten pro SKU"
+    },
+    "curryDishes": {
+      "title": "Curry-Gerichte",
+      "description": "Authentische indische Fertiggerichte in Retortverpackung mit langer Haltbarkeit. Keine Kühlung erforderlich bis zum Öffnen. Ideal für Einzelhandel, Gastronomie und Exportmärkte.",
+      "spec1": "Chole Masala, Methi Mutter Malai, Dal Makhani, Rajma",
+      "spec2": "Retortbeutel / Lebensmittelgeeignete Behälter",
+      "spec3": "Nettogewicht: 250g, 300g, 500g (anpassbar)",
+      "spec4": "Haltbarkeit: 12-18 Monate (Raumtemperatur)",
+      "spec5": "ISO 22000:2005, FSSAI-zertifiziert",
+      "spec6": "Kein MSG, keine künstlichen Aromen/Farben",
+      "spec7": "Fertig in 2-5 Minuten (erwärmen und servieren)",
+      "spec8": "MOQ: 500-1000 Einheiten pro SKU"
+    },
+    "southIndian": {
+      "title": "Südindische Gerichte",
+      "description": "Authentische indische Fertiggerichte in Retortverpackung mit langer Haltbarkeit. Keine Kühlung erforderlich bis zum Öffnen. Ideal für Einzelhandel, Gastronomie und Exportmärkte.",
+      "spec1": "Sambar, Rasam, Avial, Kootu",
+      "spec2": "Retortbeutel / Lebensmittelgeeignete Behälter",
+      "spec3": "Nettogewicht: 250g, 300g, 500g (anpassbar)",
+      "spec4": "Haltbarkeit: 12-18 Monate (Raumtemperatur)",
+      "spec5": "ISO 22000:2005, FSSAI-zertifiziert",
+      "spec6": "Kein MSG, keine künstlichen Aromen/Farben",
+      "spec7": "Fertig in 2-5 Minuten (erwärmen und servieren)",
+      "spec8": "MOQ: 500-1000 Einheiten pro SKU"
+    },
+    "streetFood": {
+      "title": "Street Food & Maharashtrian Spezialitäten",
+      "description": "Authentische indische Fertiggerichte in Retortverpackung mit langer Haltbarkeit. Keine Kühlung erforderlich bis zum Öffnen. Ideal für Einzelhandel, Gastronomie und Exportmärkte.",
+      "spec1": "Pav Bhaji, Misal Tarri, Vada Pav Mix, Ragda Pattice",
+      "spec2": "Retortbeutel / Lebensmittelgeeignete Behälter",
+      "spec3": "Nettogewicht: 250g, 300g, 500g (anpassbar)",
+      "spec4": "Haltbarkeit: 12-18 Monate (Raumtemperatur)",
+      "spec5": "ISO 22000:2005, FSSAI-zertifiziert",
+      "spec6": "Kein MSG, keine künstlichen Aromen/Farben",
+      "spec7": "Fertig in 2-5 Minuten (erwärmen und servieren)",
+      "spec8": "MOQ: 500-1000 Einheiten pro SKU"
+    },
+    "curryGravies": {
+      "title": "Curry-Saucen & Basen",
+      "description": "Halbverarbeitete Mahlzeiten-Kits und Kochkonzentrate mit minimaler Zubereitung. Authentischer Geschmack mit Bequemlichkeit. Haltbare Produkte ideal für moderne Haushalte und Gastronomie.",
+      "spec1": "Veg Kadhai, Butter Gravy, Malvani Gravy, Goan Curry",
+      "spec2": "Beutel, Gläser oder vakuumversiegelte Packungen",
+      "spec3": "Nettogewicht: 100g, 200g, 300g, 500g (anpassbar)",
+      "spec4": "Haltbarkeit: 9-12 Monate (Raumtemperatur)",
+      "spec5": "ISO 22000:2005, FSSAI-zertifiziert",
+      "spec6": "Konzentratpaste/-pulver/halbgekochtes Format",
+      "spec7": "Zubereitungszeit: 15-30 Minuten",
+      "spec8": "MOQ: 500-1000 Einheiten pro SKU"
+    },
+    "riceBiryani": {
+      "title": "Reis- & Biryani-Mischungen",
+      "description": "Halbverarbeitete Mahlzeiten-Kits und Kochkonzentrate mit minimaler Zubereitung. Authentischer Geschmack mit Bequemlichkeit. Haltbare Produkte ideal für moderne Haushalte und Gastronomie.",
+      "spec1": "Biryani Paste, Pulao Mix, Fried Rice Mix",
+      "spec2": "Beutel, Gläser oder vakuumversiegelte Packungen",
+      "spec3": "Nettogewicht: 100g, 200g, 300g, 500g (anpassbar)",
+      "spec4": "Haltbarkeit: 9-12 Monate (Raumtemperatur)",
+      "spec5": "ISO 22000:2005, FSSAI-zertifiziert",
+      "spec6": "Konzentratpaste/-pulver/halbgekochtes Format",
+      "spec7": "Zubereitungszeit: 15-30 Minuten",
+      "spec8": "MOQ: 500-1000 Einheiten pro SKU"
+    },
+    "traditionalRtc": {
+      "title": "Traditionelle & regionale Spezialitäten",
+      "description": "Halbverarbeitete Mahlzeiten-Kits und Kochkonzentrate mit minimaler Zubereitung. Authentischer Geschmack mit Bequemlichkeit. Haltbare Produkte ideal für moderne Haushalte und Gastronomie.",
+      "spec1": "Undiyu, Puran & Katachi Amti, Regionale Currypasten",
+      "spec2": "Beutel, Gläser oder vakuumversiegelte Packungen",
+      "spec3": "Nettogewicht: 100g, 200g, 300g, 500g (anpassbar)",
+      "spec4": "Haltbarkeit: 9-12 Monate (Raumtemperatur)",
+      "spec5": "ISO 22000:2005, FSSAI-zertifiziert",
+      "spec6": "Konzentratpaste/-pulver/halbgekochtes Format",
+      "spec7": "Zubereitungszeit: 15-30 Minuten",
+      "spec8": "MOQ: 500-1000 Einheiten pro SKU"
+    },
+    "breakfastRtc": {
+      "title": "Frühstücks- & Snack-Mischungen",
+      "description": "Halbverarbeitete Mahlzeiten-Kits und Kochkonzentrate mit minimaler Zubereitung. Authentischer Geschmack mit Bequemlichkeit. Haltbare Produkte ideal für moderne Haushalte und Gastronomie.",
+      "spec1": "Dosa Batter, Idli Batter, Upma Mix, Poha Mix, Pakora Mix",
+      "spec2": "Beutel, Gläser oder vakuumversiegelte Packungen",
+      "spec3": "Nettogewicht: 100g, 200g, 300g, 500g (anpassbar)",
+      "spec4": "Haltbarkeit: 9-12 Monate (Raumtemperatur)",
+      "spec5": "ISO 22000:2005, FSSAI-zertifiziert",
+      "spec6": "Konzentratpaste/-pulver/halbgekochtes Format",
+      "spec7": "Zubereitungszeit: 15-30 Minuten",
+      "spec8": "MOQ: 500-1000 Einheiten pro SKU"
+    },
+    "soupRtc": {
+      "title": "Suppenkonzentrate & Vorspeisen-Mischungen",
+      "description": "Halbverarbeitete Mahlzeiten-Kits und Kochkonzentrate mit minimaler Zubereitung. Authentischer Geschmack mit Bequemlichkeit. Haltbare Produkte ideal für moderne Haushalte und Gastronomie.",
+      "spec1": "Tomato Soup, Sweet Corn, Hot & Sour, Manchow, Tandoori Marinade",
+      "spec2": "Beutel, Gläser oder vakuumversiegelte Packungen",
+      "spec3": "Nettogewicht: 100g, 200g, 300g, 500g (anpassbar)",
+      "spec4": "Haltbarkeit: 9-12 Monate (Raumtemperatur)",
+      "spec5": "ISO 22000:2005, FSSAI-zertifiziert",
+      "spec6": "Konzentratpaste/-pulver/halbgekochtes Format",
+      "spec7": "Zubereitungszeit: 15-30 Minuten",
+      "spec8": "MOQ: 500-1000 Einheiten pro SKU"
+    },
+    "homeDecor": {
+      "title": "Dekorationsartikel für Zuhause",
+      "description": "Premium Dekorations- und Einrichtungsartikel für Zuhause. Qualitätsprodukte für moderne und traditionelle Innenräume.",
+      "spec1": "Premium-Qualität",
+      "spec2": "Verschiedene Stile",
+      "spec3": "Bulk-Export verfügbar",
+      "spec4": "Individuelle Designs"
+    }
+  }
 }

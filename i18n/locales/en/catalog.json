@@ -1,3 +1,441 @@
 {
-  "pageTitle": "Product Catalog"
+  "pageTitle": "Product Catalog",
+  "header": {
+    "title": "Product Catalog",
+    "subtitle": "Premium Quality Export Products from India at wholesale prices."
+  },
+  "filters": {
+    "all": "All Products",
+    "textiles": "Textiles",
+    "spices": "Spices",
+    "pharmaceuticals": "Pharmaceuticals",
+    "ayurvedic": "Ayurvedic Products",
+    "electronics": "Electronics",
+    "puja": "Puja Samagri & Idols",
+    "driedFruits": "Dried Fruits",
+    "readyToEat": "Ready to Eat",
+    "readyToCook": "Ready to Cook",
+    "others": "Others"
+  },
+  "disclaimer": "**MOQ, Shipping terms and pricing can be agreed based on our discussion.**",
+  "noResults": "No products found in this category.",
+  "badges": {
+    "wholesale": "Wholesale pricing",
+    "affordable": "Affordable pricing",
+    "discounted": "Discounted pricing on bulk orders",
+    "lowestRate": "Lowest rate possible."
+  },
+  "categories": {
+    "textiles": "Textiles",
+    "spices": "Spices",
+    "pharmaceuticals": "Pharmaceuticals",
+    "ayurvedic": "Ayurvedic Products",
+    "electronics": "Electronics",
+    "puja": "Puja Samagri & Idols",
+    "driedFruits": "Dried Fruits",
+    "readyToEat": "Ready to Eat",
+    "readyToCook": "Ready to Cook",
+    "others": "Others"
+  },
+  "products": {
+    "tShirts": {
+      "title": "Premium Cotton T-Shirts (RMG)",
+      "description": "Ready-Made Garments (RMG) - High-quality Cotton Knitted T-shirts, perfect for wholesale export. Available in various sizes and colors.",
+      "spec1": "Cotton Knitted Construction",
+      "spec2": "GSM: 160-180",
+      "spec3": "100% Premium Cotton",
+      "spec4": "Multiple Size Options",
+      "spec5": "Bulk Export Ready",
+      "spec6": "Custom Printing Available"
+    },
+    "cottonFabrics": {
+      "title": "Woven Cotton Fabrics",
+      "description": "Premium woven cotton fabrics in various patterns and weights. Ideal for apparel manufacturing.",
+      "spec1": "Various Weights & Patterns",
+      "spec2": "Export Grade Quality",
+      "spec3": "Custom Widths Available",
+      "spec4": "Quality Assured"
+    },
+    "terryTowels": {
+      "title": "Kitchen Terry Towels (Tea Towels)",
+      "description": "Premium Kitchen Terry Towels (Tea Towels) in various sizes. 100% Cotton Terry construction with excellent absorbency, perfect for household and commercial use.",
+      "spec1": "100% Cotton Terry",
+      "spec2": "GSM: 350-450",
+      "spec3": "Weave: Dobby / Jacquard / Plain",
+      "spec4": "Multiple Size Options",
+      "spec5": "High Absorbency",
+      "spec6": "Commercial & Household Grade",
+      "spec7": "Bulk Packaging Available"
+    },
+    "kitchenNapkins": {
+      "title": "Kitchen Napkins",
+      "description": "Premium kitchen napkins in white and various colors. High-quality cotton construction, ideal for restaurants, hotels, catering, and household use. Available in bulk for wholesale export.",
+      "spec1": "100% Cotton / Blended Options",
+      "spec2": "White & Colored Variants",
+      "spec3": "Multiple Sizes Available",
+      "spec4": "Restaurant & Hotel Grade",
+      "spec5": "Soft & Absorbent",
+      "spec6": "Bulk Wholesale Export Ready"
+    },
+    "bathTowels": {
+      "title": "Bath Towels",
+      "description": "Premium quality bath towels in various sizes and designs. Soft, absorbent, and perfect for hotel and household use.",
+      "spec1": "Premium Quality Cotton",
+      "spec2": "Multiple Size Options",
+      "spec3": "High Absorbency",
+      "spec4": "Bulk Export Ready"
+    },
+    "bedLinens": {
+      "title": "Bed Linens & Sheets",
+      "description": "Premium bed linens and sheets base - 100% cotton construction with 30s-40s yarn count and 80-180 GSM. Soft, comfortable, and perfect for hotels and households.",
+      "spec1": "100% Cotton",
+      "spec2": "Yarn Count: 30s-40s",
+      "spec3": "GSM: 80-180",
+      "spec4": "Various Thread Counts Available",
+      "spec5": "Multiple Size Options",
+      "spec6": "Export Grade Quality"
+    },
+    "turmeric": {
+      "title": "Premium Turmeric Powder - FOB India",
+      "description": "Pure, premium quality turmeric powder sourced directly from Indian farms. Rich in color and flavor. FSSAI certified, export grade. Available for bulk quantities: 200-500kg per shipment FOB India.",
+      "spec1": "FSSAI Certified, Export Grade",
+      "spec2": "Food Grade Quality",
+      "spec3": "Rich Curcumin Content",
+      "spec4": "Bulk Quantities: 200-500kg",
+      "spec5": "FOB India"
+    },
+    "cumin": {
+      "title": "Premium Cumin Seeds - FOB India",
+      "description": "High-quality cumin seeds with excellent aroma and flavor. Perfect for culinary and commercial use. FSSAI certified, export grade. Available for bulk quantities: 200-500kg per shipment FOB India.",
+      "spec1": "Premium Grade Quality",
+      "spec2": "FSSAI Certified, Export Grade",
+      "spec3": "Strong Aroma & Flavor",
+      "spec4": "Bulk Quantities: 200-500kg",
+      "spec5": "FOB India"
+    },
+    "coriander": {
+      "title": "Coriander Seeds & Powder - FOB India",
+      "description": "Premium coriander in seed and powder form. Versatile spice for various cuisines worldwide. FSSAI certified, export grade. Available for bulk quantities: 200-500kg per shipment FOB India.",
+      "spec1": "Seeds & Powder Available",
+      "spec2": "Premium Quality",
+      "spec3": "FSSAI Certified, Export Grade",
+      "spec4": "Bulk Quantities: 200-500kg",
+      "spec5": "FOB India"
+    },
+    "redChilli": {
+      "title": "Red Chilli Varieties - FOB India",
+      "description": "Various grades of red chilli powder and whole chilies. From mild to extra hot varieties. FSSAI certified, export grade. Available for bulk quantities: 200-500kg per shipment FOB India.",
+      "spec1": "Multiple Heat Levels",
+      "spec2": "Whole & Powder Forms",
+      "spec3": "Premium Grade Quality",
+      "spec4": "FSSAI Certified, Export Grade",
+      "spec5": "Bulk Quantities: 200-500kg",
+      "spec6": "FOB India"
+    },
+    "garamMasala": {
+      "title": "Garam Masala Blends - FOB India",
+      "description": "Expertly crafted garam masala spice blends. Traditional recipes with premium quality ingredients. FSSAI certified, export grade. Available for bulk quantities: 200-500kg per shipment FOB India.",
+      "spec1": "Traditional Recipes",
+      "spec2": "Premium Quality Blend",
+      "spec3": "FSSAI Certified, Export Grade",
+      "spec4": "Bulk Quantities: 200-500kg",
+      "spec5": "FOB India",
+      "spec6": "Custom Blends Available"
+    },
+    "electronicComponents": {
+      "title": "Electronic Components",
+      "description": "Electronic components and parts for manufacturing and assembly. Quality assured components.",
+      "descriptionExtra": "We're expanding into consumer electronics, LED lights, and accessories.",
+      "spec1": "Quality Tested",
+      "spec2": "Bulk Quantities",
+      "spec3": "Competitive Pricing",
+      "spec4": "Export Ready"
+    },
+    "rosuvastatin": {
+      "title": "Rosuvastatin Calcium",
+      "description": "High-quality Rosuvastatin Calcium API for cardiovascular treatments. GMP and WHO-GMP certified active pharmaceutical ingredient.",
+      "spec1": "Cardiovascular API",
+      "spec2": "GMP, WHO-GMP, WC Certified",
+      "spec3": "High Purity Grade",
+      "spec4": "Export Quality"
+    },
+    "atorvastatin": {
+      "title": "Atorvastatin Calcium",
+      "description": "Premium Atorvastatin Calcium API for cardiovascular disease management. GMP and WHO-GMP certified.",
+      "spec1": "Cardiovascular API",
+      "spec2": "GMP, WHO-GMP, WC Certified",
+      "spec3": "High Purity Grade",
+      "spec4": "Export Ready"
+    },
+    "amlodipine": {
+      "title": "Amlodipine Besilate",
+      "description": "Amlodipine Besilate API for hypertension and coronary artery disease treatment. GMP certified active pharmaceutical ingredient.",
+      "spec1": "Anti-Hypertension API",
+      "spec2": "GMP Certified",
+      "spec3": "High Demand Product",
+      "spec4": "Bulk Export Ready"
+    },
+    "glimepiride": {
+      "title": "Glimepiride",
+      "description": "Glimepiride API for type 2 diabetes management. GMP certified active pharmaceutical ingredient in high demand globally.",
+      "spec1": "Anti-Diabetic API",
+      "spec2": "GMP Certified",
+      "spec3": "High Demand Product",
+      "spec4": "Quality Assured"
+    },
+    "ashwagandha": {
+      "title": "Ashwagandha Extract (Withania Somnifera)",
+      "description": "Premium Ashwagandha extract powder and capsules - India's most popular Ayurvedic herb for stress relief, immunity boost, and overall wellness. High-quality, organic-certified extract.",
+      "spec1": "Organic Certified Available",
+      "spec2": "High Withanolide Content",
+      "spec3": "Powder & Capsule Forms",
+      "spec4": "GMP, FSSAI Certified",
+      "spec5": "Stress Relief & Immunity",
+      "spec6": "Export Grade Quality"
+    },
+    "curcumin": {
+      "title": "Turmeric Curcumin Extract",
+      "description": "High-potency Turmeric Curcumin extract (95% curcuminoids) - premium Ayurvedic supplement for anti-inflammatory and antioxidant benefits. Available in powder and capsule forms.",
+      "spec1": "95% Curcuminoids Standard",
+      "spec2": "Organic & Conventional",
+      "spec3": "Powder & Capsule Forms",
+      "spec4": "FSSAI, Organic Certified",
+      "spec5": "Anti-Inflammatory Benefits",
+      "spec6": "Bulk Export Ready"
+    },
+    "triphala": {
+      "title": "Triphala Powder",
+      "description": "Traditional Ayurvedic Triphala formula - a blend of three fruits (Amalaki, Bibhitaki, Haritaki) for digestive health, detoxification, and overall wellness. Authentic Indian Ayurvedic formulation.",
+      "spec1": "Traditional Ayurvedic Formula",
+      "spec2": "Organic & Conventional",
+      "spec3": "Powder & Capsule Forms",
+      "spec4": "FSSAI Certified",
+      "spec5": "Digestive Health Support",
+      "spec6": "Detoxification Benefits"
+    },
+    "brahmi": {
+      "title": "Brahmi Extract (Bacopa Monnieri)",
+      "description": "Premium Brahmi extract - renowned Ayurvedic herb for brain health, memory enhancement, and cognitive support. High-quality extract with standardized Bacosides content.",
+      "spec1": "Standardized Bacosides",
+      "spec2": "Brain Health Support",
+      "spec3": "Memory Enhancement",
+      "spec4": "Organic Available",
+      "spec5": "FSSAI Certified",
+      "spec6": "Export Quality"
+    },
+    "neem": {
+      "title": "Neem Extract & Powder",
+      "description": "Premium Neem (Azadirachta indica) extract and powder - versatile Ayurvedic herb for skin care, oral health, and antibacterial benefits. Available in multiple forms.",
+      "spec1": "Skin Care Benefits",
+      "spec2": "Antibacterial Properties",
+      "spec3": "Extract & Powder Forms",
+      "spec4": "Organic Certified",
+      "spec5": "FSSAI Certified",
+      "spec6": "Bulk Export Ready"
+    },
+    "clayGanesha": {
+      "title": "Shadu Mati (Clay) Ganesha Idols",
+      "description": "100% eco-friendly Shadu Mati (Clay) Ganesha idols made from natural river clay and non-toxic colors. Handmade by skilled artisans, perfect for Ganesh Chaturthi celebrations and spiritual practices. Fully dissolvable in water after use.",
+      "spec1": "Made from Natural River Clay (Shadu Mati)",
+      "spec2": "Non-Toxic, Eco-Friendly Colors",
+      "spec3": "Sizes: 8\", 10\", 12\", 15\", 18\", 20\", 21\"",
+      "spec4": "Handmade by Skilled Artisans",
+      "spec5": "100% Water Dissolvable",
+      "spec6": "Bulk Export Ready",
+      "spec7": "Safe for Environment"
+    },
+    "miniGanesha": {
+      "title": "Mini Ganesha Idols",
+      "description": "Compact and elegant Mini Ganesha idols perfect for home puja, office spaces, and small celebrations. Available in multiple sizes, all eco-friendly and handcrafted with traditional designs.",
+      "spec1": "Compact Size for Home Puja",
+      "spec2": "Sizes: 4\", 4.5\", 6\", 6.5\", 7\", 7.5\"",
+      "spec3": "Handcrafted Designs",
+      "spec4": "Eco-Friendly Materials",
+      "spec5": "Perfect for Small Spaces",
+      "spec6": "Bulk Packaging Available",
+      "spec7": "Export Ready"
+    },
+    "pujaOrnaments": {
+      "title": "Puja Ornaments & Accessories",
+      "description": "Traditional Indian puja ornaments and decorative accessories for Ganesha idols. Includes Big Bali, Chakra, Flower ornaments, Janva/Janeu, Kaan, Modak, Pan, Shastra, Shawl, Sond Patta, Bajubandh, Bangles, Earrings, Mukut, Haar/Kanthi, and various accessories. Handcrafted with traditional designs.",
+      "spec1": "Traditional Designs",
+      "spec2": "Big Bali, Chakra, Mukut",
+      "spec3": "Haar/Kanthi, Bangles, Earrings",
+      "spec4": "Modak, Pan, Shastra, Shawl",
+      "spec5": "Handcrafted Quality",
+      "spec6": "Bulk Export Available",
+      "spec7": "Complete Ornament Sets"
+    },
+    "pujaSamagri": {
+      "title": "Complete Puja Samagri",
+      "description": "Traditional Indian puja samagri (worship items) for Hindu rituals and ceremonies. Complete puja kits including incense sticks, camphor, vermillion, kumkum, sandalwood paste, holy thread, rice grains, flowers, and other essential worship materials. Authentic and traditional quality.",
+      "spec1": "Incense Sticks & Camphor",
+      "spec2": "Vermillion & Kumkum",
+      "spec3": "Sandalwood Paste & Thread",
+      "spec4": "Rice Grains & Flowers",
+      "spec5": "Complete Puja Kits",
+      "spec6": "Traditional Quality",
+      "spec7": "Bulk Export Ready"
+    },
+    "driedMango": {
+      "title": "Dried/Dehydrated Mango Slices",
+      "description": "Premium dried/dehydrated mango slices made from fresh, ripe Indian mangoes. Natural, preservative-free, and packed with flavor. Perfect as healthy snacks or ingredients for food processing. Available in various sizes and thicknesses.",
+      "spec1": "100% Natural, No Preservatives",
+      "spec2": "Made from Fresh Ripe Mangoes",
+      "spec3": "Various Sizes & Thicknesses",
+      "spec4": "Rich in Vitamin A & C",
+      "spec5": "FSSAI Certified",
+      "spec6": "Export Grade Quality",
+      "spec7": "Bulk Packaging Available"
+    },
+    "driedBanana": {
+      "title": "Dried/Dehydrated Banana Slices",
+      "description": "Premium dried/dehydrated banana slices made from fresh, ripe bananas. Natural and healthy snack option, rich in potassium and dietary fiber. Perfect for snacking, baking, and food manufacturing. Available in sweet and unsweetened varieties.",
+      "spec1": "100% Natural, No Preservatives",
+      "spec2": "Made from Fresh Ripe Bananas",
+      "spec3": "Sweet & Unsweetened Varieties",
+      "spec4": "Rich in Potassium & Fiber",
+      "spec5": "FSSAI Certified",
+      "spec6": "Export Ready",
+      "spec7": "Bulk Packaging Available"
+    },
+    "driedCoconut": {
+      "title": "Dried/Dehydrated Coconut Slices",
+      "description": "Premium dried/dehydrated coconut slices made from fresh, mature coconuts. Natural, rich in healthy fats, and perfect for snacking, baking, and confectionery. Available in various sizes and thicknesses. Crunchy texture with natural coconut flavor.",
+      "spec1": "100% Natural, No Preservatives",
+      "spec2": "Made from Fresh Coconuts",
+      "spec3": "Various Sizes & Thicknesses",
+      "spec4": "Rich in Healthy Fats & Fiber",
+      "spec5": "FSSAI Certified",
+      "spec6": "Export Grade Quality",
+      "spec7": "Crunchy Texture"
+    },
+    "mixedDriedFruits": {
+      "title": "Mixed Dried/Dehydrated Fruit Slices",
+      "description": "Premium mixed dried/dehydrated fruit slices - a perfect blend of mango, banana, coconut, papaya, guava, and other tropical fruits. Natural, preservative-free, and packed with vitamins and nutrients. Ideal for snacking, gift boxes, and food service industry.",
+      "spec1": "100% Natural Mix, No Preservatives",
+      "spec2": "Premium Fruit Blend",
+      "spec3": "Variety of Tropical Fruits",
+      "spec4": "Rich in Vitamins & Nutrients",
+      "spec5": "FSSAI Certified",
+      "spec6": "Custom Blends Available",
+      "spec7": "Bulk Export Ready"
+    },
+    "riceDishes": {
+      "title": "Rice Dishes",
+      "description": "Authentic Indian ready-to-eat meals in retort packaging with extended shelf life. No refrigeration required until opened. Ideal for retail, food service, and export markets.",
+      "spec1": "Veg Pulao, Jeera Rice, Mutter Pulao, Biryani",
+      "spec2": "Retort pouches / Food-grade containers",
+      "spec3": "Net Weight: 250g, 300g, 500g (customizable)",
+      "spec4": "Shelf Life: 12-18 months (ambient storage)",
+      "spec5": "ISO 22000:2005, FSSAI Certified",
+      "spec6": "No MSG, No artificial flavors/colors",
+      "spec7": "Ready in 2-5 minutes (heat and serve)",
+      "spec8": "MOQ: 500-1000 units per SKU"
+    },
+    "curryDishes": {
+      "title": "Curry Dishes",
+      "description": "Authentic Indian ready-to-eat meals in retort packaging with extended shelf life. No refrigeration required until opened. Ideal for retail, food service, and export markets.",
+      "spec1": "Chole Masala, Methi Mutter Malai, Dal Makhani, Rajma",
+      "spec2": "Retort pouches / Food-grade containers",
+      "spec3": "Net Weight: 250g, 300g, 500g (customizable)",
+      "spec4": "Shelf Life: 12-18 months (ambient storage)",
+      "spec5": "ISO 22000:2005, FSSAI Certified",
+      "spec6": "No MSG, No artificial flavors/colors",
+      "spec7": "Ready in 2-5 minutes (heat and serve)",
+      "spec8": "MOQ: 500-1000 units per SKU"
+    },
+    "southIndian": {
+      "title": "South Indian Dishes",
+      "description": "Authentic Indian ready-to-eat meals in retort packaging with extended shelf life. No refrigeration required until opened. Ideal for retail, food service, and export markets.",
+      "spec1": "Sambar, Rasam, Avial, Kootu",
+      "spec2": "Retort pouches / Food-grade containers",
+      "spec3": "Net Weight: 250g, 300g, 500g (customizable)",
+      "spec4": "Shelf Life: 12-18 months (ambient storage)",
+      "spec5": "ISO 22000:2005, FSSAI Certified",
+      "spec6": "No MSG, No artificial flavors/colors",
+      "spec7": "Ready in 2-5 minutes (heat and serve)",
+      "spec8": "MOQ: 500-1000 units per SKU"
+    },
+    "streetFood": {
+      "title": "Street Food & Maharashtrian Specialties",
+      "description": "Authentic Indian ready-to-eat meals in retort packaging with extended shelf life. No refrigeration required until opened. Ideal for retail, food service, and export markets.",
+      "spec1": "Pav Bhaji, Misal Tarri, Vada Pav Mix, Ragda Pattice",
+      "spec2": "Retort pouches / Food-grade containers",
+      "spec3": "Net Weight: 250g, 300g, 500g (customizable)",
+      "spec4": "Shelf Life: 12-18 months (ambient storage)",
+      "spec5": "ISO 22000:2005, FSSAI Certified",
+      "spec6": "No MSG, No artificial flavors/colors",
+      "spec7": "Ready in 2-5 minutes (heat and serve)",
+      "spec8": "MOQ: 500-1000 units per SKU"
+    },
+    "curryGravies": {
+      "title": "Curry Gravies & Bases",
+      "description": "Semi-processed meal kits and cooking concentrates requiring minimal preparation. Authentic taste with convenience. Shelf-stable products ideal for modern households and food service.",
+      "spec1": "Veg Kadhai, Butter Gravy, Malvani Gravy, Goan Curry",
+      "spec2": "Pouches, jars, or vacuum-sealed packs",
+      "spec3": "Net Weight: 100g, 200g, 300g, 500g (customizable)",
+      "spec4": "Shelf Life: 9-12 months (ambient storage)",
+      "spec5": "ISO 22000:2005, FSSAI Certified",
+      "spec6": "Concentrated paste/powder/semi-cooked format",
+      "spec7": "Preparation Time: 15-30 minutes",
+      "spec8": "MOQ: 500-1000 units per SKU"
+    },
+    "riceBiryani": {
+      "title": "Rice & Biryani Mixes",
+      "description": "Semi-processed meal kits and cooking concentrates requiring minimal preparation. Authentic taste with convenience. Shelf-stable products ideal for modern households and food service.",
+      "spec1": "Biryani Paste, Pulao Mix, Fried Rice Mix",
+      "spec2": "Pouches, jars, or vacuum-sealed packs",
+      "spec3": "Net Weight: 100g, 200g, 300g, 500g (customizable)",
+      "spec4": "Shelf Life: 9-12 months (ambient storage)",
+      "spec5": "ISO 22000:2005, FSSAI Certified",
+      "spec6": "Concentrated paste/powder/semi-cooked format",
+      "spec7": "Preparation Time: 15-30 minutes",
+      "spec8": "MOQ: 500-1000 units per SKU"
+    },
+    "traditionalRtc": {
+      "title": "Traditional & Regional Specialties",
+      "description": "Semi-processed meal kits and cooking concentrates requiring minimal preparation. Authentic taste with convenience. Shelf-stable products ideal for modern households and food service.",
+      "spec1": "Undiyu, Puran & Katachi Amti, Regional Curry Pastes",
+      "spec2": "Pouches, jars, or vacuum-sealed packs",
+      "spec3": "Net Weight: 100g, 200g, 300g, 500g (customizable)",
+      "spec4": "Shelf Life: 9-12 months (ambient storage)",
+      "spec5": "ISO 22000:2005, FSSAI Certified",
+      "spec6": "Concentrated paste/powder/semi-cooked format",
+      "spec7": "Preparation Time: 15-30 minutes",
+      "spec8": "MOQ: 500-1000 units per SKU"
+    },
+    "breakfastRtc": {
+      "title": "Breakfast & Snack Mixes",
+      "description": "Semi-processed meal kits and cooking concentrates requiring minimal preparation. Authentic taste with convenience. Shelf-stable products ideal for modern households and food service.",
+      "spec1": "Dosa Batter, Idli Batter, Upma Mix, Poha Mix, Pakora Mix",
+      "spec2": "Pouches, jars, or vacuum-sealed packs",
+      "spec3": "Net Weight: 100g, 200g, 300g, 500g (customizable)",
+      "spec4": "Shelf Life: 9-12 months (ambient storage)",
+      "spec5": "ISO 22000:2005, FSSAI Certified",
+      "spec6": "Concentrated paste/powder/semi-cooked format",
+      "spec7": "Preparation Time: 15-30 minutes",
+      "spec8": "MOQ: 500-1000 units per SKU"
+    },
+    "soupRtc": {
+      "title": "Soup Concentrates & Starter Mixes",
+      "description": "Semi-processed meal kits and cooking concentrates requiring minimal preparation. Authentic taste with convenience. Shelf-stable products ideal for modern households and food service.",
+      "spec1": "Tomato Soup, Sweet Corn, Hot & Sour, Manchow, Tandoori Marinade",
+      "spec2": "Pouches, jars, or vacuum-sealed packs",
+      "spec3": "Net Weight: 100g, 200g, 300g, 500g (customizable)",
+      "spec4": "Shelf Life: 9-12 months (ambient storage)",
+      "spec5": "ISO 22000:2005, FSSAI Certified",
+      "spec6": "Concentrated paste/powder/semi-cooked format",
+      "spec7": "Preparation Time: 15-30 minutes",
+      "spec8": "MOQ: 500-1000 units per SKU"
+    },
+    "homeDecor": {
+      "title": "Home Decor Items",
+      "description": "Premium home decor and furnishing items. Quality products for modern and traditional interiors.",
+      "spec1": "Premium Quality",
+      "spec2": "Various Styles",
+      "spec3": "Bulk Export Available",
+      "spec4": "Custom Designs"
+    }
+  }
 }
