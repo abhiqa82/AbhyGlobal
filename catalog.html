@@ -22,6 +22,9 @@
     <meta name="language" content="English">
     <meta name="revisit-after" content="7 days">
     <link rel="canonical" href="https://www.abhyglobal.com/catalog.html">
+    <link rel="alternate" hreflang="en" href="https://www.abhyglobal.com/catalog.html">
+    <link rel="alternate" hreflang="hi" href="https://www.abhyglobal.com/catalog.html?lang=hi">
+    <link rel="alternate" hreflang="x-default" href="https://www.abhyglobal.com/catalog.html">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -851,6 +854,7 @@
     </script>
     
     <link rel="stylesheet" href="styles.css">
+    <script src="i18n/i18n.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
@@ -1119,33 +1123,37 @@
                 <img src="logo.png" alt="Abhy Global - Leading Indian Export Company for Textiles, Spices & Electronics from Mumbai" class="logo-img">
                 <div class="logo-wrapper">
                     <span class="logo-text">Abhy Global</span>
-                    <span class="logo-tagline">Your Trusted Partner in Global Trade</span>
+                    <span class="logo-tagline" data-i18n="nav.tagline" data-i18n-ns="common">Your Trusted Partner in Global Trade</span>
                 </div>
             </a>
             <div class="nav-menu" id="nav-menu">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="index.html#home" class="nav-link">Home</a>
+                        <a href="index.html#home" class="nav-link" data-i18n="nav.home" data-i18n-ns="common">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#about" class="nav-link">About</a>
+                        <a href="index.html#about" class="nav-link" data-i18n="nav.about" data-i18n-ns="common">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#products" class="nav-link">Products</a>
+                        <a href="index.html#products" class="nav-link" data-i18n="nav.products" data-i18n-ns="common">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a href="catalog.html" class="nav-link active">Catalog</a>
+                        <a href="catalog.html" class="nav-link active" data-i18n="nav.catalog" data-i18n-ns="common">Catalog</a>
                     </li>
                     <li class="nav-item">
-                        <a href="services.html" class="nav-link">Services</a>
+                        <a href="services.html" class="nav-link" data-i18n="nav.services" data-i18n-ns="common">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#why-choose" class="nav-link">Why Choose Us</a>
+                        <a href="index.html#why-choose" class="nav-link" data-i18n="nav.whyChoose" data-i18n-ns="common">Why Choose Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#contact" class="nav-link">Contact</a>
+                        <a href="index.html#contact" class="nav-link" data-i18n="nav.contact" data-i18n-ns="common">Contact</a>
                     </li>
                 </ul>
+                <div class="lang-switcher" id="lang-switcher" role="group" aria-label="Language">
+                    <button type="button" class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
+                    <button type="button" class="lang-btn" data-lang="hi" aria-pressed="false">हि</button>
+                </div>
                 <div class="nav-close" id="nav-close">
                     <i class="close-icon">&times;</i>
                 </div>
@@ -2094,22 +2102,22 @@
                         <img src="logo.png" alt="Abhy Global - Leading Indian Export Company for Textiles, Spices & Electronics from Mumbai" class="logo-img">
                         <span class="logo-text">Abhy Global</span>
                     </a>
-                    <p>Your Trusted Partner in Global Trade Excellence</p>
+                    <p data-i18n="footer.tagline" data-i18n-ns="common">Your Trusted Partner in Global Trade Excellence</p>
                 </div>
                 <div class="footer-section">
-                    <h4>Quick Links</h4>
+                    <h4 data-i18n="footer.quickLinks" data-i18n-ns="common">Quick Links</h4>
                     <ul>
-                        <li><a href="index.html#home">Home</a></li>
-                        <li><a href="index.html#about">About</a></li>
-                        <li><a href="index.html#products">Products</a></li>
-                        <li><a href="catalog.html">Catalog</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="index.html#why-choose">Why Choose Us</a></li>
-                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="index.html#home" data-i18n="nav.home" data-i18n-ns="common">Home</a></li>
+                        <li><a href="index.html#about" data-i18n="nav.about" data-i18n-ns="common">About</a></li>
+                        <li><a href="index.html#products" data-i18n="nav.products" data-i18n-ns="common">Products</a></li>
+                        <li><a href="catalog.html" data-i18n="nav.catalog" data-i18n-ns="common">Catalog</a></li>
+                        <li><a href="services.html" data-i18n="nav.services" data-i18n-ns="common">Services</a></li>
+                        <li><a href="index.html#why-choose" data-i18n="nav.whyChoose" data-i18n-ns="common">Why Choose Us</a></li>
+                        <li><a href="index.html#contact" data-i18n="nav.contact" data-i18n-ns="common">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Products</h4>
+                    <h4 data-i18n="footer.products" data-i18n-ns="common">Products</h4>
                     <ul>
                         <li><a href="catalog.html?filter=textiles">Textiles</a></li>
                         <li><a href="catalog.html?filter=spices">Spices</a></li>
@@ -2122,7 +2130,7 @@
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Connect</h4>
+                    <h4 data-i18n="footer.connect" data-i18n-ns="common">Connect</h4>
                     <ul>
                         <li>Email: <a href="mailto:abhishek.agawane@abhyglobal.com">abhishek.agawane@abhyglobal.com</a></li>
                         <li>Email: <a href="mailto:contactus@abhyglobal.com">contactus@abhyglobal.com</a></li>
@@ -2131,12 +2139,12 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Abhy Global. All rights reserved.</p>
-                <p>Proprietor: Manisha Agawane</p>
+                <p data-i18n="footer.copyright" data-i18n-ns="common">&copy; 2024 Abhy Global. All rights reserved.</p>
+                <p data-i18n="footer.proprietor" data-i18n-ns="common">Proprietor: Manisha Agawane</p>
                 <p class="footer-credits">
-                    Application is build by <a href="#" id="developer-email" class="developer-link">Abhishek A</a> and is powered by <a href="https://www.vasanisha.com/" target="_blank" rel="noopener noreferrer" class="vasanisha-link">Vasanisha</a> - your digital partner.
+                    <span data-i18n="footer.credits" data-i18n-ns="common">Application is built by</span> <a href="#" id="developer-email" class="developer-link">Abhishek A</a> <span data-i18n="footer.poweredBy" data-i18n-ns="common">and is powered by</span> <a href="https://www.vasanisha.com/" target="_blank" rel="noopener noreferrer" class="vasanisha-link">Vasanisha</a> - <span data-i18n="footer.digitalPartner" data-i18n-ns="common">your digital partner.</span>
                 </p>
-                <p>IEC code and GSTIN available on request.</p>
+                <p data-i18n="footer.iecGstin" data-i18n-ns="common">IEC code and GSTIN available on request.</p>
             </div>
         </div>
     </footer>

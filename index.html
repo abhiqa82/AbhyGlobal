@@ -23,6 +23,9 @@
     <meta name="revisit-after" content="7 days">
     <meta name="rating" content="general">
     <link rel="canonical" href="https://www.abhyglobal.com/">
+    <link rel="alternate" hreflang="en" href="https://www.abhyglobal.com/">
+    <link rel="alternate" hreflang="hi" href="https://www.abhyglobal.com/?lang=hi">
+    <link rel="alternate" hreflang="x-default" href="https://www.abhyglobal.com/">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -235,6 +238,7 @@
     }
     </script>
     <link rel="stylesheet" href="styles.css">
+    <script src="i18n/i18n.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
@@ -257,33 +261,37 @@
                 <img src="logo.png" alt="Abhy Global - Leading Indian Export Company for Textiles, Spices & Electronics from Mumbai" class="logo-img">
                 <div class="logo-wrapper">
                     <span class="logo-text">Abhy Global</span>
-                    <span class="logo-tagline">Your Trusted Partner in Global Trade</span>
+                    <span class="logo-tagline" data-i18n="nav.tagline" data-i18n-ns="common">Your Trusted Partner in Global Trade</span>
                 </div>
             </a>
             <div class="nav-menu" id="nav-menu">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link active">Home</a>
+                        <a href="#home" class="nav-link active" data-i18n="nav.home" data-i18n-ns="common">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
+                        <a href="#about" class="nav-link" data-i18n="nav.about" data-i18n-ns="common">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#products" class="nav-link">Products</a>
+                        <a href="#products" class="nav-link" data-i18n="nav.products" data-i18n-ns="common">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a href="catalog.html" class="nav-link">Catalog</a>
+                        <a href="catalog.html" class="nav-link" data-i18n="nav.catalog" data-i18n-ns="common">Catalog</a>
                     </li>
                     <li class="nav-item">
-                        <a href="services.html" class="nav-link">Services</a>
+                        <a href="services.html" class="nav-link" data-i18n="nav.services" data-i18n-ns="common">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#why-choose" class="nav-link">Why Choose Us</a>
+                        <a href="#why-choose" class="nav-link" data-i18n="nav.whyChoose" data-i18n-ns="common">Why Choose Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <a href="#contact" class="nav-link" data-i18n="nav.contact" data-i18n-ns="common">Contact</a>
                     </li>
                 </ul>
+                <div class="lang-switcher" id="lang-switcher" role="group" aria-label="Language">
+                    <button type="button" class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
+                    <button type="button" class="lang-btn" data-lang="hi" aria-pressed="false">हि</button>
+                </div>
                 <div class="nav-close" id="nav-close">
                     <i class="close-icon">&times;</i>
                 </div>
@@ -301,12 +309,12 @@
         <section class="hero section" id="home">
             <div class="hero-container container">
                 <div class="hero-content">
-                    <h1 class="hero-title">Indian Wholesale Supplier & Exporter - Buy Premium commodities from India.</h1>
-                    <p class="hero-tagline">Affordable Export Solution from India</p>
-                    <p class="hero-description">Verified Indian supplier and Mumbai exporter offering wholesale spices India. Buy Turmeric, Red Chilli, Cumin, Coriander, Garam Masala from India - all FSSAI certified, export quality, ISO certified India manufacturer. Bulk supplier India, wholesale price India, FOB India pricing. Low MOQ India supplier, affordable Indian exporter. We export Ready to Eat meals and Ready to Cook meal kits for grocery stores, restaurants, and distributors. Factory price India, container price India. Serving USA, Europe, Middle East, Africa, Asia-Pacific, Latin America. Get quote today!</p>
+                    <h1 class="hero-title" data-i18n="hero.title" data-i18n-ns="index">Indian Wholesale Supplier & Exporter - Buy Premium commodities from India.</h1>
+                    <p class="hero-tagline" data-i18n="hero.tagline" data-i18n-ns="index">Affordable Export Solution from India</p>
+                    <p class="hero-description" data-i18n="hero.description" data-i18n-ns="index">Verified Indian supplier and Mumbai exporter offering wholesale spices India. Buy Turmeric, Red Chilli, Cumin, Coriander, Garam Masala from India - all FSSAI certified, export quality, ISO certified India manufacturer. Bulk supplier India, wholesale price India, FOB India pricing. Low MOQ India supplier, affordable Indian exporter. We export Ready to Eat meals and Ready to Cook meal kits for grocery stores, restaurants, and distributors. Factory price India, container price India. Serving USA, Europe, Middle East, Africa, Asia-Pacific, Latin America. Get quote today!</p>
                     <div class="hero-buttons">
-                        <a href="catalog.html" class="btn btn-primary">Explore Products</a>
-                        <a href="#contact" class="btn btn-secondary">Connect With Us</a>
+                        <a href="catalog.html" class="btn btn-primary" data-i18n="buttons.exploreProducts" data-i18n-ns="common">Explore Products</a>
+                        <a href="#contact" class="btn btn-secondary" data-i18n="buttons.connectWithUs" data-i18n-ns="common">Connect With Us</a>
                     </div>
                 </div>
                 <div class="hero-image">
@@ -325,8 +333,8 @@
         <section class="about section" id="about">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">About Abhy Global</h2>
-                    <p class="section-subtitle">Excellence in Global Trade Since Our Inception</p>
+                    <h2 class="section-title" data-i18n="about.title" data-i18n-ns="index">About Abhy Global</h2>
+                    <p class="section-subtitle" data-i18n="about.subtitle" data-i18n-ns="index">Excellence in Global Trade Since Our Inception</p>
                 </div>
                 <div class="about-content">
                     <div class="about-text">
@@ -402,8 +410,8 @@
         <section class="products section" id="products">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">Our Product Categories</h2>
-                    <p class="section-subtitle">Premium Quality Products Ready for Global Markets</p>
+                    <h2 class="section-title" data-i18n="products.title" data-i18n-ns="index">Our Product Categories</h2>
+                    <p class="section-subtitle" data-i18n="products.subtitle" data-i18n-ns="index">Premium Quality Products Ready for Global Markets</p>
                 </div>
                 <div class="products-grid">
                     <!-- Textiles Category -->
@@ -545,7 +553,7 @@
         <section class="why-choose section" id="why-choose">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">Why Choose Abhy Global</h2>
+                    <h2 class="section-title" data-i18n="whyChoose.title" data-i18n-ns="index">Why Choose Abhy Global</h2>
                     <p class="section-subtitle">The Competitive Advantages That Set Us Apart</p>
                 </div>
                 <div class="benefits-grid">
@@ -623,8 +631,8 @@
         <section class="global-reach section">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">Global Reach</h2>
-                    <p class="section-subtitle">Connecting Markets Across the World</p>
+                    <h2 class="section-title" data-i18n="globalReach.title" data-i18n-ns="index">Global Reach</h2>
+                    <p class="section-subtitle" data-i18n="globalReach.subtitle" data-i18n-ns="index">Connecting Markets Across the World</p>
                 </div>
                 <div class="global-content">
                     <div class="global-text">
@@ -683,7 +691,7 @@
         <section class="quality section">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">Quality & Compliance</h2>
+                    <h2 class="section-title" data-i18n="quality.title" data-i18n-ns="index">Quality & Compliance</h2>
                     <p class="section-subtitle">Upholding the Highest Standards in Every Shipment</p>
                 </div>
                 <div class="quality-content">
@@ -720,8 +728,8 @@
         <section class="contact section" id="contact">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">Get In Touch</h2>
-                    <p class="section-subtitle">Let's Build a Successful Partnership Together</p>
+                    <h2 class="section-title" data-i18n="contact.title" data-i18n-ns="index">Get In Touch</h2>
+                    <p class="section-subtitle" data-i18n="contact.subtitle" data-i18n-ns="index">Let's Build a Successful Partnership Together</p>
                 </div>
                 <div class="contact-content">
                     <div class="contact-info">
@@ -733,7 +741,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <h3>Email</h3>
+                                <h3 data-i18n="contact.email" data-i18n-ns="common">Email</h3>
                                 <p>
                                     <a href="mailto:abhishek.agawane@abhyglobal.com">abhishek.agawane@abhyglobal.com</a><br>
                                     <a href="mailto:contactus@abhyglobal.com">contactus@abhyglobal.com</a>
@@ -747,7 +755,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <h3>Phone</h3>
+                                <h3 data-i18n="contact.phone" data-i18n-ns="common">Phone</h3>
                                 <p>+91 9820227510 (IND)</p>
                             </div>
                         </div>
@@ -758,7 +766,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <h3>Mobile (WhatsApp)</h3>
+                                <h3 data-i18n="contact.whatsapp" data-i18n-ns="common">Mobile (WhatsApp)</h3>
                                 <p>
                                     <a href="https://wa.me/919820931976" target="_blank" rel="noopener noreferrer" class="whatsapp-link">
                                         +91 9820931976 (IND)
@@ -777,36 +785,36 @@
                                 </svg>
                             </div>
                             <div>
-                                <h3>Office</h3>
+                                <h3 data-i18n="contact.office" data-i18n-ns="common">Office</h3>
                                 <p>Mulund, Mumbai 400080, Maharashtra, INDIA</p>
                             </div>
                         </div>
                     </div>
                     <form class="contact-form" id="contact-form" novalidate aria-live="polite">
                         <div class="form-group">
-                            <label for="name">Full Name *</label>
+                            <label for="name" data-i18n="form.fullName" data-i18n-ns="common">Full Name *</label>
                             <input type="text" id="name" name="name" required autocomplete="name" aria-required="true" aria-describedby="name-error">
                             <span id="name-error" class="error-message" role="alert"></span>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email Address *</label>
+                            <label for="email" data-i18n="form.email" data-i18n-ns="common">Email Address *</label>
                             <input type="email" id="email" name="email" required autocomplete="email" aria-required="true" aria-describedby="email-error">
                             <span id="email-error" class="error-message" role="alert"></span>
                         </div>
                         <div class="form-group">
-                            <label for="phone">Phone Number</label>
+                            <label for="phone" data-i18n="form.phone" data-i18n-ns="common">Phone Number</label>
                             <input type="tel" id="phone" name="phone" autocomplete="tel" aria-describedby="phone-error">
                             <span id="phone-error" class="error-message" role="alert"></span>
                         </div>
                         <div class="form-group">
-                            <label for="company">Company Name</label>
+                            <label for="company" data-i18n="form.company" data-i18n-ns="common">Company Name</label>
                             <input type="text" id="company" name="company" autocomplete="organization" aria-describedby="company-error">
                             <span id="company-error" class="error-message" role="alert"></span>
                         </div>
                         <div class="form-group">
-                            <label for="product-interest">Product Interest</label>
+                            <label for="product-interest" data-i18n="form.productInterest" data-i18n-ns="common">Product Interest</label>
                             <select id="product-interest" name="product-interest" autocomplete="off">
-                                <option value="">Select a product category</option>
+                                <option value="" data-i18n="form.selectCategory" data-i18n-ns="common">Select a product category</option>
                                 <option value="textiles">Textiles</option>
                                 <option value="ready-to-eat">Ready to Eat Food</option>
                                 <option value="ready-to-cook">Ready to Cook</option>
@@ -823,12 +831,12 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="message">Message *</label>
-                            <textarea id="message" name="message" rows="5" required autocomplete="off" aria-required="true" aria-describedby="message-error" placeholder="Share your interest with us and lets work togather, If you like it we take it ahead or else leave us a feedback for us to improve."></textarea>
+                            <label for="message" data-i18n="form.message" data-i18n-ns="common">Message *</label>
+                            <textarea id="message" name="message" rows="5" required autocomplete="off" aria-required="true" aria-describedby="message-error" data-i18n-placeholder="form.messagePlaceholder" data-i18n-ns="common" placeholder="Share your interest with us and lets work together. If you like it we take it ahead or else leave us a feedback for us to improve."></textarea>
                             <span id="message-error" class="error-message" role="alert"></span>
                         </div>
                         <div class="form-buttons">
-                            <button type="submit" class="btn btn-primary" id="submit-btn">Send message</button>
+                            <button type="submit" class="btn btn-primary" id="submit-btn" data-i18n="buttons.sendMessage" data-i18n-ns="common">Send message</button>
                         </div>
                     </form>
                 </div>
@@ -845,22 +853,22 @@
                         <img src="logo.png" alt="Abhy Global - Leading Indian Export Company for Textiles, Spices & Electronics from Mumbai" class="logo-img">
                         <span class="logo-text">Abhy Global</span>
                     </a>
-                    <p>Your Trusted Partner in Global Trade Excellence</p>
+                    <p data-i18n="footer.tagline" data-i18n-ns="common">Your Trusted Partner in Global Trade Excellence</p>
                 </div>
                 <div class="footer-section">
-                    <h4>Quick Links</h4>
+                    <h4 data-i18n="footer.quickLinks" data-i18n-ns="common">Quick Links</h4>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#products">Products</a></li>
-                        <li><a href="catalog.html">Catalog</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="#why-choose">Why Choose Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#home" data-i18n="nav.home" data-i18n-ns="common">Home</a></li>
+                        <li><a href="#about" data-i18n="nav.about" data-i18n-ns="common">About</a></li>
+                        <li><a href="#products" data-i18n="nav.products" data-i18n-ns="common">Products</a></li>
+                        <li><a href="catalog.html" data-i18n="nav.catalog" data-i18n-ns="common">Catalog</a></li>
+                        <li><a href="services.html" data-i18n="nav.services" data-i18n-ns="common">Services</a></li>
+                        <li><a href="#why-choose" data-i18n="nav.whyChoose" data-i18n-ns="common">Why Choose Us</a></li>
+                        <li><a href="#contact" data-i18n="nav.contact" data-i18n-ns="common">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Products</h4>
+                    <h4 data-i18n="footer.products" data-i18n-ns="common">Products</h4>
                     <ul>
                         <li><a href="catalog.html?filter=textiles">Textiles</a></li>
                         <li><a href="catalog.html?filter=spices">Spices</a></li>
@@ -869,7 +877,7 @@
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Connect</h4>
+                    <h4 data-i18n="footer.connect" data-i18n-ns="common">Connect</h4>
                     <ul>
                         <li>Email: <a href="mailto:abhishek.agawane@abhyglobal.com">abhishek.agawane@abhyglobal.com</a></li>
                         <li>Email: <a href="mailto:contactus@abhyglobal.com">contactus@abhyglobal.com</a></li>
@@ -878,12 +886,12 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Abhy Global. All rights reserved.</p>
-                <p>Proprietor: Manisha Agawane</p>
+                <p data-i18n="footer.copyright" data-i18n-ns="common">&copy; 2024 Abhy Global. All rights reserved.</p>
+                <p data-i18n="footer.proprietor" data-i18n-ns="common">Proprietor: Manisha Agawane</p>
                 <p class="footer-credits">
-                    Application is build by <a href="#" id="developer-email" class="developer-link">Abhishek A</a> and is powered by <a href="https://www.vasanisha.com/" target="_blank" rel="noopener noreferrer" class="vasanisha-link">Vasanisha</a> - your digital partner.
+                    <span data-i18n="footer.credits" data-i18n-ns="common">Application is built by</span> <a href="#" id="developer-email" class="developer-link">Abhishek A</a> <span data-i18n="footer.poweredBy" data-i18n-ns="common">and is powered by</span> <a href="https://www.vasanisha.com/" target="_blank" rel="noopener noreferrer" class="vasanisha-link">Vasanisha</a> - <span data-i18n="footer.digitalPartner" data-i18n-ns="common">your digital partner.</span>
                 </p>
-                <p>IEC code and GSTIN available on request.</p>
+                <p data-i18n="footer.iecGstin" data-i18n-ns="common">IEC code and GSTIN available on request.</p>
             </div>
         </div>
     </footer>

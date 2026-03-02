@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "catalog": "Catalog",
+    "services": "Services",
+    "whyChoose": "Why Choose Us",
+    "contact": "Contact",
+    "tagline": "Your Trusted Partner in Global Trade"
+  },
+  "footer": {
+    "tagline": "Your Trusted Partner in Global Trade Excellence",
+    "quickLinks": "Quick Links",
+    "products": "Products",
+    "connect": "Connect",
+    "copyright": "© 2024 Abhy Global. All rights reserved.",
+    "proprietor": "Proprietor: Manisha Agawane",
+    "credits": "Application is built by",
+    "poweredBy": "and is powered by",
+    "digitalPartner": "your digital partner.",
+    "iecGstin": "IEC code and GSTIN available on request."
+  },
+  "buttons": {
+    "exploreProducts": "Explore Products",
+    "connectWithUs": "Connect With Us",
+    "requestQuote": "Request Quote",
+    "sendMessage": "Send message",
+    "getStarted": "Get Started Today"
+  },
+  "form": {
+    "fullName": "Full Name *",
+    "email": "Email Address *",
+    "phone": "Phone Number",
+    "company": "Company Name",
+    "productInterest": "Product Interest",
+    "message": "Message *",
+    "selectCategory": "Select a product category",
+    "messagePlaceholder": "Share your interest with us and lets work together. If you like it we take it ahead or else leave us a feedback for us to improve."
+  },
+  "contact": {
+    "email": "Email",
+    "phone": "Phone",
+    "whatsapp": "Mobile (WhatsApp)",
+    "office": "Office"
+  },
+  "lang": {
+    "en": "English",
+    "hi": "हिंदी"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "होम",
+    "about": "हमारे बारे में",
+    "products": "उत्पाद",
+    "catalog": "कैटलॉग",
+    "services": "सेवाएं",
+    "whyChoose": "क्यों चुनें",
+    "contact": "संपर्क करें",
+    "tagline": "वैश्विक व्यापार में आपका विश्वसनीय साझेदार"
+  },
+  "footer": {
+    "tagline": "वैश्विक व्यापार उत्कृष्टता में आपका विश्वसनीय साझेदार",
+    "quickLinks": "त्वरित लिंक",
+    "products": "उत्पाद",
+    "connect": "जुड़ें",
+    "copyright": "© 2024 अभ्य ग्लोबल। सर्वाधिकार सुरक्षित।",
+    "proprietor": "स्वामी: मनीषा अगवाने",
+    "credits": "एप्लिकेशन बनाया गया",
+    "poweredBy": "द्वारा संचालित",
+    "digitalPartner": "आपका डिजिटल साझेदार।",
+    "iecGstin": "IEC कोड और GSTIN अनुरोध पर उपलब्ध।"
+  },
+  "buttons": {
+    "exploreProducts": "उत्पाद देखें",
+    "connectWithUs": "हमसे जुड़ें",
+    "requestQuote": "कोटेशन मांगें",
+    "sendMessage": "संदेश भेजें",
+    "getStarted": "आज ही शुरू करें"
+  },
+  "form": {
+    "fullName": "पूरा नाम *",
+    "email": "ईमेल पता *",
+    "phone": "फोन नंबर",
+    "company": "कंपनी का नाम",
+    "productInterest": "उत्पाद में रुचि",
+    "message": "संदेश *",
+    "selectCategory": "उत्पाद श्रेणी चुनें",
+    "messagePlaceholder": "हमारे साथ अपनी रुचि साझा करें और मिलकर काम करें। अगर पसंद आए तो आगे बढ़ेंगे वरना सुधार के लिए फीडबैक दें।"
+  },
+  "contact": {
+    "email": "ईमेल",
+    "phone": "फोन",
+    "whatsapp": "मोबाइल (WhatsApp)",
+    "office": "कार्यालय"
+  },
+  "lang": {
+    "en": "English",
+    "hi": "हिंदी"
+  }
+}

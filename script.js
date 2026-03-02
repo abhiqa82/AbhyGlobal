@@ -652,6 +652,32 @@
     }
 
     // ============================================
+    // I18N (MULTILINGUAL) INITIALIZATION
+    // ============================================
+    function setupI18n() {
+        if (typeof AbhyI18n === 'undefined') return;
+        try {
+            AbhyI18n.init().then(() => {
+                const switcher = document.getElementById('lang-switcher');
+                if (switcher) {
+                    switcher.querySelectorAll('[data-lang]').forEach(btn => {
+                        btn.addEventListener('click', function() {
+                            const lang = this.getAttribute('data-lang');
+                            if (lang && AbhyI18n.supportedLangs.includes(lang)) {
+                                AbhyI18n.setLanguage(lang);
+                            }
+                        });
+                    });
+                }
+            }).catch(err => {
+                console.warn('i18n init failed, using default content:', err);
+            });
+        } catch (e) {
+            console.warn('i18n setup failed:', e);
+        }
+    }
+
+    // ============================================
     // INITIALIZE ON DOM LOAD
     // ============================================
     document.addEventListener('DOMContentLoaded', () => {
@@ -660,6 +686,9 @@
 
         // Add loading animation complete class
         document.body.classList.add('loaded');
+        
+        // Initialize i18n (multilingual support)
+        setupI18n();
         
         // Setup developer email link
         setupDeveloperEmailLink();
