@@ -9,7 +9,8 @@
     "textiles": "Textiles",
     "spices": "Épices",
     "ayurvedic": "Produits ayurvédiques",
-    "driedFruits": "Fruits secs",
+    "dehydratedFruitPowder": "Poudre de fruits déshydratés",
+    "dehydratedHerbalPowder": "Poudre d'herbes déshydratées",
     "readyToEat": "Prêt à consommer",
     "readyToCook": "Prêt à cuisiner",
     "others": "Autres"
@@ -26,7 +27,8 @@
     "textiles": "Textiles",
     "spices": "Épices",
     "ayurvedic": "Produits ayurvédiques",
-    "driedFruits": "Fruits secs",
+    "dehydratedFruitPowder": "Poudre de fruits déshydratés",
+    "dehydratedHerbalPowder": "Poudre d'herbes déshydratées",
     "readyToEat": "Prêt à consommer",
     "readyToCook": "Prêt à cuisiner",
     "others": "Autres"
@@ -218,6 +220,46 @@
       "spec5": "Certifié FSSAI",
       "spec6": "Qualité grade export",
       "spec7": "Texture croquante"
+    },
+    "moringaPowder": {
+      "title": "Poudre de Moringa",
+      "description": "Poudre de Moringa (drumstick) 100 % pure – multivitamine naturelle. Riche en fer, calcium et vitamines. Séchage sur plateau électrique uniquement, sans séchage par pulvérisation. Sans maltodextrine, zéro charge, ingrédient unique. Certifié FSSAI, qualité alimentaire.",
+      "spec1": "Riche en fer et calcium",
+      "spec2": "Séchage sur plateau électrique uniquement",
+      "spec3": "Sans maltodextrine, zéro charge",
+      "spec4": "100 % pur, ingrédient unique",
+      "spec5": "Certifié FSSAI",
+      "spec6": "Immunité et soutien en fer"
+    },
+    "amlaPowder": {
+      "title": "Poudre d'Amla (sans pépins)",
+      "description": "Vitamine C naturelle la plus élevée – poudre pure de groseille indienne sans pépins. Séchage sur plateau électrique, sans conservateurs ni additifs. 100 % pur, certifié FSSAI. Idéal pour l'immunité, la santé de la peau et le soutien antioxydant.",
+      "spec1": "Vitamine C naturelle la plus élevée",
+      "spec2": "100 % sans pépins",
+      "spec3": "Sans conservateurs ni additifs",
+      "spec4": "Certifié FSSAI",
+      "spec5": "Immunité et antioxydant",
+      "spec6": "Prêt pour l'export en volume"
+    },
+    "beetrootPowder": {
+      "title": "Poudre de betterave",
+      "description": "Nitrates naturels pour l'endurance, l'éclat de la peau et une tension artérielle saine. Poudre de betterave 100 % pure, séchage sur plateau électrique. Sans colorant artificiel, sans sucre ajouté. Certifié FSSAI, qualité alimentaire.",
+      "spec1": "Nitrates naturels",
+      "spec2": "Endurance et éclat de la peau",
+      "spec3": "Sans colorant artificiel",
+      "spec4": "100 % pur, ingrédient unique",
+      "spec5": "Certifié FSSAI",
+      "spec6": "Prêt pour l'export en volume"
+    },
+    "abcPowder": {
+      "title": "Poudre ABC (Pomme + Betterave + Carotte)",
+      "description": "Trois superaliments en une cuillère – mélange premium de poudres de pomme, betterave et carotte. 100 % pur, séchage sur plateau électrique. Sans conservateurs, sans additifs. Parfait pour la détox, l'immunité et la nutrition quotidienne.",
+      "spec1": "Mélange 3-en-1 superaliments",
+      "spec2": "Détox et immunité",
+      "spec3": "Sans conservateurs ni additifs",
+      "spec4": "100 % ingrédients purs",
+      "spec5": "Certifié FSSAI",
+      "spec6": "Prêt pour l'export en volume"
     },
     "mixedDriedFruits": {
       "title": "Mélange de tranches de fruits séchés/déshydratés",

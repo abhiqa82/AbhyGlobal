@@ -9,7 +9,8 @@
     "textiles": "Textiles",
     "spices": "Especias",
     "ayurvedic": "Productos Ayurveda",
-    "driedFruits": "Frutas Secas",
+    "dehydratedFruitPowder": "Polvo de fruta deshidratada",
+    "dehydratedHerbalPowder": "Polvo de hierbas deshidratado",
     "readyToEat": "Listos para Comer",
     "readyToCook": "Listos para Cocinar",
     "others": "Otros"
@@ -26,7 +27,8 @@
     "textiles": "Textiles",
     "spices": "Especias",
     "ayurvedic": "Productos Ayurveda",
-    "driedFruits": "Frutas Secas",
+    "dehydratedFruitPowder": "Polvo de fruta deshidratada",
+    "dehydratedHerbalPowder": "Polvo de hierbas deshidratado",
     "readyToEat": "Listos para Comer",
     "readyToCook": "Listos para Cocinar",
     "others": "Otros"
@@ -218,6 +220,46 @@
       "spec5": "Certificado FSSAI",
       "spec6": "Calidad Grado Exportación",
       "spec7": "Textura Crujiente"
+    },
+    "moringaPowder": {
+      "title": "Polvo de Moringa",
+      "description": "Polvo de Moringa (drumstick) 100% puro – multivitamínico natural. Rico en hierro, calcio y vitaminas. Solo secado en bandeja eléctrica, sin secado por aspersión. Sin maltodextrina, cero rellenos, ingrediente único. Certificado FSSAI, grado alimenticio.",
+      "spec1": "Rico en hierro y calcio",
+      "spec2": "Solo secado en bandeja eléctrica",
+      "spec3": "Sin maltodextrina, cero rellenos",
+      "spec4": "100% puro, ingrediente único",
+      "spec5": "Certificado FSSAI",
+      "spec6": "Inmunidad y apoyo en hierro"
+    },
+    "amlaPowder": {
+      "title": "Polvo de Amla (sin semillas)",
+      "description": "Vitamina C natural más alta – polvo puro de grosella india sin semillas. Secado en bandeja eléctrica, sin conservantes ni aditivos. 100% puro, certificado FSSAI. Ideal para inmunidad, salud de la piel y apoyo antioxidante.",
+      "spec1": "Vitamina C natural más alta",
+      "spec2": "100% sin semillas",
+      "spec3": "Sin conservantes ni aditivos",
+      "spec4": "Certificado FSSAI",
+      "spec5": "Inmunidad y antioxidante",
+      "spec6": "Listo para exportación a granel"
+    },
+    "beetrootPowder": {
+      "title": "Polvo de remolacha",
+      "description": "Nitratos naturales para resistencia, brillo de piel y presión arterial saludable. Polvo de remolacha 100% puro, secado en bandeja eléctrica. Sin color artificial, sin azúcar añadida. Certificado FSSAI, grado alimenticio.",
+      "spec1": "Nitratos naturales",
+      "spec2": "Resistencia y brillo de piel",
+      "spec3": "Sin color artificial",
+      "spec4": "100% puro, ingrediente único",
+      "spec5": "Certificado FSSAI",
+      "spec6": "Listo para exportación a granel"
+    },
+    "abcPowder": {
+      "title": "Polvo ABC (Manzana + Remolacha + Zanahoria)",
+      "description": "Tres superalimentos en una cuchara – mezcla premium de polvos de manzana, remolacha y zanahoria. 100% puro, secado en bandeja eléctrica. Sin conservantes, sin aditivos. Perfecto para desintoxicación, inmunidad y nutrición diaria.",
+      "spec1": "Mezcla 3 en 1 de superalimentos",
+      "spec2": "Desintoxicación e inmunidad",
+      "spec3": "Sin conservantes ni aditivos",
+      "spec4": "100% ingredientes puros",
+      "spec5": "Certificado FSSAI",
+      "spec6": "Listo para exportación a granel"
     },
     "mixedDriedFruits": {
       "title": "Mezcla de Rodajas de Frutas Secas/Deshidratadas",

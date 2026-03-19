@@ -9,7 +9,8 @@
     "textiles": "Textilien",
     "spices": "Gewürze",
     "ayurvedic": "Ayurveda-Produkte",
-    "driedFruits": "Trockenfrüchte",
+    "dehydratedFruitPowder": "Dehydriertes Fruchtpulver",
+    "dehydratedHerbalPowder": "Dehydriertes Kräuterpulver",
     "readyToEat": "Fertiggerichte",
     "readyToCook": "Fertig zum Kochen",
     "others": "Sonstiges"
@@ -26,7 +27,8 @@
     "textiles": "Textilien",
     "spices": "Gewürze",
     "ayurvedic": "Ayurveda-Produkte",
-    "driedFruits": "Trockenfrüchte",
+    "dehydratedFruitPowder": "Dehydriertes Fruchtpulver",
+    "dehydratedHerbalPowder": "Dehydriertes Kräuterpulver",
     "readyToEat": "Fertiggerichte",
     "readyToCook": "Fertig zum Kochen",
     "others": "Sonstiges"
@@ -218,6 +220,46 @@
       "spec5": "FSSAI-zertifiziert",
       "spec6": "Exportqualität",
       "spec7": "Knusprige Textur"
+    },
+    "moringaPowder": {
+      "title": "Moringa-Pulver",
+      "description": "100 % reines Moringa (Drumstick) Pulver – natürliches Multivitamin. Reich an Eisen, Kalzium und Vitaminen. Nur elektrisch tellergetrocknet, kein Sprühtrocknen. Kein Maltodextrin, keine Füllstoffe, einzelne Zutat. FSSAI-zertifiziert, lebensmittelsicher.",
+      "spec1": "Eisen- und kalziumreich",
+      "spec2": "Nur elektrisch tellergetrocknet",
+      "spec3": "Kein Maltodextrin, keine Füllstoffe",
+      "spec4": "100 % rein, einzelne Zutat",
+      "spec5": "FSSAI-zertifiziert",
+      "spec6": "Immunität und Eisenunterstützung"
+    },
+    "amlaPowder": {
+      "title": "Amla-Pulver (kernlos)",
+      "description": "Höchster natürlicher Vitamin-C-Gehalt – reines kernloses indisches Stachelbeerpulver. Elektrisch tellergetrocknet, ohne Konservierungs- oder Zusatzstoffe. 100 % rein, FSSAI-zertifiziert. Ideal für Immunität, Hautgesundheit und antioxidative Unterstützung.",
+      "spec1": "Höchster natürlicher Vitamin C",
+      "spec2": "100 % kernlos",
+      "spec3": "Ohne Konservierungs- oder Zusatzstoffe",
+      "spec4": "FSSAI-zertifiziert",
+      "spec5": "Immunität und Antioxidans",
+      "spec6": "Bulk-Export bereit"
+    },
+    "beetrootPowder": {
+      "title": "Rote-Bete-Pulver",
+      "description": "Natürliche Nitrate für Ausdauer, Hautglanz und gesunden Blutdruck. 100 % reines Rote-Bete-Pulver, elektrisch tellergetrocknet. Keine künstliche Farbe, kein zugesetzter Zucker. FSSAI-zertifiziert, lebensmittelsicher.",
+      "spec1": "Natürliche Nitrate",
+      "spec2": "Ausdauer und Hautglanz",
+      "spec3": "Keine künstliche Farbe",
+      "spec4": "100 % rein, einzelne Zutat",
+      "spec5": "FSSAI-zertifiziert",
+      "spec6": "Bulk-Export bereit"
+    },
+    "abcPowder": {
+      "title": "ABC-Pulver (Apfel + Rote Bete + Karotte)",
+      "description": "Drei Superfoods in einem Löffel – Premium-Mischung aus Apfel-, Rote-Bete- und Karottenpulver. 100 % rein, elektrisch tellergetrocknet. Ohne Konservierungs- oder Zusatzstoffe. Perfekt für Entgiftung, Immunität und tägliche Ernährung.",
+      "spec1": "3-in-1-Superfood-Mischung",
+      "spec2": "Entgiftung und Immunität",
+      "spec3": "Ohne Konservierungs- oder Zusatzstoffe",
+      "spec4": "100 % reine Zutaten",
+      "spec5": "FSSAI-zertifiziert",
+      "spec6": "Bulk-Export bereit"
     },
     "mixedDriedFruits": {
       "title": "Gemischte getrocknete/dehydrierte Fruchtscheiben",

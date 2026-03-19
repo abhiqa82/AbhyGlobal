@@ -9,7 +9,8 @@
     "textiles": "Textiles",
     "spices": "Spices",
     "ayurvedic": "Ayurvedic Products",
-    "driedFruits": "Dried Fruits",
+    "dehydratedFruitPowder": "Dehydrated fruit powder",
+    "dehydratedHerbalPowder": "Dehydrated herbal powder",
     "readyToEat": "Ready to Eat",
     "readyToCook": "Ready to Cook",
     "others": "Others"
@@ -26,7 +27,8 @@
     "textiles": "Textiles",
     "spices": "Spices",
     "ayurvedic": "Ayurvedic Products",
-    "driedFruits": "Dried Fruits",
+    "dehydratedFruitPowder": "Dehydrated fruit powder",
+    "dehydratedHerbalPowder": "Dehydrated herbal powder",
     "readyToEat": "Ready to Eat",
     "readyToCook": "Ready to Cook",
     "others": "Others"
@@ -218,6 +220,46 @@
       "spec5": "FSSAI Certified",
       "spec6": "Export Grade Quality",
       "spec7": "Crunchy Texture"
+    },
+    "moringaPowder": {
+      "title": "Moringa Powder",
+      "description": "100% pure Moringa (drumstick) powder – nature's multivitamin. Rich in iron, calcium, and vitamins. Electric tray-dried only, no spray drying. No maltodextrin, zero fillers, single ingredient. FSSAI certified, food-grade safe.",
+      "spec1": "Iron & Calcium Rich",
+      "spec2": "Electric Tray Dried Only",
+      "spec3": "No Maltodextrin, Zero Fillers",
+      "spec4": "100% Pure, Single Ingredient",
+      "spec5": "FSSAI Certified",
+      "spec6": "Immunity & Iron Support"
+    },
+    "amlaPowder": {
+      "title": "Amla Powder (Seedless)",
+      "description": "Highest natural Vitamin C – pure seedless Indian gooseberry powder. Electric tray-dried, no preservatives or additives. 100% pure, FSSAI certified. Ideal for immunity, skin health, and antioxidant support.",
+      "spec1": "Highest Natural Vitamin C",
+      "spec2": "100% Seedless",
+      "spec3": "No Preservatives or Additives",
+      "spec4": "FSSAI Certified",
+      "spec5": "Immunity & Antioxidant",
+      "spec6": "Bulk Export Ready"
+    },
+    "beetrootPowder": {
+      "title": "Beetroot Powder",
+      "description": "Natural nitrates for stamina, skin glow, and healthy blood pressure. 100% pure beetroot powder, electric tray-dried. No artificial colour, no added sugar. FSSAI certified, food-grade safe.",
+      "spec1": "Natural Nitrates",
+      "spec2": "Stamina & Skin Glow",
+      "spec3": "No Artificial Colour",
+      "spec4": "100% Pure, Single Ingredient",
+      "spec5": "FSSAI Certified",
+      "spec6": "Bulk Export Ready"
+    },
+    "abcPowder": {
+      "title": "ABC Powder (Apple + Beetroot + Carrot)",
+      "description": "Three superfoods in one spoon – premium blend of Apple, Beetroot, and Carrot powders. 100% pure, electric tray-dried. No preservatives, no additives. Perfect for detox, immunity, and daily nutrition.",
+      "spec1": "3-in-1 Superfood Blend",
+      "spec2": "Detox & Immunity",
+      "spec3": "No Preservatives or Additives",
+      "spec4": "100% Pure Ingredients",
+      "spec5": "FSSAI Certified",
+      "spec6": "Bulk Export Ready"
     },
     "mixedDriedFruits": {
       "title": "Mixed Dried/Dehydrated Fruit Slices",

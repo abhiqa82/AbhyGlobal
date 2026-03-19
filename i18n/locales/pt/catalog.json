@@ -9,7 +9,8 @@
     "textiles": "Têxteis",
     "spices": "Especiarias",
     "ayurvedic": "Produtos Ayurveda",
-    "driedFruits": "Frutas Secas",
+    "dehydratedFruitPowder": "Pó de fruta desidratada",
+    "dehydratedHerbalPowder": "Pó de ervas desidratado",
     "readyToEat": "Prontos para Consumir",
     "readyToCook": "Prontos para Cozinhar",
     "others": "Outros"
@@ -26,7 +27,8 @@
     "textiles": "Têxteis",
     "spices": "Especiarias",
     "ayurvedic": "Produtos Ayurveda",
-    "driedFruits": "Frutas Secas",
+    "dehydratedFruitPowder": "Pó de fruta desidratada",
+    "dehydratedHerbalPowder": "Pó de ervas desidratado",
     "readyToEat": "Prontos para Consumir",
     "readyToCook": "Prontos para Cozinhar",
     "others": "Outros"
@@ -218,6 +220,46 @@
       "spec5": "Certificado FSSAI",
       "spec6": "Qualidade Grau Exportação",
       "spec7": "Textura Crocante"
+    },
+    "moringaPowder": {
+      "title": "Pó de Moringa",
+      "description": "Pó de Moringa (drumstick) 100% puro – multivitamínico natural. Rico em ferro, cálcio e vitaminas. Apenas secagem em bandeja elétrica, sem secagem por aspersão. Sem maltodextrina, zero enchimentos, ingrediente único. Certificado FSSAI, grau alimentício.",
+      "spec1": "Rico em ferro e cálcio",
+      "spec2": "Apenas secagem em bandeja elétrica",
+      "spec3": "Sem maltodextrina, zero enchimentos",
+      "spec4": "100% puro, ingrediente único",
+      "spec5": "Certificado FSSAI",
+      "spec6": "Imunidade e suporte em ferro"
+    },
+    "amlaPowder": {
+      "title": "Pó de Amla (sem sementes)",
+      "description": "Maior Vitamina C natural – pó puro de groselha indiana sem sementes. Secagem em bandeja elétrica, sem conservantes ou aditivos. 100% puro, certificado FSSAI. Ideal para imunidade, saúde da pele e suporte antioxidante.",
+      "spec1": "Maior Vitamina C natural",
+      "spec2": "100% sem sementes",
+      "spec3": "Sem conservantes ou aditivos",
+      "spec4": "Certificado FSSAI",
+      "spec5": "Imunidade e antioxidante",
+      "spec6": "Pronto para exportação em massa"
+    },
+    "beetrootPowder": {
+      "title": "Pó de beterraba",
+      "description": "Nitratos naturais para resistência, brilho da pele e pressão arterial saudável. Pó de beterraba 100% puro, secagem em bandeja elétrica. Sem cor artificial, sem açúcar adicionado. Certificado FSSAI, grau alimentício.",
+      "spec1": "Nitratos naturais",
+      "spec2": "Resistência e brilho da pele",
+      "spec3": "Sem cor artificial",
+      "spec4": "100% puro, ingrediente único",
+      "spec5": "Certificado FSSAI",
+      "spec6": "Pronto para exportação em massa"
+    },
+    "abcPowder": {
+      "title": "Pó ABC (Maçã + Beterraba + Cenoura)",
+      "description": "Três superalimentos em uma colher – mistura premium de pós de maçã, beterraba e cenoura. 100% puro, secagem em bandeja elétrica. Sem conservantes, sem aditivos. Perfeito para desintoxicação, imunidade e nutrição diária.",
+      "spec1": "Mistura 3 em 1 de superalimentos",
+      "spec2": "Desintoxicação e imunidade",
+      "spec3": "Sem conservantes ou aditivos",
+      "spec4": "100% ingredientes puros",
+      "spec5": "Certificado FSSAI",
+      "spec6": "Pronto para exportação em massa"
     },
     "mixedDriedFruits": {
       "title": "Fatias de Frutas Secas/Desidratadas Mistas",

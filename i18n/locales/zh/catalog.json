@@ -9,7 +9,8 @@
     "textiles": "纺织品",
     "spices": "香料",
     "ayurvedic": "阿育吠陀产品",
-    "driedFruits": "果干",
+    "dehydratedFruitPowder": "脱水果粉",
+    "dehydratedHerbalPowder": "脱水草本粉",
     "readyToEat": "即食食品",
     "readyToCook": "即烹食品",
     "others": "其他"
@@ -26,7 +27,8 @@
     "textiles": "纺织品",
     "spices": "香料",
     "ayurvedic": "阿育吠陀产品",
-    "driedFruits": "果干",
+    "dehydratedFruitPowder": "脱水果粉",
+    "dehydratedHerbalPowder": "脱水草本粉",
     "readyToEat": "即食食品",
     "readyToCook": "即烹食品",
     "others": "其他"
@@ -218,6 +220,46 @@
       "spec5": "FSSAI 认证",
       "spec6": "出口级品质",
       "spec7": "酥脆口感"
+    },
+    "moringaPowder": {
+      "title": "辣木粉",
+      "description": "100% 纯辣木粉 – 天然复合维生素。富含铁、钙和维生素。仅电热盘干燥，无喷雾干燥。无麦芽糊精，零填充剂，单一成分。FSSAI 认证，食品级安全。",
+      "spec1": "富含铁和钙",
+      "spec2": "仅电热盘干燥",
+      "spec3": "无麦芽糊精，零填充剂",
+      "spec4": "100% 纯，单一成分",
+      "spec5": "FSSAI 认证",
+      "spec6": "免疫与补铁"
+    },
+    "amlaPowder": {
+      "title": "余甘子粉（无籽）",
+      "description": "最高天然维生素 C – 纯无籽印度余甘子粉。电热盘干燥，无防腐剂或添加剂。100% 纯，FSSAI 认证。适合免疫、皮肤健康和抗氧化支持。",
+      "spec1": "最高天然维生素 C",
+      "spec2": "100% 无籽",
+      "spec3": "无防腐剂或添加剂",
+      "spec4": "FSSAI 认证",
+      "spec5": "免疫与抗氧化",
+      "spec6": "批量出口就绪"
+    },
+    "beetrootPowder": {
+      "title": "甜菜根粉",
+      "description": "天然硝酸盐，有益耐力、肌肤光泽和健康血压。100% 纯甜菜根粉，电热盘干燥。无人工色素，无添加糖。FSSAI 认证，食品级安全。",
+      "spec1": "天然硝酸盐",
+      "spec2": "耐力与肌肤光泽",
+      "spec3": "无人工色素",
+      "spec4": "100% 纯，单一成分",
+      "spec5": "FSSAI 认证",
+      "spec6": "批量出口就绪"
+    },
+    "abcPowder": {
+      "title": "ABC 粉（苹果 + 甜菜根 + 胡萝卜）",
+      "description": "一勺三种超级食物 – 苹果、甜菜根和胡萝卜粉的优质混合。100% 纯，电热盘干燥。无防腐剂，无添加剂。适合排毒、免疫和日常营养。",
+      "spec1": "3 合 1 超级食物混合",
+      "spec2": "排毒与免疫",
+      "spec3": "无防腐剂或添加剂",
+      "spec4": "100% 纯成分",
+      "spec5": "FSSAI 认证",
+      "spec6": "批量出口就绪"
     },
     "mixedDriedFruits": {
       "title": "混合果干/脱水水果片",
