@@ -8,10 +8,7 @@
     "all": "Todos os Produtos",
     "textiles": "Têxteis",
     "spices": "Especiarias",
-    "pharmaceuticals": "Farmacêuticos",
     "ayurvedic": "Produtos Ayurveda",
-    "electronics": "Eletrônicos",
-    "puja": "Puja Samagri e Ídolos",
     "driedFruits": "Frutas Secas",
     "readyToEat": "Prontos para Consumir",
     "readyToCook": "Prontos para Cozinhar",
@@ -28,10 +25,7 @@
   "categories": {
     "textiles": "Têxteis",
     "spices": "Especiarias",
-    "pharmaceuticals": "Farmacêuticos",
     "ayurvedic": "Produtos Ayurveda",
-    "electronics": "Eletrônicos",
-    "puja": "Puja Samagri e Ídolos",
     "driedFruits": "Frutas Secas",
     "readyToEat": "Prontos para Consumir",
     "readyToCook": "Prontos para Cozinhar",
@@ -142,47 +136,6 @@
       "spec5": "FOB Índia",
       "spec6": "Blends Personalizados Disponíveis"
     },
-    "electronicComponents": {
-      "title": "Componentes Eletrônicos",
-      "description": "Componentes e peças eletrônicas para fabricação e montagem. Componentes com qualidade garantida.",
-      "descriptionExtra": "Estamos expandindo para eletrônicos de consumo, luzes LED e acessórios.",
-      "spec1": "Testado em Qualidade",
-      "spec2": "Quantidades em Massa",
-      "spec3": "Preços Competitivos",
-      "spec4": "Pronto para Exportação"
-    },
-    "rosuvastatin": {
-      "title": "Rosuvastatin Calcium",
-      "description": "Rosuvastatin Calcium API de alta qualidade para tratamentos cardiovasculares. Ingrediente farmacêutico ativo certificado GMP e WHO-GMP.",
-      "spec1": "API Cardiovascular",
-      "spec2": "GMP, WHO-GMP, WC Certificado",
-      "spec3": "Grau de Alta Pureza",
-      "spec4": "Qualidade de Exportação"
-    },
-    "atorvastatin": {
-      "title": "Atorvastatin Calcium",
-      "description": "Atorvastatin Calcium API premium para gestão de doenças cardiovasculares. Certificado GMP e WHO-GMP.",
-      "spec1": "API Cardiovascular",
-      "spec2": "GMP, WHO-GMP, WC Certificado",
-      "spec3": "Grau de Alta Pureza",
-      "spec4": "Pronto para Exportação"
-    },
-    "amlodipine": {
-      "title": "Amlodipine Besilate",
-      "description": "Amlodipine Besilate API para tratamento de hipertensão e doença arterial coronariana. Ingrediente farmacêutico ativo certificado GMP.",
-      "spec1": "API Anti-Hipertensão",
-      "spec2": "Certificado GMP",
-      "spec3": "Produto de Alta Demanda",
-      "spec4": "Pronto para Exportação em Massa"
-    },
-    "glimepiride": {
-      "title": "Glimepiride",
-      "description": "Glimepiride API para gestão de diabetes tipo 2. Ingrediente farmacêutico ativo certificado GMP em alta demanda globalmente.",
-      "spec1": "API Anti-Diabético",
-      "spec2": "Certificado GMP",
-      "spec3": "Produto de Alta Demanda",
-      "spec4": "Qualidade Garantida"
-    },
     "ashwagandha": {
       "title": "Ashwagandha Extract (Withania Somnifera)",
       "description": "Extrato de Ashwagandha premium em pó e cápsulas - erva Ayurveda mais popular da Índia para alívio do estresse, reforço da imunidade e bem-estar geral. Extrato de alta qualidade, certificado orgânico.",
@@ -232,50 +185,6 @@
       "spec4": "Certificado Orgânico",
       "spec5": "Certificado FSSAI",
       "spec6": "Pronto para Exportação em Massa"
-    },
-    "clayGanesha": {
-      "title": "Ídolos Ganesha Shadu Mati (Argila)",
-      "description": "Ídolos Ganesha Shadu Mati (argila) 100% ecológicos feitos de argila natural de rio e cores não tóxicas. Feitos à mão por artesãos habilidosos, perfeitos para celebrações do Ganesh Chaturthi e práticas espirituais. Totalmente dissolvíveis em água após o uso.",
-      "spec1": "Feito de Argila Natural de Rio (Shadu Mati)",
-      "spec2": "Cores Não Tóxicas e Ecológicas",
-      "spec3": "Tamanhos: 8\", 10\", 12\", 15\", 18\", 20\", 21\"",
-      "spec4": "Feito à Mão por Artesãos Habilidosos",
-      "spec5": "100% Dissolvível em Água",
-      "spec6": "Pronto para Exportação em Massa",
-      "spec7": "Seguro para o Meio Ambiente"
-    },
-    "miniGanesha": {
-      "title": "Ídolos Mini Ganesha",
-      "description": "Ídolos Mini Ganesha compactos e elegantes, perfeitos para puja em casa, espaços de escritório e pequenas celebrações. Disponível em vários tamanhos, todos ecológicos e feitos à mão com designs tradicionais.",
-      "spec1": "Tamanho Compacto para Puja em Casa",
-      "spec2": "Tamanhos: 4\", 4.5\", 6\", 6.5\", 7\", 7.5\"",
-      "spec3": "Designs Feitos à Mão",
-      "spec4": "Materiais Ecológicos",
-      "spec5": "Perfeito para Pequenos Espaços",
-      "spec6": "Embalagem em Massa Disponível",
-      "spec7": "Pronto para Exportação"
-    },
-    "pujaOrnaments": {
-      "title": "Ornamentos e Acessórios Puja",
-      "description": "Ornamentos puja indianos tradicionais e acessórios decorativos para ídolos Ganesha. Inclui Big Bali, Chakra, ornamentos florais, Janva/Janeu, Kaan, Modak, Pan, Shastra, Shawl, Sond Patta, Bajubandh, pulseiras, brincos, Mukut, Haar/Kanthi e vários acessórios. Feitos à mão com designs tradicionais.",
-      "spec1": "Designs Tradicionais",
-      "spec2": "Big Bali, Chakra, Mukut",
-      "spec3": "Haar/Kanthi, Pulseiras, Brincos",
-      "spec4": "Modak, Pan, Shastra, Shawl",
-      "spec5": "Qualidade Feita à Mão",
-      "spec6": "Exportação em Massa Disponível",
-      "spec7": "Conjuntos Completos de Ornamentos"
-    },
-    "pujaSamagri": {
-      "title": "Puja Samagri Completo",
-      "description": "Puja samagri indiano tradicional (itens de adoração) para rituais e cerimônias hindus. Kits puja completos incluindo incensos, cânfora, vermelhão, kumkum, pasta de sândalo, fio sagrado, grãos de arroz, flores e outros materiais essenciais de adoração. Qualidade autêntica e tradicional.",
-      "spec1": "Incensos e Cânfora",
-      "spec2": "Vermelhão e Kumkum",
-      "spec3": "Pasta de Sândalo e Fio",
-      "spec4": "Grãos de Arroz e Flores",
-      "spec5": "Kits Puja Completos",
-      "spec6": "Qualidade Tradicional",
-      "spec7": "Pronto para Exportação em Massa"
     },
     "driedMango": {
       "title": "Fatias de Manga Secas/Desidratadas",

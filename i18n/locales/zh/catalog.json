@@ -8,10 +8,7 @@
     "all": "全部产品",
     "textiles": "纺织品",
     "spices": "香料",
-    "pharmaceuticals": "药品",
     "ayurvedic": "阿育吠陀产品",
-    "electronics": "电子产品",
-    "puja": "Puja Samagri 与神像",
     "driedFruits": "果干",
     "readyToEat": "即食食品",
     "readyToCook": "即烹食品",
@@ -28,10 +25,7 @@
   "categories": {
     "textiles": "纺织品",
     "spices": "香料",
-    "pharmaceuticals": "药品",
     "ayurvedic": "阿育吠陀产品",
-    "electronics": "电子产品",
-    "puja": "Puja Samagri 与神像",
     "driedFruits": "果干",
     "readyToEat": "即食食品",
     "readyToCook": "即烹食品",
@@ -142,47 +136,6 @@
       "spec5": "印度 FOB",
       "spec6": "可定制混合"
     },
-    "electronicComponents": {
-      "title": "电子元件",
-      "description": "用于制造和组装的电子元件及零部件。品质保证。",
-      "descriptionExtra": "我们正在拓展消费电子、LED 灯具及配件业务。",
-      "spec1": "品质检测",
-      "spec2": "批量供应",
-      "spec3": "价格优惠",
-      "spec4": "出口就绪"
-    },
-    "rosuvastatin": {
-      "title": "Rosuvastatin Calcium",
-      "description": "高品质 Rosuvastatin Calcium 原料药，用于心血管治疗。GMP 和 WHO-GMP 认证的活性药物成分。",
-      "spec1": "心血管原料药",
-      "spec2": "GMP、WHO-GMP、WC 认证",
-      "spec3": "高纯度等级",
-      "spec4": "出口品质"
-    },
-    "atorvastatin": {
-      "title": "Atorvastatin Calcium",
-      "description": "优质 Atorvastatin Calcium 原料药，用于心血管疾病管理。GMP 和 WHO-GMP 认证。",
-      "spec1": "心血管原料药",
-      "spec2": "GMP、WHO-GMP、WC 认证",
-      "spec3": "高纯度等级",
-      "spec4": "出口就绪"
-    },
-    "amlodipine": {
-      "title": "Amlodipine Besilate",
-      "description": "Amlodipine Besilate 原料药，用于高血压和冠心病治疗。GMP 认证的活性药物成分。",
-      "spec1": "抗高血压原料药",
-      "spec2": "GMP 认证",
-      "spec3": "高需求产品",
-      "spec4": "批量出口就绪"
-    },
-    "glimepiride": {
-      "title": "Glimepiride",
-      "description": "Glimepiride 原料药，用于 2 型糖尿病管理。GMP 认证的活性药物成分，全球需求旺盛。",
-      "spec1": "抗糖尿病原料药",
-      "spec2": "GMP 认证",
-      "spec3": "高需求产品",
-      "spec4": "品质保证"
-    },
     "ashwagandha": {
       "title": "Ashwagandha Extract (Withania Somnifera)",
       "description": "优质 Ashwagandha 提取物粉末和胶囊 - 印度最受欢迎的阿育吠陀草本，用于缓解压力、增强免疫和整体健康。高品质有机认证提取物。",
@@ -232,50 +185,6 @@
       "spec4": "有机认证",
       "spec5": "FSSAI 认证",
       "spec6": "批量出口就绪"
-    },
-    "clayGanesha": {
-      "title": "Shadu Mati (Clay) Ganesha Idols",
-      "description": "100% 环保 Shadu Mati（粘土）Ganesha 神像，采用天然河泥和无毒颜料制成。由熟练工匠手工制作，适合 Ganesh Chaturthi 庆典和灵修。使用后可完全溶于水。",
-      "spec1": "天然河泥 (Shadu Mati) 制成",
-      "spec2": "无毒环保颜料",
-      "spec3": "尺寸：8\"、10\"、12\"、15\"、18\"、20\"、21\"",
-      "spec4": "熟练工匠手工制作",
-      "spec5": "100% 可溶于水",
-      "spec6": "批量出口就绪",
-      "spec7": "对环境安全"
-    },
-    "miniGanesha": {
-      "title": "Mini Ganesha Idols",
-      "description": "小巧精致的 Mini Ganesha 神像，适合家庭 Puja、办公空间和小型庆典。多种尺寸可选，全部环保且采用传统设计手工制作。",
-      "spec1": "适合家庭 Puja 的紧凑尺寸",
-      "spec2": "尺寸：4\"、4.5\"、6\"、6.5\"、7\"、7.5\"",
-      "spec3": "手工设计",
-      "spec4": "环保材料",
-      "spec5": "适合小空间",
-      "spec6": "可批量包装",
-      "spec7": "出口就绪"
-    },
-    "pujaOrnaments": {
-      "title": "Puja Ornaments & Accessories",
-      "description": "传统印度 Puja 装饰品和 Ganesha 神像装饰配件。包括 Big Bali、Chakra、花饰、Janva/Janeu、Kaan、Modak、Pan、Shastra、Shawl、Sond Patta、Bajubandh、手镯、耳环、Mukut、Haar/Kanthi 及各种配件。采用传统设计手工制作。",
-      "spec1": "传统设计",
-      "spec2": "Big Bali、Chakra、Mukut",
-      "spec3": "Haar/Kanthi、手镯、耳环",
-      "spec4": "Modak、Pan、Shastra、Shawl",
-      "spec5": "手工品质",
-      "spec6": "可批量出口",
-      "spec7": "完整装饰套装"
-    },
-    "pujaSamagri": {
-      "title": "Complete Puja Samagri",
-      "description": "传统印度 Puja Samagri（祭祀用品），用于印度教仪式和典礼。完整 Puja 套装，包括香、樟脑、朱砂、Kumkum、檀香膏、圣线、米粒、鲜花及其他必备祭祀材料。正宗传统品质。",
-      "spec1": "香与樟脑",
-      "spec2": "朱砂与 Kumkum",
-      "spec3": "檀香膏与线",
-      "spec4": "米粒与鲜花",
-      "spec5": "完整 Puja 套装",
-      "spec6": "传统品质",
-      "spec7": "批量出口就绪"
     },
     "driedMango": {
       "title": "芒果干/脱水芒果片",

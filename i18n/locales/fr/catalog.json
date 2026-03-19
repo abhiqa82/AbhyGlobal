@@ -8,10 +8,7 @@
     "all": "Tous les produits",
     "textiles": "Textiles",
     "spices": "Épices",
-    "pharmaceuticals": "Pharmaceutiques",
     "ayurvedic": "Produits ayurvédiques",
-    "electronics": "Électronique",
-    "puja": "Puja Samagri et idoles",
     "driedFruits": "Fruits secs",
     "readyToEat": "Prêt à consommer",
     "readyToCook": "Prêt à cuisiner",
@@ -28,10 +25,7 @@
   "categories": {
     "textiles": "Textiles",
     "spices": "Épices",
-    "pharmaceuticals": "Pharmaceutiques",
     "ayurvedic": "Produits ayurvédiques",
-    "electronics": "Électronique",
-    "puja": "Puja Samagri et idoles",
     "driedFruits": "Fruits secs",
     "readyToEat": "Prêt à consommer",
     "readyToCook": "Prêt à cuisiner",
@@ -142,47 +136,6 @@
       "spec5": "FOB Inde",
       "spec6": "Mélanges personnalisés disponibles"
     },
-    "electronicComponents": {
-      "title": "Composants électroniques",
-      "description": "Composants et pièces électroniques pour la fabrication et l'assemblage. Composants de qualité garantie.",
-      "descriptionExtra": "Nous développons notre offre en électronique grand public, éclairage LED et accessoires.",
-      "spec1": "Testés qualité",
-      "spec2": "Quantités en volume",
-      "spec3": "Prix compétitifs",
-      "spec4": "Prêt pour l'export"
-    },
-    "rosuvastatin": {
-      "title": "Rosuvastatin Calcium",
-      "description": "API Rosuvastatin Calcium de haute qualité pour les traitements cardiovasculaires. Principe actif pharmaceutique certifié GMP et WHO-GMP.",
-      "spec1": "API cardiovasculaire",
-      "spec2": "GMP, WHO-GMP, WC certifié",
-      "spec3": "Grade haute pureté",
-      "spec4": "Qualité export"
-    },
-    "atorvastatin": {
-      "title": "Atorvastatin Calcium",
-      "description": "API Atorvastatin Calcium premium pour la prise en charge des maladies cardiovasculaires. Certifié GMP et WHO-GMP.",
-      "spec1": "API cardiovasculaire",
-      "spec2": "GMP, WHO-GMP, WC certifié",
-      "spec3": "Grade haute pureté",
-      "spec4": "Prêt pour l'export"
-    },
-    "amlodipine": {
-      "title": "Amlodipine Besilate",
-      "description": "API Amlodipine Besilate pour le traitement de l'hypertension et des maladies coronariennes. Principe actif pharmaceutique certifié GMP.",
-      "spec1": "API antihypertenseur",
-      "spec2": "Certifié GMP",
-      "spec3": "Produit très demandé",
-      "spec4": "Prêt pour l'export en volume"
-    },
-    "glimepiride": {
-      "title": "Glimepiride",
-      "description": "API Glimepiride pour la prise en charge du diabète de type 2. Principe actif pharmaceutique certifié GMP, très demandé dans le monde.",
-      "spec1": "API antidiabétique",
-      "spec2": "Certifié GMP",
-      "spec3": "Produit très demandé",
-      "spec4": "Qualité garantie"
-    },
     "ashwagandha": {
       "title": "Extrait d'Ashwagandha (Withania Somnifera)",
       "description": "Extrait d'Ashwagandha premium en poudre et gélules - herbe ayurvédique la plus populaire d'Inde pour le soulagement du stress, le renforcement immunitaire et le bien-être général. Extrait de haute qualité, certifié bio.",
@@ -232,50 +185,6 @@
       "spec4": "Certifié bio",
       "spec5": "Certifié FSSAI",
       "spec6": "Prêt pour l'export en volume"
-    },
-    "clayGanesha": {
-      "title": "Idoles Ganesha en Shadu Mati (argile)",
-      "description": "Idoles Ganesha 100 % écologiques en Shadu Mati (argile) fabriquées à partir d'argile de rivière naturelle et de couleurs non toxiques. Faites à la main par des artisans qualifiés, parfaites pour les célébrations de Ganesh Chaturthi et les pratiques spirituelles. Entièrement solubles dans l'eau après utilisation.",
-      "spec1": "Fabriqué en argile de rivière naturelle (Shadu Mati)",
-      "spec2": "Couleurs non toxiques et écologiques",
-      "spec3": "Tailles : 8\", 10\", 12\", 15\", 18\", 20\", 21\"",
-      "spec4": "Fait à la main par des artisans qualifiés",
-      "spec5": "100 % soluble dans l'eau",
-      "spec6": "Prêt pour l'export en volume",
-      "spec7": "Respectueux de l'environnement"
-    },
-    "miniGanesha": {
-      "title": "Idoles Ganesha miniatures",
-      "description": "Idoles Ganesha miniatures compactes et élégantes, parfaites pour la puja à domicile, les espaces de bureau et les petites célébrations. Disponibles en plusieurs tailles, toutes écologiques et faites à la main avec des designs traditionnels.",
-      "spec1": "Taille compacte pour la puja à domicile",
-      "spec2": "Tailles : 4\", 4.5\", 6\", 6.5\", 7\", 7.5\"",
-      "spec3": "Designs faits à la main",
-      "spec4": "Matériaux écologiques",
-      "spec5": "Parfait pour les petits espaces",
-      "spec6": "Emballage en volume disponible",
-      "spec7": "Prêt pour l'export"
-    },
-    "pujaOrnaments": {
-      "title": "Ornements et accessoires Puja",
-      "description": "Ornements puja indiens traditionnels et accessoires décoratifs pour les idoles Ganesha. Inclut Big Bali, Chakra, ornements floraux, Janva/Janeu, Kaan, Modak, Pan, Shastra, châle, Sond Patta, Bajubandh, bracelets, boucles d'oreilles, Mukut, Haar/Kanthi et divers accessoires. Faits à la main avec des designs traditionnels.",
-      "spec1": "Designs traditionnels",
-      "spec2": "Big Bali, Chakra, Mukut",
-      "spec3": "Haar/Kanthi, bracelets, boucles d'oreilles",
-      "spec4": "Modak, Pan, Shastra, châle",
-      "spec5": "Qualité faite à la main",
-      "spec6": "Export en volume disponible",
-      "spec7": "Ensembles d'ornements complets"
-    },
-    "pujaSamagri": {
-      "title": "Puja Samagri complet",
-      "description": "Puja samagri indien traditionnel (articles de culte) pour les rituels et cérémonies hindous. Kits puja complets incluant bâtons d'encens, camphre, vermillon, kumkum, pâte de santal, fil sacré, grains de riz, fleurs et autres matériaux de culte essentiels. Qualité authentique et traditionnelle.",
-      "spec1": "Bâtons d'encens et camphre",
-      "spec2": "Vermillon et Kumkum",
-      "spec3": "Pâte de santal et fil",
-      "spec4": "Grains de riz et fleurs",
-      "spec5": "Kits puja complets",
-      "spec6": "Qualité traditionnelle",
-      "spec7": "Prêt pour l'export en volume"
     },
     "driedMango": {
       "title": "Tranches de mangue séchées/déshydratées",

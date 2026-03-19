@@ -8,10 +8,7 @@
     "all": "Todos los Productos",
     "textiles": "Textiles",
     "spices": "Especias",
-    "pharmaceuticals": "Farmacéuticos",
     "ayurvedic": "Productos Ayurveda",
-    "electronics": "Electrónica",
-    "puja": "Puja Samagri e Ídolos",
     "driedFruits": "Frutas Secas",
     "readyToEat": "Listos para Comer",
     "readyToCook": "Listos para Cocinar",
@@ -28,10 +25,7 @@
   "categories": {
     "textiles": "Textiles",
     "spices": "Especias",
-    "pharmaceuticals": "Farmacéuticos",
     "ayurvedic": "Productos Ayurveda",
-    "electronics": "Electrónica",
-    "puja": "Puja Samagri e Ídolos",
     "driedFruits": "Frutas Secas",
     "readyToEat": "Listos para Comer",
     "readyToCook": "Listos para Cocinar",
@@ -142,47 +136,6 @@
       "spec5": "FOB India",
       "spec6": "Mezclas Personalizadas Disponibles"
     },
-    "electronicComponents": {
-      "title": "Componentes Electrónicos",
-      "description": "Componentes y piezas electrónicas para fabricación y ensamblaje. Componentes con calidad garantizada.",
-      "descriptionExtra": "Estamos expandiéndonos a electrónica de consumo, luces LED y accesorios.",
-      "spec1": "Pruebas de Calidad",
-      "spec2": "Cantidades a Granel",
-      "spec3": "Precios Competitivos",
-      "spec4": "Listo para Exportación"
-    },
-    "rosuvastatin": {
-      "title": "Rosuvastatin Calcium",
-      "description": "API de Rosuvastatin Calcium de alta calidad para tratamientos cardiovasculares. Ingrediente farmacéutico activo certificado GMP y WHO-GMP.",
-      "spec1": "API Cardiovascular",
-      "spec2": "GMP, WHO-GMP, WC Certificado",
-      "spec3": "Grado de Alta Pureza",
-      "spec4": "Calidad de Exportación"
-    },
-    "atorvastatin": {
-      "title": "Atorvastatin Calcium",
-      "description": "API de Atorvastatin Calcium premium para el manejo de enfermedades cardiovasculares. Certificado GMP y WHO-GMP.",
-      "spec1": "API Cardiovascular",
-      "spec2": "GMP, WHO-GMP, WC Certificado",
-      "spec3": "Grado de Alta Pureza",
-      "spec4": "Listo para Exportación"
-    },
-    "amlodipine": {
-      "title": "Amlodipine Besilate",
-      "description": "API de Amlodipine Besilate para tratamiento de hipertensión y enfermedad arterial coronaria. Ingrediente farmacéutico activo certificado GMP.",
-      "spec1": "API Anti-Hipertensión",
-      "spec2": "Certificado GMP",
-      "spec3": "Producto de Alta Demanda",
-      "spec4": "Listo para Exportación a Granel"
-    },
-    "glimepiride": {
-      "title": "Glimepiride",
-      "description": "API de Glimepiride para el manejo de diabetes tipo 2. Ingrediente farmacéutico activo certificado GMP con alta demanda global.",
-      "spec1": "API Anti-Diabético",
-      "spec2": "Certificado GMP",
-      "spec3": "Producto de Alta Demanda",
-      "spec4": "Calidad Garantizada"
-    },
     "ashwagandha": {
       "title": "Ashwagandha Extract (Withania Somnifera)",
       "description": "Extracto de Ashwagandha premium en polvo y cápsulas: la hierba ayurvédica más popular de India para alivio del estrés, refuerzo inmunológico y bienestar general. Extracto de alta calidad certificado orgánico.",
@@ -232,50 +185,6 @@
       "spec4": "Certificado Orgánico",
       "spec5": "Certificado FSSAI",
       "spec6": "Listo para Exportación a Granel"
-    },
-    "clayGanesha": {
-      "title": "Ídolos de Ganesha en Shadu Mati (Arcilla)",
-      "description": "Ídolos de Ganesha 100% ecológicos en Shadu Mati (arcilla) hechos de arcilla fluvial natural y colores no tóxicos. Hechos a mano por artesanos expertos, perfectos para celebraciones de Ganesh Chaturthi y prácticas espirituales. Totalmente solubles en agua después del uso.",
-      "spec1": "Hecho de Arcilla Fluvial Natural (Shadu Mati)",
-      "spec2": "Colores No Tóxicos y Ecológicos",
-      "spec3": "Tamaños: 8\", 10\", 12\", 15\", 18\", 20\", 21\"",
-      "spec4": "Hecho a Mano por Artesanos Expertos",
-      "spec5": "100% Soluble en Agua",
-      "spec6": "Listo para Exportación a Granel",
-      "spec7": "Seguro para el Medio Ambiente"
-    },
-    "miniGanesha": {
-      "title": "Ídolos Mini Ganesha",
-      "description": "Ídolos Mini Ganesha compactos y elegantes perfectos para puja en el hogar, espacios de oficina y celebraciones pequeñas. Disponibles en múltiples tamaños, todos ecológicos y elaborados a mano con diseños tradicionales.",
-      "spec1": "Tamaño Compacto para Puja en el Hogar",
-      "spec2": "Tamaños: 4\", 4.5\", 6\", 6.5\", 7\", 7.5\"",
-      "spec3": "Diseños Hechos a Mano",
-      "spec4": "Materiales Ecológicos",
-      "spec5": "Perfecto para Espacios Pequeños",
-      "spec6": "Embalaje a Granel Disponible",
-      "spec7": "Listo para Exportación"
-    },
-    "pujaOrnaments": {
-      "title": "Ornamentos y Accesorios de Puja",
-      "description": "Ornamentos de puja indios tradicionales y accesorios decorativos para ídolos de Ganesha. Incluye Big Bali, Chakra, ornamentos florales, Janva/Janeu, Kaan, Modak, Pan, Shastra, Shawl, Sond Patta, Bajubandh, pulseras, aretes, Mukut, Haar/Kanthi y varios accesorios. Elaborados a mano con diseños tradicionales.",
-      "spec1": "Diseños Tradicionales",
-      "spec2": "Big Bali, Chakra, Mukut",
-      "spec3": "Haar/Kanthi, Pulseras, Aretes",
-      "spec4": "Modak, Pan, Shastra, Shawl",
-      "spec5": "Calidad Hecha a Mano",
-      "spec6": "Exportación a Granel Disponible",
-      "spec7": "Juegos Completos de Ornamentos"
-    },
-    "pujaSamagri": {
-      "title": "Puja Samagri Completo",
-      "description": "Puja samagri indio tradicional (artículos de culto) para rituales y ceremonias hindúes. Kits de puja completos que incluyen varitas de incienso, alcanfor, bermellón, kumkum, pasta de sándalo, hilo sagrado, granos de arroz, flores y otros materiales de culto esenciales. Calidad auténtica y tradicional.",
-      "spec1": "Varitas de Incienso y Alcanfor",
-      "spec2": "Bermellón y Kumkum",
-      "spec3": "Pasta de Sándalo e Hilo",
-      "spec4": "Granos de Arroz y Flores",
-      "spec5": "Kits de Puja Completos",
-      "spec6": "Calidad Tradicional",
-      "spec7": "Listo para Exportación a Granel"
     },
     "driedMango": {
       "title": "Rodajas de Mango Seco/Deshidratado",

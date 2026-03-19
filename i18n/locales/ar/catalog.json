@@ -8,10 +8,7 @@
     "all": "جميع المنتجات",
     "textiles": "المنسوجات",
     "spices": "التوابل",
-    "pharmaceuticals": "المستحضرات الصيدلانية",
     "ayurvedic": "منتجات الأيورفيدا",
-    "electronics": "الإلكترونيات",
-    "puja": "مستلزمات البوجا والتماثيل",
     "driedFruits": "الفواكه المجففة",
     "readyToEat": "جاهز للأكل",
     "readyToCook": "جاهز للطبخ",
@@ -28,10 +25,7 @@
   "categories": {
     "textiles": "المنسوجات",
     "spices": "التوابل",
-    "pharmaceuticals": "المستحضرات الصيدلانية",
     "ayurvedic": "منتجات الأيورفيدا",
-    "electronics": "الإلكترونيات",
-    "puja": "مستلزمات البوجا والتماثيل",
     "driedFruits": "الفواكه المجففة",
     "readyToEat": "جاهز للأكل",
     "readyToCook": "جاهز للطبخ",
@@ -142,47 +136,6 @@
       "spec5": "FOB India",
       "spec6": "خلطات مخصصة متوفرة"
     },
-    "electronicComponents": {
-      "title": "Electronic Components",
-      "description": "مكونات وقطع إلكترونية للتصنيع والتجميع. مكونات مضمونة الجودة.",
-      "descriptionExtra": "نحن نوسع في الإلكترونيات الاستهلاكية، إضاءة LED، والإكسسوارات.",
-      "spec1": "مختبرة الجودة",
-      "spec2": "كميات كبيرة",
-      "spec3": "أسعار تنافسية",
-      "spec4": "جاهز للتصدير"
-    },
-    "rosuvastatin": {
-      "title": "Rosuvastatin Calcium",
-      "description": "Rosuvastatin Calcium API عالي الجودة لعلاجات القلب والأوعية الدموية. مادة صيدلانية نشطة معتمدة GMP و WHO-GMP.",
-      "spec1": "API للقلب والأوعية الدموية",
-      "spec2": "معتمد GMP، WHO-GMP، WC",
-      "spec3": "درجة نقاء عالية",
-      "spec4": "جودة تصدير"
-    },
-    "atorvastatin": {
-      "title": "Atorvastatin Calcium",
-      "description": "Atorvastatin Calcium API فاخر لإدارة أمراض القلب والأوعية الدموية. معتمد GMP و WHO-GMP.",
-      "spec1": "API للقلب والأوعية الدموية",
-      "spec2": "معتمد GMP، WHO-GMP، WC",
-      "spec3": "درجة نقاء عالية",
-      "spec4": "جاهز للتصدير"
-    },
-    "amlodipine": {
-      "title": "Amlodipine Besilate",
-      "description": "Amlodipine Besilate API لعلاج ارتفاع ضغط الدم وأمراض الشريان التاجي. مادة صيدلانية نشطة معتمدة GMP.",
-      "spec1": "API مضاد لارتفاع ضغط الدم",
-      "spec2": "معتمد GMP",
-      "spec3": "منتج مطلوب عاليًا",
-      "spec4": "جاهز للتصدير بالجملة"
-    },
-    "glimepiride": {
-      "title": "Glimepiride",
-      "description": "Glimepiride API لإدارة مرض السكري من النوع 2. مادة صيدلانية نشطة معتمدة GMP مطلوبة عالمياً.",
-      "spec1": "API مضاد لمرض السكري",
-      "spec2": "معتمد GMP",
-      "spec3": "منتج مطلوب عاليًا",
-      "spec4": "جودة مضمونة"
-    },
     "ashwagandha": {
       "title": "Ashwagandha Extract (Withania Somnifera)",
       "description": "مستخلص Ashwagandha فاخر مسحوق وكبسولات - العشب الأيورفيدي الأكثر شعبية في الهند لتخفيف التوتر وتعزيز المناعة وصحة عامة. مستخلص عالي الجودة معتمد عضوي.",
@@ -232,50 +185,6 @@
       "spec4": "معتمد عضوي",
       "spec5": "معتمد FSSAI",
       "spec6": "جاهز للتصدير بالجملة"
-    },
-    "clayGanesha": {
-      "title": "Shadu Mati (Clay) Ganesha Idols",
-      "description": "تماثيل Shadu Mati (Clay) Ganesha صديقة للبيئة 100% مصنوعة من طين النهر الطبيعي وألوان غير سامة. مصنوعة يدوياً بواسطة حرفيين ماهرين، مثالية لاحتفالات Ganesh Chaturthi والممارسات الروحية. قابلة للذوبان بالكامل في الماء بعد الاستخدام.",
-      "spec1": "مصنوعة من طين النهر الطبيعي (Shadu Mati)",
-      "spec2": "ألوان غير سامة وصديقة للبيئة",
-      "spec3": "الأحجام: 8\"، 10\"، 12\"، 15\"، 18\"، 20\"، 21\"",
-      "spec4": "مصنوعة يدوياً بواسطة حرفيين ماهرين",
-      "spec5": "قابلة للذوبان بالكامل في الماء 100%",
-      "spec6": "جاهز للتصدير بالجملة",
-      "spec7": "آمن للبيئة"
-    },
-    "miniGanesha": {
-      "title": "Mini Ganesha Idols",
-      "description": "تماثيل Mini Ganesha مدمجة وأنيقة مثالية لبوجا المنزل، مساحات المكاتب، والاحتفالات الصغيرة. متوفرة بأحجام متعددة، كلها صديقة للبيئة ومصنوعة يدوياً بتصاميم تقليدية.",
-      "spec1": "حجم مدمج لبوجا المنزل",
-      "spec2": "الأحجام: 4\"، 4.5\"، 6\"، 6.5\"، 7\"، 7.5\"",
-      "spec3": "تصاميم مصنوعة يدوياً",
-      "spec4": "مواد صديقة للبيئة",
-      "spec5": "مثالي للمساحات الصغيرة",
-      "spec6": "تعبئة بالجملة متوفرة",
-      "spec7": "جاهز للتصدير"
-    },
-    "pujaOrnaments": {
-      "title": "Puja Ornaments & Accessories",
-      "description": "حلي وزخارف ديكورية هندية تقليدية لتماثيل Ganesha. تشمل Big Bali، Chakra، Flower ornaments، Janva/Janeu، Kaan، Modak، Pan، Shastra، Shawl، Sond Patta، Bajubandh، Bangles، Earrings، Mukut، Haar/Kanthi، وإكسسوارات متنوعة. مصنوعة يدوياً بتصاميم تقليدية.",
-      "spec1": "تصاميم تقليدية",
-      "spec2": "Big Bali، Chakra، Mukut",
-      "spec3": "Haar/Kanthi، Bangles، Earrings",
-      "spec4": "Modak، Pan، Shastra، Shawl",
-      "spec5": "جودة مصنوعة يدوياً",
-      "spec6": "تصدير بالجملة متوفر",
-      "spec7": "مجموعات حلي كاملة"
-    },
-    "pujaSamagri": {
-      "title": "Complete Puja Samagri",
-      "description": "مستلزمات البوجا الهندية التقليدية (Puja Samagri) للطقوس والاحتفالات الهندوسية. مجموعات بوجا كاملة تشمل البخور، الكافور، الفيرميلون، الكومكوم، معجون الصندل، الخيط المقدس، حبوب الأرز، الزهور، ومواد عبادة أساسية أخرى. جودة أصيلة وتقليدية.",
-      "spec1": "عصي البخور والكافور",
-      "spec2": "الفيرميلون والكومكوم",
-      "spec3": "معجون الصندل والخيط",
-      "spec4": "حبوب الأرز والزهور",
-      "spec5": "مجموعات بوجا كاملة",
-      "spec6": "جودة تقليدية",
-      "spec7": "جاهز للتصدير بالجملة"
     },
     "driedMango": {
       "title": "Dried/Dehydrated Mango Slices",

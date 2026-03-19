@@ -8,10 +8,7 @@
     "all": "All Products",
     "textiles": "Textiles",
     "spices": "Spices",
-    "pharmaceuticals": "Pharmaceuticals",
     "ayurvedic": "Ayurvedic Products",
-    "electronics": "Electronics",
-    "puja": "Puja Samagri & Idols",
     "driedFruits": "Dried Fruits",
     "readyToEat": "Ready to Eat",
     "readyToCook": "Ready to Cook",
@@ -28,10 +25,7 @@
   "categories": {
     "textiles": "Textiles",
     "spices": "Spices",
-    "pharmaceuticals": "Pharmaceuticals",
     "ayurvedic": "Ayurvedic Products",
-    "electronics": "Electronics",
-    "puja": "Puja Samagri & Idols",
     "driedFruits": "Dried Fruits",
     "readyToEat": "Ready to Eat",
     "readyToCook": "Ready to Cook",
@@ -142,47 +136,6 @@
       "spec5": "FOB India",
       "spec6": "Custom Blends Available"
     },
-    "electronicComponents": {
-      "title": "Electronic Components",
-      "description": "Electronic components and parts for manufacturing and assembly. Quality assured components.",
-      "descriptionExtra": "We're expanding into consumer electronics, LED lights, and accessories.",
-      "spec1": "Quality Tested",
-      "spec2": "Bulk Quantities",
-      "spec3": "Competitive Pricing",
-      "spec4": "Export Ready"
-    },
-    "rosuvastatin": {
-      "title": "Rosuvastatin Calcium",
-      "description": "High-quality Rosuvastatin Calcium API for cardiovascular treatments. GMP and WHO-GMP certified active pharmaceutical ingredient.",
-      "spec1": "Cardiovascular API",
-      "spec2": "GMP, WHO-GMP, WC Certified",
-      "spec3": "High Purity Grade",
-      "spec4": "Export Quality"
-    },
-    "atorvastatin": {
-      "title": "Atorvastatin Calcium",
-      "description": "Premium Atorvastatin Calcium API for cardiovascular disease management. GMP and WHO-GMP certified.",
-      "spec1": "Cardiovascular API",
-      "spec2": "GMP, WHO-GMP, WC Certified",
-      "spec3": "High Purity Grade",
-      "spec4": "Export Ready"
-    },
-    "amlodipine": {
-      "title": "Amlodipine Besilate",
-      "description": "Amlodipine Besilate API for hypertension and coronary artery disease treatment. GMP certified active pharmaceutical ingredient.",
-      "spec1": "Anti-Hypertension API",
-      "spec2": "GMP Certified",
-      "spec3": "High Demand Product",
-      "spec4": "Bulk Export Ready"
-    },
-    "glimepiride": {
-      "title": "Glimepiride",
-      "description": "Glimepiride API for type 2 diabetes management. GMP certified active pharmaceutical ingredient in high demand globally.",
-      "spec1": "Anti-Diabetic API",
-      "spec2": "GMP Certified",
-      "spec3": "High Demand Product",
-      "spec4": "Quality Assured"
-    },
     "ashwagandha": {
       "title": "Ashwagandha Extract (Withania Somnifera)",
       "description": "Premium Ashwagandha extract powder and capsules - India's most popular Ayurvedic herb for stress relief, immunity boost, and overall wellness. High-quality, organic-certified extract.",
@@ -232,50 +185,6 @@
       "spec4": "Organic Certified",
       "spec5": "FSSAI Certified",
       "spec6": "Bulk Export Ready"
-    },
-    "clayGanesha": {
-      "title": "Shadu Mati (Clay) Ganesha Idols",
-      "description": "100% eco-friendly Shadu Mati (Clay) Ganesha idols made from natural river clay and non-toxic colors. Handmade by skilled artisans, perfect for Ganesh Chaturthi celebrations and spiritual practices. Fully dissolvable in water after use.",
-      "spec1": "Made from Natural River Clay (Shadu Mati)",
-      "spec2": "Non-Toxic, Eco-Friendly Colors",
-      "spec3": "Sizes: 8\", 10\", 12\", 15\", 18\", 20\", 21\"",
-      "spec4": "Handmade by Skilled Artisans",
-      "spec5": "100% Water Dissolvable",
-      "spec6": "Bulk Export Ready",
-      "spec7": "Safe for Environment"
-    },
-    "miniGanesha": {
-      "title": "Mini Ganesha Idols",
-      "description": "Compact and elegant Mini Ganesha idols perfect for home puja, office spaces, and small celebrations. Available in multiple sizes, all eco-friendly and handcrafted with traditional designs.",
-      "spec1": "Compact Size for Home Puja",
-      "spec2": "Sizes: 4\", 4.5\", 6\", 6.5\", 7\", 7.5\"",
-      "spec3": "Handcrafted Designs",
-      "spec4": "Eco-Friendly Materials",
-      "spec5": "Perfect for Small Spaces",
-      "spec6": "Bulk Packaging Available",
-      "spec7": "Export Ready"
-    },
-    "pujaOrnaments": {
-      "title": "Puja Ornaments & Accessories",
-      "description": "Traditional Indian puja ornaments and decorative accessories for Ganesha idols. Includes Big Bali, Chakra, Flower ornaments, Janva/Janeu, Kaan, Modak, Pan, Shastra, Shawl, Sond Patta, Bajubandh, Bangles, Earrings, Mukut, Haar/Kanthi, and various accessories. Handcrafted with traditional designs.",
-      "spec1": "Traditional Designs",
-      "spec2": "Big Bali, Chakra, Mukut",
-      "spec3": "Haar/Kanthi, Bangles, Earrings",
-      "spec4": "Modak, Pan, Shastra, Shawl",
-      "spec5": "Handcrafted Quality",
-      "spec6": "Bulk Export Available",
-      "spec7": "Complete Ornament Sets"
-    },
-    "pujaSamagri": {
-      "title": "Complete Puja Samagri",
-      "description": "Traditional Indian puja samagri (worship items) for Hindu rituals and ceremonies. Complete puja kits including incense sticks, camphor, vermillion, kumkum, sandalwood paste, holy thread, rice grains, flowers, and other essential worship materials. Authentic and traditional quality.",
-      "spec1": "Incense Sticks & Camphor",
-      "spec2": "Vermillion & Kumkum",
-      "spec3": "Sandalwood Paste & Thread",
-      "spec4": "Rice Grains & Flowers",
-      "spec5": "Complete Puja Kits",
-      "spec6": "Traditional Quality",
-      "spec7": "Bulk Export Ready"
     },
     "driedMango": {
       "title": "Dried/Dehydrated Mango Slices",
