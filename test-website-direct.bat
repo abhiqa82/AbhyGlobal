@@ -1,6 +1,6 @@
 @echo off
 echo ===================================
-echo Abhy Global - Direct File Test
+echo ABHY Global - Direct File Test
 echo ===================================
 echo.
 echo Opening website directly in browser...

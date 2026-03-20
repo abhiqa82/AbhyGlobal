@@ -1,4 +1,4 @@
-# robots.txt for Abhy Global - Indian Export Company
+# robots.txt for ABHY Global - Indian Export Company
 # Allow all search engines to crawl and index all pages
 
 User-agent: *

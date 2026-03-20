@@ -1,6 +1,6 @@
 @echo off
 echo ===================================
-echo Abhy Global Website - Local Server
+echo ABHY Global Website - Local Server
 echo ===================================
 echo.
 echo Checking available servers...

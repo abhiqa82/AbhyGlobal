@@ -1,6 +1,6 @@
 @echo off
 echo ===================================
-echo Abhy Global - Laragon Setup Wizard
+echo ABHY Global - Laragon Setup Wizard
 echo ===================================
 echo.
 

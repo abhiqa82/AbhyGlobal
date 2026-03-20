@@ -1,6 +1,6 @@
 @echo off
 echo ===================================
-echo Abhy Global - Simple Server
+echo ABHY Global - Simple Server
 echo ===================================
 echo.
 echo This will start a simple web server on port 8080

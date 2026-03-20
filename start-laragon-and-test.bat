@@ -1,6 +1,6 @@
 @echo off
 echo ===================================
-echo Abhy Global - Complete Setup & Test
+echo ABHY Global - Complete Setup & Test
 echo ===================================
 echo.
 echo This script will:

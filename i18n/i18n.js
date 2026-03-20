@@ -1,5 +1,5 @@
 /**
- * Abhy Global - Lightweight i18n Module
+ * ABHY Global - Lightweight i18n Module
  * Handles multilingual content with fallback and exception handling
  */
 (function(global) {

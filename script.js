@@ -1,5 +1,5 @@
 /**
- * Abhy Global Website - Interactive JavaScript
+ * ABHY Global Website - Interactive JavaScript
  * Handles navigation, mobile menu, smooth scrolling, and form interactions
  */
 

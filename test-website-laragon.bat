@@ -1,6 +1,6 @@
 @echo off
 echo ===================================
-echo Abhy Global Website - Laragon Setup
+echo ABHY Global Website - Laragon Setup
 echo ===================================
 echo.
 echo OPTION 1: Use Laragon Apache (Recommended)
