@@ -164,7 +164,8 @@
             const path = window.location.pathname;
             if (path.includes('catalog')) return 'catalog';
             if (path.includes('services')) return 'services';
-            return 'index';
+            if (path.includes('about')) return 'index';
+            return 'catalog';
         },
 
         /**

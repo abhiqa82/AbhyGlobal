@@ -3,6 +3,8 @@
 
 User-agent: *
 Allow: /
+# catalog.html redirects to index.html - avoid indexing redirect URL
+Disallow: /catalog.html
 
 # Sitemap location
 Sitemap: https://www.abhyglobal.com/sitemap.xml

@@ -4,18 +4,18 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     
-    <!-- Homepage - Highest Priority -->
+    <!-- Homepage (Product Catalog) - Highest Priority -->
     <url>
         <loc>https://www.abhyglobal.com/</loc>
-        <lastmod>2025-01-08</lastmod>
+        <lastmod>2025-03-20</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     
-    <!-- Product Catalog Page - High Priority -->
+    <!-- About Page - High Priority -->
     <url>
-        <loc>https://www.abhyglobal.com/catalog.html</loc>
-        <lastmod>2025-01-08</lastmod>
+        <loc>https://www.abhyglobal.com/about.html</loc>
+        <lastmod>2025-03-20</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -23,36 +23,36 @@
     <!-- Services Page - High Priority -->
     <url>
         <loc>https://www.abhyglobal.com/services.html</loc>
-        <lastmod>2025-01-08</lastmod>
+        <lastmod>2025-03-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     
-    <!-- Anchor Links from Homepage (for better indexing) -->
+    <!-- Anchor Links from About Page (for better indexing) -->
     <url>
-        <loc>https://www.abhyglobal.com/#about</loc>
-        <lastmod>2025-01-08</lastmod>
+        <loc>https://www.abhyglobal.com/about.html#home</loc>
+        <lastmod>2025-03-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://www.abhyglobal.com/#products</loc>
-        <lastmod>2025-01-08</lastmod>
+        <loc>https://www.abhyglobal.com/about.html#products</loc>
+        <lastmod>2025-03-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://www.abhyglobal.com/#why-choose</loc>
-        <lastmod>2025-01-08</lastmod>
+        <loc>https://www.abhyglobal.com/about.html#why-choose</loc>
+        <lastmod>2025-03-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://www.abhyglobal.com/#contact</loc>
-        <lastmod>2025-01-08</lastmod>
+        <loc>https://www.abhyglobal.com/about.html#contact</loc>
+        <lastmod>2025-03-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
