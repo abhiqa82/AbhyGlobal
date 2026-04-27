@@ -661,8 +661,8 @@
     }
 
     /**
-     * Contact form: prefill when arriving from catalog "Request Samples" (dehydrated herbal powder).
-     * Added 27 Apr 2026. Uses fixed template only; reads ?sampleRequest=1 then strips it via replaceState (no open redirect).
+     * Contact form: prefill when arriving via legacy URL about.html?sampleRequest=1 (catalog samples now open shuddhasattva.com).
+     * Fixed template only; strips query via replaceState. Safe: no user-controlled href.
      */
     function prefillSampleRequestMessage() {
         try {
