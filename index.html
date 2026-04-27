@@ -1067,6 +1067,44 @@
             </div>
         </section>
 
+        <!--
+          Shuddha Sattva brand spotlight (catalog / homepage)
+          Added/updated: 27 Apr 2026
+          Medium-length promo with hero image; ABHY Global = parent, Shuddha Sattva = brand unit.
+          Security: Hard-coded https://shuddhasattva.com/ only; rel=noopener noreferrer on external target.
+          Performance: Image uses loading="lazy", width/height reduce layout shift (approx. promo aspect).
+          i18n: strings in i18n/locales/*/catalog.json under shuddhaSattva.*
+        -->
+        <section class="shuddha-sattva-spotlight" aria-labelledby="shuddha-sattva-spotlight-title">
+            <div class="container shuddha-sattva-spotlight__inner">
+                <figure class="shuddha-sattva-spotlight__media">
+                    <img src="images/shuddha-sattva-brand-launch.png"
+                         width="960"
+                         height="540"
+                         loading="lazy"
+                         decoding="async"
+                         class="shuddha-sattva-spotlight__img"
+                         data-i18n-attr="alt:shuddhaSattva.imageAlt"
+                         data-i18n-ns="catalog"
+                         alt="Shuddha Sattva lineup: Moringa, Amla, ABC herbal powders and Khatta Meetha dried fruits — Nature with Purity, a unit of ABHY Global">
+                </figure>
+                <div class="shuddha-sattva-spotlight__content">
+                    <h2 id="shuddha-sattva-spotlight-title" class="shuddha-sattva-spotlight__title" data-i18n="shuddhaSattva.spotlightTitle" data-i18n-ns="catalog">New: Shuddha Sattva — Nature with Purity</h2>
+                    <p class="shuddha-sattva-spotlight__lead" data-i18n="shuddhaSattva.spotlightLead" data-i18n-ns="catalog">ABHY Global is the parent company; Shuddha Sattva is our consumer-facing brand for the herbal powder and natural dried fruit segment.</p>
+                    <p class="shuddha-sattva-spotlight__body" data-i18n="shuddhaSattva.spotlightBody" data-i18n-ns="catalog">Shuddha Sattva brings you 100 gm packs of Premium Moringa Powder, Premium Seedless Amla Powder, Premium ABC Powder (Apple, Beetroot, Carrot), and Khatta Meetha Dried Fruits — positioned for purity: no preservatives, no artificial colours, single-ingredient powders where applicable, and FSSAI-compliant, lab-tested quality aligned with how we supply global buyers.</p>
+                    <p class="shuddha-sattva-spotlight__action">
+                        <a href="https://shuddhasattva.com/"
+                           class="shuddha-sattva-spotlight__cta"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           data-track-outbound="shuddha-sattva"
+                           data-i18n="shuddhaSattva.spotlightLinkLabel"
+                           data-i18n-ns="catalog">Explore Shuddha Sattva — shuddhasattva.com (opens in a new tab)</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
         <!-- Catalog Filters -->
         <section class="catalog-filters">
             <div class="container">

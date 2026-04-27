@@ -702,6 +702,17 @@
         
         // Initialize time on page tracking
         trackTimeOnPage();
+
+        /*
+         * Shuddha Sattva outbound links (added 27 Apr 2026)
+         * Fires optional GA event when user clicks verified partner URL (no PII).
+         * Links use href="https://shuddhasattva.com/" only — do not attach user input to href.
+         */
+        document.querySelectorAll('a[data-track-outbound="shuddha-sattva"]').forEach(function(el) {
+            el.addEventListener('click', function() {
+                trackGAEvent('outbound_click', 'Partner brand', 'Shuddha Sattva', null);
+            });
+        });
     });
 
     // ============================================
