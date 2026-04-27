@@ -9,7 +9,7 @@
     "textiles": "Textiles",
     "spices": "Spices",
     "ayurvedic": "Ayurvedic Products",
-    "dehydratedFruitPowder": "Dehydrated fruit powder",
+    "dehydratedFruitPowder": "Dehydrated fruit products",
     "dehydratedHerbalPowder": "Dehydrated herbal powder",
     "readyToEat": "Ready to Eat",
     "readyToCook": "Ready to Cook",
@@ -19,10 +19,10 @@
   "noResults": "No products found in this category.",
   "shuddhaSattva": {
     "spotlightTitle": "New: Shuddha Sattva — Nature with Purity",
-    "spotlightLead": "ABHY Global is the parent company. Shuddha Sattva is our retail brand for herbal powders and natural dried fruit.",
-    "spotlightBody": "Shuddha Sattva brings you 100 gm packs of Premium Moringa Powder, Premium Seedless Amla Powder, Premium ABC Powder (Apple, Beetroot, Carrot), and Khatta Meetha Dried Fruits — positioned for purity: no preservatives, no artificial colours, single-ingredient powders where applicable, and FSSAI-compliant, lab-tested quality aligned with how we supply global buyers.",
+    "spotlightLead": "ABHY Global is the parent company. Shuddha Sattva is our retail brand for herbal powders and natural dehydrated fruit.",
+    "spotlightBody": "Shuddha Sattva brings you 100 gm packs of Premium Moringa Powder, Premium Seedless Amla Powder, Premium ABC Powder (Apple, Beetroot, Carrot), and Khatta Meetha dehydrated fruit snacks — positioned for purity: no preservatives, no artificial colours, single-ingredient powders where applicable, and FSSAI-compliant, lab-tested quality aligned with how we supply global buyers.",
     "spotlightLinkLabel": "Explore Shuddha Sattva — shuddhasattva.com (opens in a new tab)",
-    "imageAlt": "Shuddha Sattva lineup: Moringa, Amla, ABC herbal powders and Khatta Meetha dried fruits — Nature with Purity, a unit of ABHY Global"
+    "imageAlt": "Shuddha Sattva lineup: Moringa, Amla, ABC herbal powders and Khatta Meetha dehydrated fruit — Nature with Purity, a unit of ABHY Global"
   },
   "badges": {
     "wholesale": "Wholesale pricing",
@@ -34,7 +34,7 @@
     "textiles": "Textiles",
     "spices": "Spices",
     "ayurvedic": "Ayurvedic Products",
-    "dehydratedFruitPowder": "Dehydrated fruit powder",
+    "dehydratedFruitPowder": "Dehydrated fruit products",
     "dehydratedHerbalPowder": "Dehydrated herbal powder",
     "readyToEat": "Ready to Eat",
     "readyToCook": "Ready to Cook",
@@ -196,8 +196,8 @@
       "spec6": "Bulk Export Ready"
     },
     "driedMango": {
-      "title": "Dried/Dehydrated Mango Slices",
-      "description": "Premium dried/dehydrated mango slices made from fresh, ripe Indian mangoes. Natural, preservative-free, and packed with flavor. Perfect as healthy snacks or ingredients for food processing. Available in various sizes and thicknesses.",
+      "title": "Dehydrated Mango Slices",
+      "description": "Premium dehydrated mango slices made from fresh, ripe Indian mangoes. Natural, preservative-free, and packed with flavor. Perfect as healthy snacks or ingredients for food processing. Available in various sizes and thicknesses.",
       "spec1": "100% Natural, No Preservatives",
       "spec2": "Made from Fresh Ripe Mangoes",
       "spec3": "Various Sizes & Thicknesses",
@@ -207,8 +207,8 @@
       "spec7": "Bulk Packaging Available"
     },
     "driedBanana": {
-      "title": "Dried/Dehydrated Banana Slices",
-      "description": "Premium dried/dehydrated banana slices made from fresh, ripe bananas. Natural and healthy snack option, rich in potassium and dietary fiber. Perfect for snacking, baking, and food manufacturing. Available in sweet and unsweetened varieties.",
+      "title": "Dehydrated Banana Slices",
+      "description": "Premium dehydrated banana slices made from fresh, ripe bananas. Natural and healthy snack option, rich in potassium and dietary fiber. Perfect for snacking, baking, and food manufacturing. Available in sweet and unsweetened varieties.",
       "spec1": "100% Natural, No Preservatives",
       "spec2": "Made from Fresh Ripe Bananas",
       "spec3": "Sweet & Unsweetened Varieties",
@@ -219,9 +219,9 @@
     },
     "moringaPowder": {
       "title": "Moringa Powder",
-      "description": "100% pure Moringa (drumstick) powder – nature's multivitamin. Rich in iron, calcium, and vitamins. Electric tray-dried only, no spray drying. No maltodextrin, zero fillers, single ingredient. FSSAI certified, food-grade safe.",
+      "description": "100% pure Moringa (drumstick) powder – nature's multivitamin. Rich in iron, calcium, and vitamins. Dehydrated by electric tray process only, no spray drying. No maltodextrin, zero fillers, single ingredient. FSSAI certified, food-grade safe.",
       "spec1": "Iron & Calcium Rich",
-      "spec2": "Electric Tray Dried Only",
+      "spec2": "Electric Tray Dehydration Only",
       "spec3": "No Maltodextrin, Zero Fillers",
       "spec4": "100% Pure, Single Ingredient",
       "spec5": "FSSAI Certified",
@@ -229,7 +229,7 @@
     },
     "amlaPowder": {
       "title": "Amla Powder (Seedless)",
-      "description": "Highest natural Vitamin C – pure seedless Indian gooseberry powder. Electric tray-dried, no preservatives or additives. 100% pure, FSSAI certified. Ideal for immunity, skin health, and antioxidant support.",
+      "description": "Highest natural Vitamin C – pure seedless Indian gooseberry powder. Dehydrated by electric tray process; no preservatives or additives. 100% pure, FSSAI certified. Ideal for immunity, skin health, and antioxidant support.",
       "spec1": "Highest Natural Vitamin C",
       "spec2": "100% Seedless",
       "spec3": "No Preservatives or Additives",
@@ -239,7 +239,7 @@
     },
     "beetrootPowder": {
       "title": "Beetroot Powder",
-      "description": "Natural nitrates for stamina, skin glow, and healthy blood pressure. 100% pure beetroot powder, electric tray-dried. No artificial colour, no added sugar. FSSAI certified, food-grade safe.",
+      "description": "Natural nitrates for stamina, skin glow, and healthy blood pressure. 100% pure beetroot powder, dehydrated by electric tray process. No artificial colour, no added sugar. FSSAI certified, food-grade safe.",
       "spec1": "Natural Nitrates",
       "spec2": "Stamina & Skin Glow",
       "spec3": "No Artificial Colour",
@@ -249,7 +249,7 @@
     },
     "abcPowder": {
       "title": "ABC Powder (Apple + Beetroot + Carrot)",
-      "description": "Three superfoods in one spoon – premium blend of Apple, Beetroot, and Carrot powders. 100% pure, electric tray-dried. No preservatives, no additives. Perfect for detox, immunity, and daily nutrition.",
+      "description": "Three superfoods in one spoon – premium blend of Apple, Beetroot, and Carrot powders. 100% pure, dehydrated by electric tray process. No preservatives, no additives. Perfect for detox, immunity, and daily nutrition.",
       "spec1": "3-in-1 Superfood Blend",
       "spec2": "Detox & Immunity",
       "spec3": "No Preservatives or Additives",
@@ -258,8 +258,8 @@
       "spec6": "Bulk Export Ready"
     },
     "mixedDriedFruits": {
-      "title": "Mixed Dried/Dehydrated Fruit Slices",
-      "description": "Premium mixed dried/dehydrated fruit slices - a perfect blend of mango, banana, coconut, papaya, guava, and other tropical fruits. Natural, preservative-free, and packed with vitamins and nutrients. Ideal for snacking, gift boxes, and food service industry.",
+      "title": "Mixed Dehydrated Fruit Slices",
+      "description": "Premium mixed dehydrated fruit slices — a blend of mango, banana, coconut, papaya, guava, and other tropical fruits. Natural, preservative-free, and packed with vitamins and nutrients. Ideal for snacking, gift boxes, and food service industry.",
       "spec1": "100% Natural Mix, No Preservatives",
       "spec2": "Premium Fruit Blend",
       "spec3": "Variety of Tropical Fruits",

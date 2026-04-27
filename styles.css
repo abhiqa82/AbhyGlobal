@@ -1689,3 +1689,46 @@ ul {
         order: -1;
     }
 }
+
+/* About page — Products section: Shuddha Sattva intro (2026-04-27) */
+.products-shuddha-intro {
+    max-width: 48rem;
+    margin: 0 auto var(--spacing-xl);
+    padding: var(--spacing-md) var(--spacing-lg);
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--color-primary);
+    box-shadow: var(--shadow-sm);
+}
+
+.products-shuddha-intro__line {
+    margin: 0 0 var(--spacing-sm);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: var(--color-text);
+}
+
+.products-shuddha-intro__line:last-child {
+    margin-bottom: 0;
+}
+
+.products-shuddha-intro__link {
+    display: inline;
+    font-weight: 600;
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin: 0 0.15rem;
+}
+
+.products-shuddha-intro__link:hover,
+.products-shuddha-intro__link:focus {
+    color: var(--color-gold);
+}
+
+.products-shuddha-intro__link:focus {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+    border-radius: 2px;
+}
