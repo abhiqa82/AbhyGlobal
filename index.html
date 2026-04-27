@@ -930,6 +930,28 @@
             align-items: center;
         }
 
+        /*
+         * Dual CTA row: Request Quote + Request Samples (dehydrated herbal powder cards only)
+         * Added/updated: 27 Apr 2026 — equal-width buttons, wraps on narrow viewports
+         */
+        .catalog-item-footer--dual {
+            flex-wrap: wrap;
+            gap: calc(var(--spacing-xs) * 0.85);
+            justify-content: stretch;
+        }
+
+        .catalog-item-footer--dual .catalog-item-action {
+            flex: 1 1 calc(50% - 6px);
+            text-align: center;
+            min-width: min(100%, 8.5rem);
+        }
+
+        @media (max-width: 400px) {
+            .catalog-item-footer--dual .catalog-item-action {
+                flex: 1 1 100%;
+            }
+        }
+
         .catalog-item-action {
             padding: 8px 20px;
             background-color: var(--color-primary);
@@ -1482,7 +1504,7 @@
                         </div>
                     </div>
 
-                    <!-- Dehydrated Herbal Powder Products -->
+                    <!-- Dehydrated Herbal Powder Products — dual CTA (Quote + Samples), 27 Apr 2026 -->
                     <div class="catalog-item" data-category="dehydrated-herbal-powder">
                         <div class="catalog-item-image">
                             <img src="images/products/moringa-powder.jpg" alt="Moringa Powder Export from India - Nature's Multivitamin - Iron Calcium Vitamins - FSSAI Certified Dehydrated Herbal Powder">
@@ -1499,8 +1521,10 @@
                                 <li data-i18n="products.moringaPowder.spec5" data-i18n-ns="catalog">FSSAI Certified</li>
                                 <li data-i18n="products.moringaPowder.spec6" data-i18n-ns="catalog">Immunity & Iron Support</li>
                             </ul>
-                            <div class="catalog-item-footer">
+                            <div class="catalog-item-footer catalog-item-footer--dual">
                                 <a href="about.html#contact" class="catalog-item-action" data-i18n="buttons.requestQuote" data-i18n-ns="common">Request Quote</a>
+                                <!-- Samples: same-origin contact URL + flag for safe prefill (no user-controlled href) -->
+                                <a href="about.html?sampleRequest=1#contact" class="catalog-item-action" data-catalog-cta="samples" data-i18n="buttons.requestSamples" data-i18n-ns="common">Request Samples</a>
                             </div>
                         </div>
                     </div>
@@ -1521,8 +1545,9 @@
                                 <li data-i18n="products.amlaPowder.spec5" data-i18n-ns="catalog">Immunity & Antioxidant</li>
                                 <li data-i18n="products.amlaPowder.spec6" data-i18n-ns="catalog">Bulk Export Ready</li>
                             </ul>
-                            <div class="catalog-item-footer">
+                            <div class="catalog-item-footer catalog-item-footer--dual">
                                 <a href="about.html#contact" class="catalog-item-action" data-i18n="buttons.requestQuote" data-i18n-ns="common">Request Quote</a>
+                                <a href="about.html?sampleRequest=1#contact" class="catalog-item-action" data-catalog-cta="samples" data-i18n="buttons.requestSamples" data-i18n-ns="common">Request Samples</a>
                             </div>
                         </div>
                     </div>
@@ -1543,8 +1568,9 @@
                                 <li data-i18n="products.beetrootPowder.spec5" data-i18n-ns="catalog">FSSAI Certified</li>
                                 <li data-i18n="products.beetrootPowder.spec6" data-i18n-ns="catalog">Bulk Export Ready</li>
                             </ul>
-                            <div class="catalog-item-footer">
+                            <div class="catalog-item-footer catalog-item-footer--dual">
                                 <a href="about.html#contact" class="catalog-item-action" data-i18n="buttons.requestQuote" data-i18n-ns="common">Request Quote</a>
+                                <a href="about.html?sampleRequest=1#contact" class="catalog-item-action" data-catalog-cta="samples" data-i18n="buttons.requestSamples" data-i18n-ns="common">Request Samples</a>
                             </div>
                         </div>
                     </div>
@@ -1565,8 +1591,9 @@
                                 <li data-i18n="products.abcPowder.spec5" data-i18n-ns="catalog">FSSAI Certified</li>
                                 <li data-i18n="products.abcPowder.spec6" data-i18n-ns="catalog">Bulk Export Ready</li>
                             </ul>
-                            <div class="catalog-item-footer">
+                            <div class="catalog-item-footer catalog-item-footer--dual">
                                 <a href="about.html#contact" class="catalog-item-action" data-i18n="buttons.requestQuote" data-i18n-ns="common">Request Quote</a>
+                                <a href="about.html?sampleRequest=1#contact" class="catalog-item-action" data-catalog-cta="samples" data-i18n="buttons.requestSamples" data-i18n-ns="common">Request Samples</a>
                             </div>
                         </div>
                     </div>

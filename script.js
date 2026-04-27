@@ -529,6 +529,15 @@
                 trackGAEvent('button_click', 'Pricing Button', serviceName);
             });
         });
+
+        /* Catalog — Request Samples (dehydrated herbal powder CTAs), 27 Apr 2026 */
+        document.querySelectorAll('a[data-catalog-cta="samples"]').forEach(link => {
+            link.addEventListener('click', function() {
+                const titleEl = this.closest('.catalog-item-content')?.querySelector('.catalog-item-title');
+                const label = titleEl?.textContent.trim() || 'Dehydrated herbal powder';
+                trackGAEvent('button_click', 'Catalog', `Request Samples - ${label}`);
+            });
+        });
     }
 
     // ============================================
@@ -651,6 +660,31 @@
         });
     }
 
+    /**
+     * Contact form: prefill when arriving from catalog "Request Samples" (dehydrated herbal powder).
+     * Added 27 Apr 2026. Uses fixed template only; reads ?sampleRequest=1 then strips it via replaceState (no open redirect).
+     */
+    function prefillSampleRequestMessage() {
+        try {
+            if (!window.location.pathname.includes('about.html')) return;
+            const params = new URLSearchParams(window.location.search);
+            if (params.get('sampleRequest') !== '1') return;
+            const msg = document.getElementById('message');
+            if (!msg) return;
+            const draft = 'I would like to request product samples (dehydrated herbal powder). Please advise availability, MOQ, and shipping.\n\nProduct(s) of interest: ';
+            if (!(msg.value || '').trim()) {
+                msg.value = draft;
+            }
+            params.delete('sampleRequest');
+            const newQuery = params.toString();
+            const newUrl = window.location.pathname + (newQuery ? '?' + newQuery : '') + (window.location.hash || '');
+            window.history.replaceState({}, '', newUrl);
+            msg.focus();
+        } catch (err) {
+            console.warn('prefillSampleRequestMessage:', err);
+        }
+    }
+
     // ============================================
     // I18N (MULTILINGUAL) INITIALIZATION
     // ============================================
@@ -667,11 +701,14 @@
                         }
                     });
                 }
+                prefillSampleRequestMessage();
             }).catch(err => {
                 console.warn('i18n init failed, using default content:', err);
+                prefillSampleRequestMessage();
             });
         } catch (e) {
             console.warn('i18n setup failed:', e);
+            prefillSampleRequestMessage();
         }
     }
 
