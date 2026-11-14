@@ -34,24 +34,6 @@
     "others": "Sonstiges"
   },
   "products": {
-    "tShirts": {
-      "title": "Premium-Baumwoll-T-Shirts (RMG)",
-      "description": "Ready-Made Garments (RMG) – Hochwertige gestrickte Baumwoll-T-Shirts, ideal für den Großhandelsexport. Erhältlich in verschiedenen Größen und Farben.",
-      "spec1": "Gestrickte Baumwollkonstruktion",
-      "spec2": "GSM: 160-180",
-      "spec3": "100 % Premium-Baumwolle",
-      "spec4": "Mehrere Größenoptionen",
-      "spec5": "Bulk-Export bereit",
-      "spec6": "Individueller Druck verfügbar"
-    },
-    "cottonFabrics": {
-      "title": "Gewebte Baumwollstoffe",
-      "description": "Premium gewebte Baumwollstoffe in verschiedenen Mustern und Gewichten. Ideal für die Bekleidungsherstellung.",
-      "spec1": "Verschiedene Gewichte & Muster",
-      "spec2": "Exportqualität",
-      "spec3": "Individuelle Breiten verfügbar",
-      "spec4": "Qualitätsgeprüft"
-    },
     "terryTowels": {
       "title": "Küchen-Frotteehandtücher (Tea Towels)",
       "description": "Premium Küchen-Frotteehandtücher (Tea Towels) in verschiedenen Größen. 100 % Baumwoll-Frottee mit hervorragender Saugfähigkeit, ideal für Haushalt und Gewerbe.",

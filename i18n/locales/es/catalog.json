@@ -34,24 +34,6 @@
     "others": "Otros"
   },
   "products": {
-    "tShirts": {
-      "title": "Camisetas de Algodón Premium (RMG)",
-      "description": "Prendas Confeccionadas (RMG): camisetas de algodón tejido de alta calidad, ideales para exportación al por mayor. Disponibles en varios tallas y colores.",
-      "spec1": "Construcción de Algodón Tejido",
-      "spec2": "GSM: 160-180",
-      "spec3": "100% Algodón Premium",
-      "spec4": "Múltiples Opciones de Talla",
-      "spec5": "Listo para Exportación a Granel",
-      "spec6": "Estampado Personalizado Disponible"
-    },
-    "cottonFabrics": {
-      "title": "Telas de Algodón Tejido",
-      "description": "Telas de algodón tejido premium en varios diseños y pesos. Ideales para fabricación de prendas.",
-      "spec1": "Varios Pesos y Diseños",
-      "spec2": "Calidad Grado Exportación",
-      "spec3": "Anchos Personalizados Disponibles",
-      "spec4": "Calidad Garantizada"
-    },
     "terryTowels": {
       "title": "Toallas de Cocina Terry (Tea Towels)",
       "description": "Toallas de cocina Terry premium (Tea Towels) en varios tamaños. Construcción 100% algodón Terry con excelente absorbencia, perfectas para uso doméstico y comercial.",

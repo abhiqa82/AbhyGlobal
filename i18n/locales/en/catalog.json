@@ -41,24 +41,6 @@
     "others": "Others"
   },
   "products": {
-    "tShirts": {
-      "title": "Premium Cotton T-Shirts (RMG)",
-      "description": "Ready-Made Garments (RMG) - High-quality Cotton Knitted T-shirts, perfect for wholesale export. Available in various sizes and colors.",
-      "spec1": "Cotton Knitted Construction",
-      "spec2": "GSM: 160-180",
-      "spec3": "100% Premium Cotton",
-      "spec4": "Multiple Size Options",
-      "spec5": "Bulk Export Ready",
-      "spec6": "Custom Printing Available"
-    },
-    "cottonFabrics": {
-      "title": "Woven Cotton Fabrics",
-      "description": "Premium woven cotton fabrics in various patterns and weights. Ideal for apparel manufacturing.",
-      "spec1": "Various Weights & Patterns",
-      "spec2": "Export Grade Quality",
-      "spec3": "Custom Widths Available",
-      "spec4": "Quality Assured"
-    },
     "terryTowels": {
       "title": "Kitchen Terry Towels (Tea Towels)",
       "description": "Premium Kitchen Terry Towels (Tea Towels) in various sizes. 100% Cotton Terry construction with excellent absorbency, perfect for household and commercial use.",

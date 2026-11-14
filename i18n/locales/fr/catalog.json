@@ -34,24 +34,6 @@
     "others": "Autres"
   },
   "products": {
-    "tShirts": {
-      "title": "T-shirts en coton premium (RMG)",
-      "description": "Vêtements prêts à porter (RMG) - T-shirts en coton jersey de haute qualité, parfaits pour l'exportation en gros. Disponibles en diverses tailles et couleurs.",
-      "spec1": "Construction en coton jersey",
-      "spec2": "GSM : 160-180",
-      "spec3": "100 % coton premium",
-      "spec4": "Plusieurs options de tailles",
-      "spec5": "Prêt pour l'export en volume",
-      "spec6": "Impression personnalisée disponible"
-    },
-    "cottonFabrics": {
-      "title": "Tissus en coton tissé",
-      "description": "Tissus en coton tissé premium en divers motifs et grammages. Idéaux pour la confection vestimentaire.",
-      "spec1": "Divers grammages et motifs",
-      "spec2": "Qualité grade export",
-      "spec3": "Largeurs personnalisées disponibles",
-      "spec4": "Qualité garantie"
-    },
     "terryTowels": {
       "title": "Serviettes éponge cuisine (torchons)",
       "description": "Serviettes éponge cuisine premium (torchons) en diverses tailles. Construction 100 % coton éponge avec excellente absorption, parfaites pour usage domestique et commercial.",
