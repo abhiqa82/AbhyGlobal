@@ -1648,7 +1648,22 @@ ul {
     font-size: 0.9375rem;
     line-height: 1.65;
     color: var(--color-text);
+    margin: 0 0 var(--spacing-sm);
+}
+
+.shuddha-sattva-spotlight__courier {
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    color: var(--color-text);
     margin: 0 0 var(--spacing-md);
+}
+
+.shuddha-sattva-spotlight__courier a {
+    color: var(--color-primary);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+    white-space: nowrap;
 }
 
 .shuddha-sattva-spotlight__action {
